@@ -1,0 +1,13 @@
+export { HeroSection } from "./HeroSection";
+export { CapabilitiesSection } from "./CapabilitiesSection";
+export { TransformSection } from "./TransformSection";
+export { LifecycleTabsSection } from "./LifecycleTabsSection";
+export { WorkforceChangeSection } from "./WorkforceChangeSection";
+export { GlobalFoundationSection } from "./GlobalFoundationSection";
+export { RoleExperienceSection } from "./RoleExperienceSection";
+export { AIGovernanceSection } from "./AIGovernanceSection";
+export { ConnectedEcosystemSection } from "./ConnectedEcosystemSection";
+export { SecurityGovernanceSection } from "./SecurityGovernanceSection";
+export { ImplementationSection } from "./ImplementationSection";
+export { PricingSection } from "./PricingSection";
+export { ResourcesFaqSection } from "./ResourcesFaqSection";

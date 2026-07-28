@@ -1,0 +1,72 @@
+import { Container, Reveal, Button, PlaceholderImage } from "@/components/ui";
+
+export function AboutHeroSection() {
+  return (
+    <section className="relative overflow-hidden bg-ink pb-20 pt-20 text-white sm:pt-28">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-full bg-[radial-gradient(60%_50%_at_20%_0%,rgba(49,94,251,0.35),transparent)]"
+      />
+
+      <Container>
+        <div className="grid items-center gap-12 lg:grid-cols-2">
+          <div>
+            <Reveal>
+              <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary/80">
+                About Zoiko HR
+              </span>
+            </Reveal>
+
+            <Reveal delay={0.08}>
+              <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
+                Building a clearer, more accountable foundation for global
+                HR.
+              </h1>
+            </Reveal>
+
+            <Reveal delay={0.16}>
+              <p className="mt-6 text-white/70">
+                Zoiko HR is a global human resources management platform
+                created to help organizations manage workforce information,
+                HR processes, policies, and employee services through one
+                secure, structured system. It supports the employment
+                lifecycle across entities, locations, and jurisdictions
+                while preserving local configuration, human judgment, and
+                accountable control.
+              </p>
+            </Reveal>
+
+            <Reveal delay={0.24}>
+              <div className="mt-8 flex flex-wrap items-center gap-4">
+                <Button href="/book-a-demo">Book a Demo</Button>
+                <Button
+                  href="/resources/product-tour"
+                  variant="outline"
+                  className="!border-white/30 !text-white hover:!border-primary hover:!text-primary"
+                >
+                  Take the Product Tour
+                </Button>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.32}>
+              <p className="mt-6 text-sm text-white/40">
+                Available as a standalone SaaS platform. Connect the wider
+                Zoiko ecosystem when your organization is ready.
+              </p>
+            </Reveal>
+          </div>
+
+          <Reveal delay={0.2} y={36}>
+            <PlaceholderImage
+              src="/images/about/hero-team.png"
+              alt="Team celebrating with a high-five in a bright office"
+              label="Zoiko HR team"
+              className="aspect-[4/3] w-full rounded-2xl"
+            />
+          </Reveal>
+        </div>
+      </Container>
+    </section>
+  );
+}

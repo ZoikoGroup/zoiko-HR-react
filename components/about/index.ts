@@ -1,0 +1,13 @@
+export { AboutHeroSection } from "./AboutHeroSection";
+export { WhyWeExistSection } from "./WhyWeExistSection";
+export { MissionVisionPurposeSection } from "./MissionVisionPurposeSection";
+export { WhatWeProvideSection } from "./WhatWeProvideSection";
+export { WhoWeServeSection } from "./WhoWeServeSection";
+export { OperatingModelSection } from "./OperatingModelSection";
+export { GlobalByDesignSection } from "./GlobalByDesignSection";
+export { ResponsibleByDesignSection } from "./ResponsibleByDesignSection";
+export { ImplementationJourneySection } from "./ImplementationJourneySection";
+export { CompanySection } from "./CompanySection";
+export { ClearExpectationsSection } from "./ClearExpectationsSection";
+export { AboutFaqSection } from "./AboutFaqSection";
+export { AboutFinalCtaSection } from "./AboutFinalCtaSection";
