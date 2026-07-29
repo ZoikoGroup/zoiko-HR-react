@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Container, Reveal, Button, PlaceholderImage } from "@/components/ui";
 
@@ -155,10 +156,8 @@ export function Footer() {
       {/* Brand row */}
       <Container className="flex flex-col gap-2 border-b border-white/10 py-8 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-lg font-bold">
-            Zoiko <span className="text-primary">HR</span>
-          </p>
-          <p className="mt-1 max-w-md text-sm text-white/60">
+          <Image src="/logo.png" alt="Zoiko HR" width={140} height={40} className="h-10 w-auto" />
+          <p className="mt-2 max-w-md text-sm text-white/60">
             A global HR management platform for structured, secure and
             accountable people operations.
           </p>
