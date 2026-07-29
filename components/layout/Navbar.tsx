@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -101,9 +102,8 @@ export function Navbar() {
     >
       <div className="mx-auto grid w-full max-w-7xl grid-cols-[auto_1fr_auto] items-center gap-4 px-6 py-4 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-1 text-xl font-bold tracking-tight">
-          <span className="text-ink">Zoiko</span>
-          <span className="text-primary">HR</span>
+        <Link href="/" className="flex items-center">
+          <Image src="/logo.png" alt="Zoiko HR" width={140} height={40} priority className="h-10 w-auto" />
         </Link>
 
         {/* Centered nav */}
