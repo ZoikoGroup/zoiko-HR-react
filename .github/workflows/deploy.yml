@@ -18,7 +18,8 @@ jobs:
           script: |
             set -e
             cd /var/www/zoiko-hr/app
-            git pull origin main
+            git fetch origin main
+            git reset --hard origin/main
             npm install
             npm run build
             pm2 restart zoiko-hr
