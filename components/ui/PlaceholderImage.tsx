@@ -7,6 +7,8 @@ type PlaceholderImageProps = {
   alt: string;
   label?: string;
   className?: string;
+  /** "cover" crops to fill the box (default); "contain" keeps the image's original, uncropped proportions. */
+  fit?: "cover" | "contain";
 };
 
 export function PlaceholderImage({
@@ -14,6 +16,7 @@ export function PlaceholderImage({
   alt,
   label,
   className = "",
+  fit = "cover",
 }: PlaceholderImageProps) {
   const [errored, setErrored] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
@@ -38,7 +41,11 @@ export function PlaceholderImage({
           src={src}
           alt={alt}
           onError={() => setErrored(true)}
-          className="h-full w-full object-cover"
+          className={
+            fit === "contain"
+              ? "h-auto w-full object-contain"
+              : "h-full w-full object-cover"
+          }
         />
       ) : (
         <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 p-4 text-center text-xs font-medium text-slate-400">

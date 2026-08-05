@@ -107,6 +107,11 @@ function slugify(label: string) {
     .replace(/(^-|-$)/g, "");
 }
 
+const FOOTER_LINK_OVERRIDES: Record<string, string> = {
+  "Core HR": "/platform/core-hr",
+  "Global HR Management": "/platform/global-hr-management",
+};
+
 export function Footer() {
   const year = new Date().getFullYear();
 
@@ -182,7 +187,7 @@ export function Footer() {
               {col.links.map((link) => (
                 <li key={link}>
                   <Link
-                    href={`/${slugify(link)}`}
+                    href={FOOTER_LINK_OVERRIDES[link] ?? `/${slugify(link)}`}
                     className="text-sm text-white/60 transition-colors duration-150 hover:text-primary"
                   >
                     {link}

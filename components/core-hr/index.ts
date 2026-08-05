@@ -1,0 +1,12 @@
+export { CoreHrHeroSection } from "./CoreHrHeroSection";
+export { WhatIsCoreHrSection } from "./WhatIsCoreHrSection";
+export { WhyItMattersSection } from "./WhyItMattersSection";
+export { OperatingModelSection } from "./OperatingModelSection";
+export { PeopleDirectoryChangesSection } from "./PeopleDirectoryChangesSection";
+export { EmployeeMasterRecordSection } from "./EmployeeMasterRecordSection";
+export { DataQualitySection } from "./DataQualitySection";
+export { SelfServiceBoundariesSection } from "./SelfServiceBoundariesSection";
+export { CoreHrImplementationSection } from "./CoreHrImplementationSection";
+export { CoreHrTrustSection } from "./CoreHrTrustSection";
+export { CoreHrFaqSection } from "./CoreHrFaqSection";
+export { CoreHrFinalCtaSection } from "./CoreHrFinalCtaSection";
