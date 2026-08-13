@@ -1,0 +1,15 @@
+export { OnboardingHeroSection } from "./OnboardingHeroSection";
+export { WhatIsOnboardingSection } from "./WhatIsOnboardingSection";
+export { ProductProofSection } from "./ProductProofSection";
+export { StructuredEventSection } from "./StructuredEventSection";
+export { SharedStructureSection } from "./SharedStructureSection";
+export { JourneyTypesSection } from "./JourneyTypesSection";
+export { ParticipantRolesSection } from "./ParticipantRolesSection";
+export { EffectiveDatedRecordsSection } from "./EffectiveDatedRecordsSection";
+export { GovernedContentSection } from "./GovernedContentSection";
+export { SystemHandoffsSection } from "./SystemHandoffsSection";
+export { ReportingVisibilitySection } from "./ReportingVisibilitySection";
+export { DeliberateAccessSection } from "./DeliberateAccessSection";
+export { OnboardingCustomerEvidenceSection } from "./OnboardingCustomerEvidenceSection";
+export { OnboardingFaqSection } from "./OnboardingFaqSection";
+export { OnboardingFinalCtaSection } from "./OnboardingFinalCtaSection";

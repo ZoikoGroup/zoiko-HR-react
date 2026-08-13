@@ -1,0 +1,15 @@
+export { PlatformHeroSection } from "./PlatformHeroSection";
+export { PlatformWhatIsSection } from "./PlatformWhatIsSection";
+export { PlatformOperatingFoundationSection } from "./PlatformOperatingFoundationSection";
+export { PlatformArchitectureSection } from "./PlatformArchitectureSection";
+export { PlatformCoreHrSection } from "./PlatformCoreHrSection";
+export { PlatformGlobalHrSection } from "./PlatformGlobalHrSection";
+export { PlatformOnboardingWorkflowsSection } from "./PlatformOnboardingWorkflowsSection";
+export { PlatformRoleExperiencesSection } from "./PlatformRoleExperiencesSection";
+export { PlatformOrgRolesAccessSection } from "./PlatformOrgRolesAccessSection";
+export { PlatformIntegrationsSection } from "./PlatformIntegrationsSection";
+export { PlatformTrustSection } from "./PlatformTrustSection";
+export { PlatformImplementationSection } from "./PlatformImplementationSection";
+export { PlatformPricingSection } from "./PlatformPricingSection";
+export { PlatformFaqSection } from "./PlatformFaqSection";
+export { PlatformFinalCtaSection } from "./PlatformFinalCtaSection";

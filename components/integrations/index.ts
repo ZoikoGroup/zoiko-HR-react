@@ -1,0 +1,14 @@
+export { IntegrationsHeroSection } from "./IntegrationsHeroSection";
+export { WhatAreIntegrationsSection } from "./WhatAreIntegrationsSection";
+export { ConnectSystemsSection } from "./ConnectSystemsSection";
+export { CategoryExplorerSection } from "./CategoryExplorerSection";
+export { IntegrationsProductProofSection } from "./IntegrationsProductProofSection";
+export { CatalogueDetailSection } from "./CatalogueDetailSection";
+export { DataMappingAuthoritySection } from "./DataMappingAuthoritySection";
+export { TechnicalPatternsSection } from "./TechnicalPatternsSection";
+export { RecoveryReliabilitySection } from "./RecoveryReliabilitySection";
+export { UseCasesSection } from "./UseCasesSection";
+export { IntegrationsTrustSection } from "./IntegrationsTrustSection";
+export { IntegrationsImplementationSection } from "./IntegrationsImplementationSection";
+export { IntegrationsFaqSection } from "./IntegrationsFaqSection";
+export { IntegrationsFinalCtaSection } from "./IntegrationsFinalCtaSection";

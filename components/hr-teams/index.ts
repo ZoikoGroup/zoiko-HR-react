@@ -1,0 +1,12 @@
+export { HrTeamsHeroSection } from "./HrTeamsHeroSection";
+export { HrRecordProblemSection } from "./HrRecordProblemSection";
+export { OperatingMechanismSection } from "./OperatingMechanismSection";
+export { CoreWorkflowsSection } from "./CoreWorkflowsSection";
+export { HrTeamsProductProofSection } from "./HrTeamsProductProofSection";
+export { WorkerTrustSection } from "./WorkerTrustSection";
+export { GlobalPolicyControlSection } from "./GlobalPolicyControlSection";
+export { IntegrationsSystemFitSection } from "./IntegrationsSystemFitSection";
+export { MeasurableOutcomesSection } from "./MeasurableOutcomesSection";
+export { HrTeamsImplementationSection } from "./HrTeamsImplementationSection";
+export { HrTeamsFaqSection } from "./HrTeamsFaqSection";
+export { HrTeamsFinalCtaSection } from "./HrTeamsFinalCtaSection";

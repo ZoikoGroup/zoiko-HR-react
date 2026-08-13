@@ -108,8 +108,10 @@ function slugify(label: string) {
 }
 
 const FOOTER_LINK_OVERRIDES: Record<string, string> = {
+  "Platform Overview": "/platform",
   "Core HR": "/platform/core-hr",
   "Global HR Management": "/platform/global-hr-management",
+  "Onboarding & Lifecycle": "/platform/onboarding-lifecycle",
 };
 
 export function Footer() {
