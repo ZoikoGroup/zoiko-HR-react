@@ -1,0 +1,12 @@
+export { SolutionsHeroSection } from "./SolutionsHeroSection";
+export { SolutionsCoverageSection } from "./SolutionsCoverageSection";
+export { PathwaySelectorSection } from "./PathwaySelectorSection";
+export { GrowingBusinessesSection } from "./GrowingBusinessesSection";
+export { MidMarketSection } from "./MidMarketSection";
+export { RolePathwaysSection } from "./RolePathwaysSection";
+export { ConnectedOperationsSection } from "./ConnectedOperationsSection";
+export { SharedPlatformSection } from "./SharedPlatformSection";
+export { ComparePathwaysSection } from "./ComparePathwaysSection";
+export { SolutionsTrustSection } from "./SolutionsTrustSection";
+export { SolutionsFaqSection } from "./SolutionsFaqSection";
+export { SolutionsFinalCtaSection } from "./SolutionsFinalCtaSection";
