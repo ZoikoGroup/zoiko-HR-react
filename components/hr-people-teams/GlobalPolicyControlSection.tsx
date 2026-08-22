@@ -34,7 +34,7 @@ export function GlobalPolicyControlSection() {
 
           <Reveal delay={0.2} y={36}>
             <PlaceholderImage
-              src="/images/hr-teams/global-policy-control.png"
+              src="/images/hr-people-teams/global-policy-control.png"
               alt="Team meeting in a boardroom with a presentation screen"
               label="One system, local policy"
               fit="contain"

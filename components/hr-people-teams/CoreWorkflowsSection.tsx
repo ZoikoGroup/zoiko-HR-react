@@ -107,7 +107,7 @@ export function CoreWorkflowsSection() {
 
               <Reveal delay={0.14} y={30}>
                 <PlaceholderImage
-                  src="/images/hr-teams/core-workflows.png"
+                  src="/images/hr-people-teams/core-workflows.png"
                   alt="Two colleagues high-fiving in an office"
                   label="Core workflows, connected"
                   fit="contain"

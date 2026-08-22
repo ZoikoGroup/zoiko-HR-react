@@ -49,7 +49,7 @@ export function MeasurableOutcomesSection() {
 
           <Reveal delay={0.2} y={30}>
             <PlaceholderImage
-              src="/images/hr-teams/measurable-outcomes.png"
+              src="/images/hr-people-teams/measurable-outcomes.png"
               alt="Team reviewing performance metrics in a meeting"
               label="Success, your metrics"
               fit="contain"

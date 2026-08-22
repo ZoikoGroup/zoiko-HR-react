@@ -25,7 +25,7 @@ export function HrRecordProblemSection() {
 
         <Reveal delay={0.16} y={30}>
           <PlaceholderImage
-            src="/images/hr-teams/hr-record-problem.png"
+            src="/images/hr-people-teams/hr-record-problem.png"
             alt="Woman presenting a tablet with charts to colleagues"
             label="Reconciling the record"
             fit="contain"

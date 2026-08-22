@@ -31,7 +31,7 @@ const TABS = [
   },
 ];
 
-export function HrTeamsProductProofSection() {
+export function HrPeopleTeamsProductProofSection() {
   const [active, setActive] = useState(0);
   const tab = TABS[active];
 

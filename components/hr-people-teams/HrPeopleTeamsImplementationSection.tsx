@@ -15,7 +15,7 @@ const LINKS = [
   { label: "Product Documentation", href: "/resources/developer-documentation" },
 ];
 
-export function HrTeamsImplementationSection() {
+export function HrPeopleTeamsImplementationSection() {
   return (
     <section className="py-24">
       <Container>
