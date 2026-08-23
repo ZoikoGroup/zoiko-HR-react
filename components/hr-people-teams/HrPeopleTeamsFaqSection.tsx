@@ -69,7 +69,7 @@ function FaqColumn({ faqs, firstOpen = false }: { faqs: { question: string; answ
   );
 }
 
-export function HrTeamsFaqSection() {
+export function HrPeopleTeamsFaqSection() {
   return (
     <section className="bg-[#FAF8F5] py-24">
       <Container>

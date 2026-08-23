@@ -36,7 +36,7 @@ export function OperatingMechanismSection() {
               </p>
             </div>
             <PlaceholderImage
-              src="/images/hr-teams/operating-mechanism.png"
+              src="/images/hr-people-teams/operating-mechanism.png"
               alt="Colleagues joining hands together in celebration"
               label="From work event to HR action"
               className="h-full min-h-[220px] w-full"

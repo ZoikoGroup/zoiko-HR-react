@@ -74,7 +74,7 @@ export function WorkerTrustSection() {
 
           <Reveal delay={0.2} y={30}>
             <PlaceholderImage
-              src="/images/hr-teams/worker-trust.png"
+              src="/images/hr-people-teams/worker-trust.png"
               alt="Colleagues clapping and celebrating together"
               label="Trust, by design"
               fit="contain"

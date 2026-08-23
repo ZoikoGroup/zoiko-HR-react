@@ -50,7 +50,7 @@ export function IntegrationsSystemFitSection() {
 
           <Reveal delay={0.22} y={30}>
             <PlaceholderImage
-              src="/images/hr-teams/integrations-system-fit.png"
+              src="/images/hr-people-teams/integrations-system-fit.png"
               alt="Team meeting around a table with a laptop"
               label="Fits what you already run"
               fit="contain"
