@@ -1,0 +1,16 @@
+export { ManagersHeroSection } from "./ManagersHeroSection";
+export { ManagersMeaningSection } from "./ManagersMeaningSection";
+export { ClearAuthoritySection } from "./ClearAuthoritySection";
+export { ManagerOperatingModelSection } from "./ManagerOperatingModelSection";
+export { TeamContextSection } from "./TeamContextSection";
+export { ApprovalsReviewSection } from "./ApprovalsReviewSection";
+export { TeamActionsSection } from "./TeamActionsSection";
+export { DelegationEscalationSection } from "./DelegationEscalationSection";
+export { BlockedActionsSection } from "./BlockedActionsSection";
+export { DecisionEvidenceSection } from "./DecisionEvidenceSection";
+export { PrivacySensitiveSection } from "./PrivacySensitiveSection";
+export { ConnectedPayrollSection } from "./ConnectedPayrollSection";
+export { TrustGovernanceSection } from "./TrustGovernanceSection";
+export { EvaluationPathSection } from "./EvaluationPathSection";
+export { ManagersFaqSection } from "./ManagersFaqSection";
+export { ManagersFinalCtaSection } from "./ManagersFinalCtaSection";

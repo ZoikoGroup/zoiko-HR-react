@@ -1,0 +1,12 @@
+export { ConnectHrHeroSection } from "./ConnectHrHeroSection";
+export { AeoAnswerSection } from "./AeoAnswerSection";
+export { ExplicitHandoffsSection } from "./ExplicitHandoffsSection";
+export { CommandCenterSection } from "./CommandCenterSection";
+export { AuthorityModelSection } from "./AuthorityModelSection";
+export { TimeContextSection } from "./TimeContextSection";
+export { PayrollBoundarySection } from "./PayrollBoundarySection";
+export { EvidenceAuditSection } from "./EvidenceAuditSection";
+export { ConnectedReportingSection } from "./ConnectedReportingSection";
+export { RolesPermissionsSection } from "./RolesPermissionsSection";
+export { ConnectHrFaqSection } from "./ConnectHrFaqSection";
+export { ConnectHrFinalCtaSection } from "./ConnectHrFinalCtaSection";

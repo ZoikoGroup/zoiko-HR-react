@@ -1,0 +1,17 @@
+export { GlobalOrgHeroSection } from "./GlobalOrgHeroSection";
+export { GlobalOrgMeaningSection } from "./GlobalOrgMeaningSection";
+export { GlobalOperationsShiftSection } from "./GlobalOperationsShiftSection";
+export { OperatingModelSection } from "./OperatingModelSection";
+export { CommandCenterSection } from "./CommandCenterSection";
+export { OrganizationContextSection } from "./OrganizationContextSection";
+export { LocalConfigurationSection } from "./LocalConfigurationSection";
+export { AvailabilityStatusSection } from "./AvailabilityStatusSection";
+export { RolesDelegationSection } from "./RolesDelegationSection";
+export { WorkforceRecordsSection } from "./WorkforceRecordsSection";
+export { ChangeJourneysSection } from "./ChangeJourneysSection";
+export { WorkflowsApprovalsSection } from "./WorkflowsApprovalsSection";
+export { PrivacyDataFlowSection } from "./PrivacyDataFlowSection";
+export { IntegrationsSourcesSection } from "./IntegrationsSourcesSection";
+export { TrustResourcesSection } from "./TrustResourcesSection";
+export { GlobalOrgFaqSection } from "./GlobalOrgFaqSection";
+export { GlobalOrgFinalCtaSection } from "./GlobalOrgFinalCtaSection";
