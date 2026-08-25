@@ -25,7 +25,6 @@ const FOOTER_COLUMNS: { title: string; links: string[] }[] = [
       "Global Organizations",
       "Multi-Entity Enterprises",
       "HR Teams",
-      "Managers",
       "Connect HR, Time & Payroll",
     ],
   },
@@ -45,6 +44,7 @@ const FOOTER_COLUMNS: { title: string; links: string[] }[] = [
     title: "Company",
     links: [
       "About Zoiko HR",
+      "Managers",
       "About Zoiko Group",
       "Leadership",
       "Careers",
@@ -112,6 +112,7 @@ const FOOTER_LINK_OVERRIDES: Record<string, string> = {
   "Core HR": "/platform/core-hr",
   "Global HR Management": "/platform/global-hr-management",
   "Onboarding & Lifecycle": "/platform/onboarding-lifecycle",
+  "Connect HR, Time & Payroll": "/connect-hr",
 };
 
 export function Footer() {

@@ -110,7 +110,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
           { label: "Replace Spreadsheets & Legacy HR", description: "Move fragmented HR into governance", href: "/solutions/replace-spreadsheets" },
           { label: "Standardize HR Operations", description: "Create consistent processes and records", href: "/solutions/standardize-hr-operations" },
           { label: "Support Global Expansion", description: "Add entities, locations, and configuration", href: "/solutions/global-expansion" },
-          { label: "Connect HR, Time & Payroll", description: "Coordinate HR, time, and payroll", href: "/solutions/connected-hr-time-payroll" },
+          { label: "Connect HR, Time & Payroll", description: "Coordinate HR, time, and payroll", href: "/connect-hr" },
         ],
       },
     ],
