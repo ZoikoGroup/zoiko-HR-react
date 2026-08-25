@@ -139,7 +139,7 @@ export function StructureFoundationSection() {
 
         <Reveal delay={0.18}>
           <Link
-            href="/platform/core-hr"
+            href="/core-hr"
             className="group mt-10 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
           >
             Explore Core HR

@@ -7,7 +7,7 @@ const ROUTES = [
     summary: "Standardized HR operations for increased complexity.",
     considerWhen:
       "The core question is operational standardization across more teams and workflows.",
-    href: "/solutions/mid-market",
+    href: "/mid-market",
     linkLabel: "Explore Mid-Market Organizations",
   },
   {
@@ -15,7 +15,7 @@ const ROUTES = [
     summary: "Consistent global structures with local configuration.",
     considerWhen:
       "The core question is coordinating global structures with local overlays.",
-    href: "/solutions/global-organizations",
+    href: "/global-organizations",
     linkLabel: "Explore Global Organizations",
   },
   {
@@ -24,7 +24,7 @@ const ROUTES = [
       "Authorized coordination across Zoiko HR, ZoikoTime and Zoiko Payroll.",
     considerWhen:
       "The main question is governed cross-system HR/time/payroll coordination.",
-    href: "/solutions/connected-hr-time-payroll",
+    href: "/connected-hr-time-payroll",
     linkLabel: "Explore Connect HR, Time & Payroll",
   },
   {
@@ -32,7 +32,7 @@ const ROUTES = [
     summary: "Governed administration across distinct entities and units.",
     considerWhen:
       "Distinct entities need separate administration and governed boundaries.",
-    href: "/solutions/multi-entity-enterprises",
+    href: "/multi-entity-enterprises",
     linkLabel: "Explore Multi-Entity Enterprises",
   },
 ];

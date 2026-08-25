@@ -28,8 +28,8 @@ const TRAITS_RIGHT = [
 ];
 
 const EXPLORE_LINKS = [
-  { label: "Explore Employee Records", href: "/platform/employee-records" },
-  { label: "See Workflows & Approvals", href: "/platform/workflows-approvals" },
+  { label: "Explore Employee Records", href: "/employee-records" },
+  { label: "See Workflows & Approvals", href: "/workflows-approvals" },
   { label: "Explore Integrations", href: "/integrations" },
 ];
 

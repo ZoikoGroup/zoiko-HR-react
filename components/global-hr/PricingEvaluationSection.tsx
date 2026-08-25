@@ -62,7 +62,7 @@ export function PricingEvaluationSection() {
                   Request Pricing
                 </Button>
                 <a
-                  href="/resources/product-tour"
+                  href="/product-tour"
                   className="group text-center text-sm font-semibold text-primary hover:text-primary-dark"
                 >
                   Take the Product Tour

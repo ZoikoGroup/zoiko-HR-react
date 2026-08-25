@@ -22,7 +22,7 @@ export function ReportingProofSection() {
 
             <Reveal delay={0.16}>
               <Link
-                href="/platform/reporting-insights"
+                href="/reporting-insights"
                 className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
               >
                 View reporting proof

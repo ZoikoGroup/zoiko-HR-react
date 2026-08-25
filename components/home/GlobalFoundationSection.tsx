@@ -77,7 +77,7 @@ export function GlobalFoundationSection() {
 
         <Reveal delay={0.32}>
           <Link
-            href="/platform/global-hr-management"
+            href="/global-hr-management"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
           >
             Explore global HR management

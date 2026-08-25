@@ -82,7 +82,7 @@ export function RoleExperienceSection() {
 
         <Reveal delay={0.26}>
           <Link
-            href="/solutions/managers"
+            href="/managers"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
           >
             Explore employee and manager self-service

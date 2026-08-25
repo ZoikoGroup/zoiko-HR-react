@@ -47,7 +47,7 @@ export function PlatformHeroSection() {
 
             <Reveal delay={0.3}>
               <a
-                href="/resources/product-tour"
+                href="/product-tour"
                 className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
               >
                 Take the Product Tour

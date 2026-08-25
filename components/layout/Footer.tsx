@@ -109,10 +109,13 @@ function slugify(label: string) {
 
 const FOOTER_LINK_OVERRIDES: Record<string, string> = {
   "Platform Overview": "/platform",
-  "Core HR": "/platform/core-hr",
-  "Global HR Management": "/platform/global-hr-management",
-  "Onboarding & Lifecycle": "/platform/onboarding-lifecycle",
+  "Core HR": "/core-hr",
+  "Global HR Management": "/global-hr-management",
+  "Onboarding & Lifecycle": "/onboarding-lifecycle",
   "Connect HR, Time & Payroll": "/connect-hr",
+  "Solutions Overview": "/solutions",
+  "Mid-Market Organizations": "/mid-market",
+  "About Zoiko HR": "/about",
 };
 
 export function Footer() {
@@ -143,7 +146,7 @@ export function Footer() {
                   Request Pricing
                 </Button>
                 <Link
-                  href="/resources/product-tour"
+                  href="/product-tour"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-white/80 hover:text-primary"
                 >
                   Take the Product Tour <span aria-hidden>→</span>

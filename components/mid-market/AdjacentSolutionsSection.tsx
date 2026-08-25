@@ -7,28 +7,28 @@ const ROUTES = [
     considerWhen:
       "the priority is establishing structured HR foundations as operations grow.",
     doesNotMean: "a specific employee-count band.",
-    href: "/solutions/growing-businesses",
+    href: "/growing-businesses",
   },
   {
     title: "Global Organizations",
     considerWhen:
       "consistent global structures with local configuration are central.",
     doesNotMean: "this page defines jurisdictional/legal requirements.",
-    href: "/solutions/global-organizations",
+    href: "/global-organizations",
   },
   {
     title: "HR Teams",
     considerWhen:
       "the primary question is HR-team workflows, records, reporting, policy and employee services.",
     doesNotMean: "a size or maturity requirement.",
-    href: "/solutions/hr-teams",
+    href: "/hr-teams",
   },
   {
     title: "Managers",
     considerWhen:
       "the primary question is manager approvals, team actions and authorized administration.",
     doesNotMean: "expanded access from hierarchy alone.",
-    href: "/solutions/managers",
+    href: "/managers",
   },
 ];
 

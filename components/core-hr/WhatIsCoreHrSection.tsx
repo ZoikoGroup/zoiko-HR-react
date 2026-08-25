@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Container, Reveal } from "@/components/ui";
 
 const EXPLORE_LINKS = [
-  { label: "View Employee Records", href: "/platform/employee-records" },
-  { label: "Explore Global HR Management", href: "/platform/global-hr-management" },
-  { label: "Explore Workflows & Approvals", href: "/platform/workflows-approvals" },
+  { label: "View Employee Records", href: "/employee-records" },
+  { label: "Explore Global HR Management", href: "/global-hr-management" },
+  { label: "Explore Workflows & Approvals", href: "/workflows-approvals" },
   { label: "Integrations Overview", href: "/integrations" },
   { label: "Visit Trust Center", href: "/trust-center" },
 ];

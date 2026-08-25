@@ -43,7 +43,7 @@ export function HeroSection() {
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Button href="/book-a-demo">Book a Demo</Button>
             <Button
-              href="/resources/product-tour"
+              href="/product-tour"
               variant="outline"
               className="!border-white/30 !text-white hover:!border-primary hover:!text-primary"
             >

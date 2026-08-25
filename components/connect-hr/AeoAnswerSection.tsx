@@ -16,8 +16,8 @@ const PILLARS = [
 
 const LINKS = [
   { label: "Explore Integrations", href: "/integrations" },
-  { label: "View Workflows and Approvals", href: "/platform/workflows-approvals" },
-  { label: "Review Employee Records", href: "/platform/employee-records" },
+  { label: "View Workflows and Approvals", href: "/workflows-approvals" },
+  { label: "Review Employee Records", href: "/employee-records" },
 ];
 
 export function AeoAnswerSection() {

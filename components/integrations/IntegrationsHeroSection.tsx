@@ -48,7 +48,7 @@ export function IntegrationsHeroSection() {
             <Reveal delay={0.3}>
               <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2">
                 <a
-                  href="/resources/product-tour"
+                  href="/product-tour"
                   className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
                 >
                   Take the Product Tour
@@ -57,7 +57,7 @@ export function IntegrationsHeroSection() {
                   </span>
                 </a>
                 <a
-                  href="/resources/developer-documentation"
+                  href="/developer-documentation"
                   className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
                 >
                   View Developer Documentation

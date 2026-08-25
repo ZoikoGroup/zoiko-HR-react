@@ -46,7 +46,7 @@ export function OperatingMechanismSection() {
 
         <Reveal delay={0.26}>
           <Link
-            href="/resources/product-tour"
+            href="/product-tour"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-400 hover:text-white"
           >
             See How ZoikoTime Works

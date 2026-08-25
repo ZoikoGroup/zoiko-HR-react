@@ -47,7 +47,7 @@ export function RecordsImplementationSection() {
 
         <Reveal delay={0.5}>
           <Link
-            href="/resources/implementation-guide"
+            href="/implementation-guide"
             className="group mt-10 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
           >
             View the Implementation Guide

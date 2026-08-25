@@ -14,7 +14,7 @@ const WORKSPACES = [
     ],
     restriction:
       "Compensation details — requires HR-configured access",
-    href: "/solutions/employees",
+    href: "/employees",
     linkLabel: "Explore Employee route",
     chip: "border-violet-600/20 bg-violet-600/5 text-violet-600 hover:bg-violet-600/10",
   },
@@ -29,7 +29,7 @@ const WORKSPACES = [
       "Track and escalate deadlines",
     ],
     restriction: "Payroll detail — outside configured manager scope",
-    href: "/solutions/managers",
+    href: "/managers",
     linkLabel: "Explore Manager route",
     chip: "border-primary/20 bg-primary/5 text-primary hover:bg-primary/10",
   },

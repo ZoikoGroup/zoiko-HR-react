@@ -31,7 +31,7 @@ export function HrTeamsFinalCtaSection() {
               Request Pricing
             </Button>
             <Link
-              href="/resources/product-tour"
+              href="/product-tour"
               className="group inline-flex items-center gap-1.5 py-3 text-sm font-semibold text-sky-500 hover:text-white"
             >
               Take the Product Tour

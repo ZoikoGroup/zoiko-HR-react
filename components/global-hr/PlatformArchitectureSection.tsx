@@ -5,7 +5,7 @@ const LEFT_DESTINATIONS = [
     label: "Onboarding & Lifecycle",
     description:
       "Onboarding, changes, transitions, and separation administration.",
-    href: "/platform/onboarding-lifecycle",
+    href: "/onboarding-lifecycle",
   },
 ];
 
@@ -13,7 +13,7 @@ const RIGHT_DESTINATIONS = [
   {
     label: "Employee Records",
     description: "Structured employee and employment information.",
-    href: "/platform/employee-records",
+    href: "/employee-records",
   },
   {
     label: "Pricing",

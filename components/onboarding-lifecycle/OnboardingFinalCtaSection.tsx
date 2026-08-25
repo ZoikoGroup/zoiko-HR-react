@@ -35,7 +35,7 @@ export function OnboardingFinalCtaSection() {
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
               <a
-                href="/resources/product-tour"
+                href="/product-tour"
                 className="font-semibold text-primary hover:text-white"
               >
                 Take the Product Tour

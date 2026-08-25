@@ -76,7 +76,7 @@ export function ReviewablePictureSection() {
                   <dd className="text-slate-500">{row.effective}</dd>
                 </dl>
                 <Link
-                  href="/platform/workflows-approvals"
+                  href="/workflows-approvals"
                   className="mt-2 inline-flex text-xs font-semibold text-primary hover:text-primary-dark"
                 >
                   View record
@@ -121,7 +121,7 @@ export function ReviewablePictureSection() {
                     </td>
                     <td className="px-4 py-3">
                       <Link
-                        href="/platform/workflows-approvals"
+                        href="/workflows-approvals"
                         className="text-xs font-semibold text-primary hover:text-primary-dark"
                       >
                         View record

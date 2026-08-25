@@ -132,7 +132,7 @@ export function RecordsPricingSection() {
                         Book a Demo
                       </a>
                       <a
-                        href="/resources/product-tour"
+                        href="/product-tour"
                         className="group inline-flex items-center gap-1 font-semibold text-primary hover:text-primary-dark"
                       >
                         Take the Product Tour

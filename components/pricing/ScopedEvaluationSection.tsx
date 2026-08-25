@@ -57,7 +57,7 @@ export function ScopedEvaluationSection() {
                   Request Pricing
                 </Button>
                 <a
-                  href="/resources/product-tour"
+                  href="/product-tour"
                   className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
                 >
                   Take the Product Tour
