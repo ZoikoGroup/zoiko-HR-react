@@ -17,7 +17,7 @@ const ROWS = [
     purpose: "Structured HR foundations for scaling organizations.",
     question: "How do we establish consistent records, roles, and processes?",
     boundary: "No employee-count thresholds.",
-    href: "/solutions/growing-businesses",
+    href: "/growing-businesses",
   },
   {
     pathway: "Mid-Market Organizations",
@@ -25,7 +25,7 @@ const ROWS = [
     purpose: "Standardized HR operations for increased complexity.",
     question: "How do we standardize workflows and reporting across teams?",
     boundary: "No revenue thresholds.",
-    href: "/solutions/mid-market",
+    href: "/mid-market",
   },
   {
     pathway: "Global Organizations",
@@ -33,7 +33,7 @@ const ROWS = [
     purpose: "Consistent global structures with local configuration.",
     question: "How do we coordinate global baselines with local overlays?",
     boundary: "Availability varies by jurisdiction.",
-    href: "/solutions/global-organizations",
+    href: "/global-organizations",
   },
   {
     pathway: "Multi-Entity Enterprises",
@@ -41,7 +41,7 @@ const ROWS = [
     purpose: "Governed administration across distinct entities and units.",
     question: "How do we preserve entity boundaries while enabling reporting?",
     boundary: "Not a legal/tax grouping tool.",
-    href: "/solutions/multi-entity-enterprises",
+    href: "/multi-entity-enterprises",
   },
   {
     pathway: "HR Teams",
@@ -49,7 +49,7 @@ const ROWS = [
     purpose: "Records, workflows, reporting, policy and employee services.",
     question: "What governed HR administration can our team perform?",
     boundary: "Approvals and privacy controls apply.",
-    href: "/solutions/hr-teams",
+    href: "/hr-teams",
   },
   {
     pathway: "Managers",
@@ -57,7 +57,7 @@ const ROWS = [
     purpose: "Approvals, team actions and authorized administration.",
     question: "What can managers do within their authorized scope?",
     boundary: "Access is permission and context-dependent.",
-    href: "/solutions/managers",
+    href: "/managers",
   },
   {
     pathway: "Connect HR, Time & Payroll",
@@ -65,7 +65,7 @@ const ROWS = [
     purpose: "Authorized coordination across Zoiko HR, ZoikoTime and Zoiko Payroll.",
     question: "How does approved HR context flow to time and payroll?",
     boundary: "Zoiko HR does not calculate payroll.",
-    href: "/solutions/connected-hr-time-payroll",
+    href: "/connected-hr-time-payroll",
   },
 ];
 

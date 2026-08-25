@@ -100,7 +100,7 @@ export function ApprovalsReviewSection() {
                   ))}
                 </div>
                 <Link
-                  href="/platform/workflows-approvals"
+                  href="/workflows-approvals"
                   className="group mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-400 hover:text-white"
                 >
                   Request information
@@ -115,7 +115,7 @@ export function ApprovalsReviewSection() {
 
         <Reveal delay={0.24}>
           <Link
-            href="/platform/workflows-approvals"
+            href="/workflows-approvals"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-400 hover:text-white"
           >
             Explore Workflows and Approvals

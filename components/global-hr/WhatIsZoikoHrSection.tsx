@@ -23,9 +23,9 @@ const PILLARS = [
 ];
 
 const EXPLORE_LINKS = [
-  { label: "Explore Core HR", href: "/platform/core-hr" },
+  { label: "Explore Core HR", href: "/core-hr" },
   { label: "Explore Global HR Management", href: "#entity-portfolio" },
-  { label: "View Employee Records", href: "/platform/employee-records" },
+  { label: "View Employee Records", href: "/employee-records" },
 ];
 
 export function WhatIsZoikoHrSection() {

@@ -80,7 +80,7 @@ export function LifecycleFoundationSection() {
 
             <Reveal delay={0.3}>
               <Link
-                href="/platform/onboarding-lifecycle"
+                href="/onboarding-lifecycle"
                 className="group mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
               >
                 Explore Onboarding &amp; Lifecycle

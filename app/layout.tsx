@@ -40,7 +40,7 @@ export default function RootLayout({
         />
        
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main className="w-full min-w-0 flex-1">{children}</main>
         <Footer />
       </body>
     </html>

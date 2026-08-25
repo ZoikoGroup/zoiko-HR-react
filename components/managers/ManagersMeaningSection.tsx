@@ -19,8 +19,8 @@ const PILLARS = [
 ];
 
 const LINKS = [
-  { label: "Workflows & Approvals", href: "/platform/workflows-approvals" },
-  { label: "Employee Records", href: "/platform/employee-records" },
+  { label: "Workflows & Approvals", href: "/workflows-approvals" },
+  { label: "Employee Records", href: "/employee-records" },
   { label: "Solutions Overview", href: "/solutions" },
 ];
 

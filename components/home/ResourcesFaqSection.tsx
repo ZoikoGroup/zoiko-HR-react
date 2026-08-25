@@ -114,7 +114,7 @@ export function ResourcesFaqSection() {
                   </details>
                 ))}
               </div>
-              <Button href="/resources/product-tour" className="mt-6 self-start">
+              <Button href="/product-tour" className="mt-6 self-start">
                 Take the Product Tour
               </Button>
             </div>

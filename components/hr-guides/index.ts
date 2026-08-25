@@ -1,0 +1,12 @@
+export { HrGuidesHeroSection } from "./HrGuidesHeroSection";
+export { BrowseAllGuidesSection } from "./BrowseAllGuidesSection";
+export { HrTasksSection } from "./HrTasksSection";
+export { ProductAreaSection } from "./ProductAreaSection";
+export { AudienceRoleSection } from "./AudienceRoleSection";
+export { FeaturedGuidesSection } from "./FeaturedGuidesSection";
+export { GuideCardContractSection } from "./GuideCardContractSection";
+export { RecordsDataOperationsSection } from "./RecordsDataOperationsSection";
+export { GlobalMultiEntitySection } from "./GlobalMultiEntitySection";
+export { ReportingIntegrationsSection } from "./ReportingIntegrationsSection";
+export { AuthorityScopeSection } from "./AuthorityScopeSection";
+export { HrGuidesFaqSection } from "./HrGuidesFaqSection";

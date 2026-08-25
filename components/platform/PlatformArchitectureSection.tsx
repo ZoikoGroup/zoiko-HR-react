@@ -5,7 +5,7 @@ const LEFT_DESTINATIONS = [
     category: "Lifecycle",
     label: "Onboarding & Lifecycle",
     description: "Onboarding, changes, transitions, and separation administration.",
-    href: "/platform/onboarding-lifecycle",
+    href: "/onboarding-lifecycle",
     categoryColor: "text-primary",
   },
 ];
@@ -15,7 +15,7 @@ const RIGHT_DESTINATIONS = [
     category: "Records",
     label: "Employee Records",
     description: "Structured employee and employment information.",
-    href: "/platform/employee-records",
+    href: "/employee-records",
     categoryColor: "text-emerald-400",
   },
   {

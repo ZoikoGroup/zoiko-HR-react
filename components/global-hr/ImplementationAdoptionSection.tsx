@@ -97,7 +97,7 @@ export function ImplementationAdoptionSection() {
         <Reveal delay={0.5}>
           <div className="mt-8 text-center">
             <Link
-              href="/resources/implementation-guide"
+              href="/implementation-guide"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
             >
               View the Implementation Guide

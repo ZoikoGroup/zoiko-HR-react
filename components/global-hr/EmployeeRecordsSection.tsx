@@ -65,7 +65,7 @@ export function EmployeeRecordsSection() {
 
             <Reveal delay={0.4}>
               <Link
-                href="/platform/employee-records"
+                href="/employee-records"
                 className="group mt-7 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
               >
                 View Employee Records

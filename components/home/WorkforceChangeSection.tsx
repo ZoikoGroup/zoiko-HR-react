@@ -148,7 +148,7 @@ export function WorkforceChangeSection() {
 
         <Reveal delay={0.26}>
           <Link
-            href="/platform/onboarding-lifecycle"
+            href="/onboarding-lifecycle"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
           >
             Explore employee lifecycle management

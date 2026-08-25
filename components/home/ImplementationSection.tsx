@@ -135,7 +135,7 @@ export function ImplementationSection() {
           <div className="mt-8 flex flex-wrap items-center gap-6">
             <Button href="/book-a-demo">Book a Demo</Button>
             <Link
-              href="/resources/implementation-guide"
+              href="/implementation-guide"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
             >
               View implementation approach

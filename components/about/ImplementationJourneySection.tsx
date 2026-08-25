@@ -139,7 +139,7 @@ export function ImplementationJourneySection() {
 
         <Reveal delay={0.3}>
           <Link
-            href="/resources/implementation-guide"
+            href="/implementation-guide"
             className="group mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
           >
             Explore Implementation

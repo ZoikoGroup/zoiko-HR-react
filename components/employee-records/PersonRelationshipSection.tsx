@@ -96,7 +96,7 @@ export function PersonRelationshipSection() {
 
         <Reveal delay={0.3}>
           <Link
-            href="/platform/core-hr"
+            href="/core-hr"
             className="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
           >
             Explore Core HR

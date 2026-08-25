@@ -58,7 +58,7 @@ export function PlatformCoreHrSection() {
 
             <Reveal delay={0.28}>
               <Link
-                href="/platform/core-hr"
+                href="/core-hr"
                 className="group mt-7 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
               >
                 Explore Core HR

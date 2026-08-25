@@ -43,7 +43,7 @@ export function ChangeHistorySection() {
 
         <Reveal delay={0.3}>
           <Link
-            href="/platform/workflows-approvals"
+            href="/workflows-approvals"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
           >
             See change workflow

@@ -129,7 +129,7 @@ export function LifecycleOperationsSection() {
 
         <Reveal delay={0.2}>
           <Link
-            href="/platform/onboarding-lifecycle"
+            href="/onboarding-lifecycle"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-sky-500 hover:text-white"
           >
             Explore Lifecycle

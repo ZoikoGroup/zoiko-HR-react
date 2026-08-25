@@ -53,7 +53,7 @@ export function GrowingBusinessesSection() {
 
             <Reveal delay={0.24}>
               <Link
-                href="/solutions/growing-businesses"
+                href="/growing-businesses"
                 className="group mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
               >
                 Explore Growing Businesses

@@ -137,7 +137,7 @@ export function ImplementationReadinessSection() {
 
         <Reveal delay={0.3}>
           <Link
-            href="/resources/implementation-guide"
+            href="/implementation-guide"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-sky-500 hover:text-sky-600"
           >
             View Implementation Guide
