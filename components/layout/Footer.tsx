@@ -113,6 +113,8 @@ const FOOTER_LINK_OVERRIDES: Record<string, string> = {
   "Global HR Management": "/platform/global-hr-management",
   "Onboarding & Lifecycle": "/platform/onboarding-lifecycle",
   "Connect HR, Time & Payroll": "/connect-hr",
+  "About Zoiko Group": "/company/about-zoiko-group",
+  FAQ: "/resources/faq",
 };
 
 export function Footer() {
