@@ -1,0 +1,15 @@
+export { FaqHeroSection } from "./FaqHeroSection";
+export { FaqScopeSection } from "./FaqScopeSection";
+export { FindAnAnswerSection } from "./FindAnAnswerSection";
+export { BrowseByTopicSection } from "./BrowseByTopicSection";
+export { ProductFaqSection } from "./ProductFaqSection";
+export { GlobalFaqSection } from "./GlobalFaqSection";
+export { IntegrationsFaqSection } from "./IntegrationsFaqSection";
+export { SecurityFaqSection } from "./SecurityFaqSection";
+export { ImplementationFaqSection } from "./ImplementationFaqSection";
+export { PricingAccessFaqSection } from "./PricingAccessFaqSection";
+export { RolesFaqSection } from "./RolesFaqSection";
+export { HowAnswersKeptCurrentSection } from "./HowAnswersKeptCurrentSection";
+export { SupportRoutesSection } from "./SupportRoutesSection";
+export { HighIntentLibrarySection } from "./HighIntentLibrarySection";
+export { FaqFinalCtaSection } from "./FaqFinalCtaSection";
