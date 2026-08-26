@@ -161,7 +161,7 @@ export function EmployeeMasterRecordSection() {
         <Reveal delay={0.3}>
           <div className="mt-6 text-right">
             <Link
-              href="/platform/employee-records"
+              href="/employee-records"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
             >
               View Employee Records

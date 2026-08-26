@@ -6,13 +6,13 @@ const RESOURCES = [
     eyebrow: "Product Tour",
     title: "Self-guided, no-signup evaluation",
     linkLabel: "Take the tour",
-    href: "/resources/product-tour",
+    href: "/product-tour",
   },
   {
     eyebrow: "Resources",
     title: "HR guides and glossary",
     linkLabel: "Browse resources",
-    href: "/resources",
+    href: "/resource-center",
   },
 ];
 

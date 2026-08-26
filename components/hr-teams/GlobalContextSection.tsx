@@ -96,7 +96,7 @@ export function GlobalContextSection() {
 
         <Reveal delay={0.28}>
           <Link
-            href="/platform/global-hr-management"
+            href="/global-hr-management"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-sky-500 hover:text-white"
           >
             Explore Global HR

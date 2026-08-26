@@ -148,7 +148,7 @@ export function ConnectedPayrollSection() {
 
         <Reveal delay={0.24}>
           <Link
-            href="/solutions/connected-hr-time-payroll"
+            href="/connected-hr-time-payroll"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-sky-500 hover:text-sky-600"
           >
             Explore connected solution

@@ -3,11 +3,11 @@ import { Container, Reveal } from "@/components/ui";
 
 const PLATFORM_LINKS = [
   { label: "Platform Overview", href: "/platform" },
-  { label: "Core HR", href: "/platform/core-hr" },
-  { label: "Global HR Management", href: "/platform/global-hr-management" },
-  { label: "Employee Records", href: "/platform/employee-records" },
-  { label: "Onboarding & Lifecycle", href: "/platform/onboarding-lifecycle" },
-  { label: "Workflows & Approvals", href: "/platform/workflows-approvals" },
+  { label: "Core HR", href: "/core-hr" },
+  { label: "Global HR Management", href: "/global-hr-management" },
+  { label: "Employee Records", href: "/employee-records" },
+  { label: "Onboarding & Lifecycle", href: "/onboarding-lifecycle" },
+  { label: "Workflows & Approvals", href: "/workflows-approvals" },
   { label: "Integrations", href: "/integrations" },
   { label: "Pricing", href: "/pricing" },
 ];

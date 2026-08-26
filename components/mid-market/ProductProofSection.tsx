@@ -53,7 +53,7 @@ export function ProductProofSection() {
 
         <Reveal delay={0.34}>
           <Link
-            href="/platform/workflows-approvals"
+            href="/workflows-approvals"
             className="group mt-6 inline-flex items-center gap-1.5 font-semibold text-[#7FA6FF] hover:text-white"
           >
             See workflow &amp; approval evidence

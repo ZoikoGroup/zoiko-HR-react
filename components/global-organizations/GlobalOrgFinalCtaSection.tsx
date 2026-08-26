@@ -28,7 +28,7 @@ export function GlobalOrgFinalCtaSection() {
               Request Pricing
             </Button>
             <Link
-              href="/resources/product-tour"
+              href="/product-tour"
               className="group inline-flex items-center gap-1.5 px-1 py-3 text-sm font-semibold text-indigo-400 hover:text-white"
             >
               Take the Product Tour

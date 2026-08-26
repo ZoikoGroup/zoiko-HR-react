@@ -32,7 +32,7 @@ export function IntegrationsFinalCtaSection() {
           </div>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             <a
-              href="/resources/product-tour"
+              href="/product-tour"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
             >
               Take the Product Tour
@@ -41,7 +41,7 @@ export function IntegrationsFinalCtaSection() {
               </span>
             </a>
             <a
-              href="/resources/developer-documentation"
+              href="/developer-documentation"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
             >
               View Developer Documentation

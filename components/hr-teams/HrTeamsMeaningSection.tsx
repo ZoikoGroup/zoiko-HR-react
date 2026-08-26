@@ -29,9 +29,9 @@ const PILLARS = [
 ];
 
 const LINKS = [
-  { label: "View Employee Records", href: "/platform/employee-records" },
-  { label: "Explore Workflows & Approvals", href: "/platform/workflows-approvals" },
-  { label: "Explore Global HR Management", href: "/platform/global-hr-management" },
+  { label: "View Employee Records", href: "/employee-records" },
+  { label: "Explore Workflows & Approvals", href: "/workflows-approvals" },
+  { label: "Explore Global HR Management", href: "/global-hr-management" },
 ];
 
 export function HrTeamsMeaningSection() {

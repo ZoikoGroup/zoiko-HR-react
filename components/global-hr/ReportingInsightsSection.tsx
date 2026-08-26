@@ -74,7 +74,7 @@ export function ReportingInsightsSection() {
         <Reveal delay={0.4}>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-2">
             <Link
-              href="/resources/product-tour"
+              href="/product-tour"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
             >
               Take the Product Tour

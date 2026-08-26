@@ -21,7 +21,7 @@ export function EffectiveDatedRecordsSection() {
             </Reveal>
             <Reveal delay={0.16}>
               <Link
-                href="/platform/employee-records"
+                href="/employee-records"
                 className="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
               >
                 Explore Employee Records

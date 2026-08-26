@@ -54,7 +54,7 @@ export function WorkflowAuthoritySection() {
 
         <Reveal delay={0.28}>
           <Link
-            href="/platform/workflows"
+            href="/workflows"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-400 hover:text-white"
           >
             See workflow &amp; approval evidence

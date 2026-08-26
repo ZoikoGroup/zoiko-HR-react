@@ -46,7 +46,7 @@ export function CoreHrImplementationSection() {
 
             <Reveal delay={0.24}>
               <Link
-                href="/resources/implementation-guide"
+                href="/implementation-guide"
                 className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
               >
                 View Implementation Guide

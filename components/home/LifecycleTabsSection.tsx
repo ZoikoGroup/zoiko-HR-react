@@ -31,7 +31,7 @@ const TABS = [
       "Effective-dated lifecycle events",
     ],
     linkLabel: "Explore onboarding & lifecycle",
-    href: "/platform/onboarding-lifecycle",
+    href: "/onboarding-lifecycle",
     image: "/images/home/lifecycle-onboarding.png",
   },
   {
@@ -45,7 +45,7 @@ const TABS = [
       "Attendance and absence reporting",
     ],
     linkLabel: "Explore leave & attendance",
-    href: "/platform/leave-attendance",
+    href: "/leave-attendance",
     image: "/images/home/lifecycle-leave.png",
   },
   {
@@ -59,7 +59,7 @@ const TABS = [
       "Full audit trail on every action",
     ],
     linkLabel: "Explore documents & approvals",
-    href: "/platform/documents-approvals",
+    href: "/documents-approvals",
     image: "/images/home/lifecycle-documents.png",
   },
   {
@@ -72,7 +72,7 @@ const TABS = [
       "Performance history & records",
     ],
     linkLabel: "Explore performance & self-service",
-    href: "/platform/performance-self-service",
+    href: "/performance-self-service",
     image: "/images/home/lifecycle-performance.png",
   },
   {
@@ -85,7 +85,7 @@ const TABS = [
       "Exportable, structured data",
     ],
     linkLabel: "Explore reporting & insights",
-    href: "/platform/reporting-insights",
+    href: "/reporting-insights",
     image: "/images/home/lifecycle-reporting.png",
   },
 ];

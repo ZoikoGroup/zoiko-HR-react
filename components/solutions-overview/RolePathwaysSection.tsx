@@ -14,7 +14,7 @@ const ROLES = [
       "Employee service and support",
       "Exceptions and audit trails",
     ],
-    href: "/solutions/hr-teams",
+    href: "/hr-teams",
     linkLabel: "Explore HR Teams",
   },
   {
@@ -29,7 +29,7 @@ const ROLES = [
       "Evidence and audit visibility",
       "Permitted requests and actions",
     ],
-    href: "/solutions/managers",
+    href: "/managers",
     linkLabel: "Explore Managers",
   },
 ];

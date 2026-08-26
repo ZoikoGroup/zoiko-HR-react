@@ -2,18 +2,18 @@ import Link from "next/link";
 import { Container, Reveal, PlaceholderImage } from "@/components/ui";
 
 const ORGANIZATION_PATHWAYS = [
-  { label: "Growing Businesses", href: "/solutions/growing-businesses" },
-  { label: "Mid-Market Organizations", href: "/solutions/mid-market" },
-  { label: "Global Organizations", href: "/solutions/global-organizations" },
+  { label: "Growing Businesses", href: "/growing-businesses" },
+  { label: "Mid-Market Organizations", href: "/mid-market" },
+  { label: "Global Organizations", href: "/global-organizations" },
   {
     label: "Multi-Entity Enterprises",
-    href: "/solutions/multi-entity-enterprises",
+    href: "/multi-entity-enterprises",
   },
 ];
 
 const ROLE_PATHWAYS = [
-  { label: "HR Teams", href: "/solutions/hr-teams" },
-  { label: "Managers", href: "/solutions/managers" },
+  { label: "HR Teams", href: "/hr-teams" },
+  { label: "Managers", href: "/managers" },
 ];
 
 function PathwayCard({

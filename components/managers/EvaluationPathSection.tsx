@@ -136,7 +136,7 @@ export function EvaluationPathSection() {
             </Link>
 
             <Link
-              href="/resources/product-tour"
+              href="/product-tour"
               className="group mt-4 flex items-center justify-center gap-1.5 text-sm font-semibold text-white hover:text-primary"
             >
               Take the Product Tour

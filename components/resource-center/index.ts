@@ -1,0 +1,14 @@
+export { ResourceCenterHeroSection } from "./ResourceCenterHeroSection";
+export { WhatTheResourceCenterIsSection } from "./WhatTheResourceCenterIsSection";
+export { SearchDiscoverSection } from "./SearchDiscoverSection";
+export { ResourceDestinationsSection } from "./ResourceDestinationsSection";
+export { FeaturedResourcesSection } from "./FeaturedResourcesSection";
+export { AudienceRoleSection } from "./AudienceRoleSection";
+export { EvaluationBuyingSection } from "./EvaluationBuyingSection";
+export { ImplementationAdoptionSection } from "./ImplementationAdoptionSection";
+export { TrustSecurityGovernanceSection } from "./TrustSecurityGovernanceSection";
+export { ProductEducationSection } from "./ProductEducationSection";
+export { EvidenceComparisonSection } from "./EvidenceComparisonSection";
+export { ExistingCustomerHelpSection } from "./ExistingCustomerHelpSection";
+export { ResourceGovernanceSection } from "./ResourceGovernanceSection";
+export { ResourceCenterFinalCtaSection } from "./ResourceCenterFinalCtaSection";

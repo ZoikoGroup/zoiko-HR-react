@@ -15,7 +15,7 @@ export function ReportingVisibilitySection() {
               entities, aggregation rule, freshness and owner.
             </p>
             <Link
-              href="/platform/reporting"
+              href="/reporting"
               className="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
             >
               View reporting proof

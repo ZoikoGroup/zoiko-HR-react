@@ -3,11 +3,11 @@ import { Container, Reveal, PlaceholderImage } from "@/components/ui";
 
 const DESTINATIONS = [
   { number: "01", title: "Platform Overview", description: "Category, operating model, capabilities, trust, implementation, and evaluation pathways.", href: "/platform" },
-  { number: "02", title: "Core HR", description: "Structured employee, position, organization, document, and lifecycle records.", href: "/platform/core-hr" },
-  { number: "03", title: "Global HR Management", description: "Multi-entity, multi-location, and jurisdictional workforce administration.", href: "/platform/global-hr-management" },
-  { number: "04", title: "Employee Records", description: "Structured employee and employment information, history, and documents.", href: "/platform/employee-records" },
-  { number: "05", title: "Onboarding & Lifecycle", description: "Onboarding, changes, transitions, and separation administration.", href: "/platform/onboarding-lifecycle" },
-  { number: "06", title: "Workflows & Approvals", description: "Roles, permissions, approvals, effective dates, ownership, and auditability.", href: "/platform/workflows-approvals" },
+  { number: "02", title: "Core HR", description: "Structured employee, position, organization, document, and lifecycle records.", href: "/core-hr" },
+  { number: "03", title: "Global HR Management", description: "Multi-entity, multi-location, and jurisdictional workforce administration.", href: "/global-hr-management" },
+  { number: "04", title: "Employee Records", description: "Structured employee and employment information, history, and documents.", href: "/employee-records" },
+  { number: "05", title: "Onboarding & Lifecycle", description: "Onboarding, changes, transitions, and separation administration.", href: "/onboarding-lifecycle" },
+  { number: "06", title: "Workflows & Approvals", description: "Roles, permissions, approvals, effective dates, ownership, and auditability.", href: "/workflows-approvals" },
   { number: "07", title: "Integrations", description: "Approved connectors, identity, payroll, and developer documentation.", href: "/integrations" },
 ];
 

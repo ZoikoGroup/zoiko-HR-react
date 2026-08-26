@@ -61,7 +61,7 @@ export function RecoveryReliabilitySection() {
               </span>
             </Link>
             <Link
-              href="/resources/product-updates"
+              href="/product-updates"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
             >
               View Product Updates

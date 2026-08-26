@@ -2,7 +2,7 @@ import { Container, Reveal, Button } from "@/components/ui";
 
 const LINKS = [
   { label: "Pricing", href: "/pricing" },
-  { label: "Workers", href: "/solutions/hr-teams" },
+  { label: "Workers", href: "/hr-teams" },
   { label: "Anti-Surveillance Principles", href: "/ai-governance" },
   { label: "Security", href: "/security-privacy" },
   { label: "Help Center", href: "/help-center" },

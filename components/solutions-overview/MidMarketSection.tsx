@@ -49,7 +49,7 @@ export function MidMarketSection() {
 
             <Reveal delay={0.24}>
               <Link
-                href="/solutions/mid-market"
+                href="/mid-market"
                 className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
               >
                 Explore Mid-Market Organizations

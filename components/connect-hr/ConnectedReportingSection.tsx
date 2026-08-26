@@ -84,7 +84,7 @@ export function ConnectedReportingSection() {
                   ))}
                 </div>
                 <Link
-                  href="/platform/reporting"
+                  href="/reporting"
                   className="mt-4 text-xs font-semibold text-sky-500 hover:text-sky-600"
                 >
                   View definition

@@ -21,7 +21,7 @@ export function ReportingVisibilitySection() {
             </Reveal>
             <Reveal delay={0.16}>
               <Link
-                href="/resources/product-tour"
+                href="/product-tour"
                 className="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
               >
                 View reporting proof

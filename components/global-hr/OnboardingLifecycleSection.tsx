@@ -174,7 +174,7 @@ export function OnboardingLifecycleSection() {
         <Reveal delay={0.3}>
           <div className="mt-8 text-center">
             <Link
-              href="/platform/onboarding-lifecycle"
+              href="/onboarding-lifecycle"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
             >
               Explore Onboarding & Lifecycle

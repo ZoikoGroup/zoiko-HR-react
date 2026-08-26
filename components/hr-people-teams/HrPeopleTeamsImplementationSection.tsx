@@ -10,9 +10,9 @@ const STEPS = [
 ];
 
 const LINKS = [
-  { label: "Getting Started", href: "/resources/product-tour" },
+  { label: "Getting Started", href: "/product-tour" },
   { label: "Help Center", href: "/help-center" },
-  { label: "Product Documentation", href: "/resources/developer-documentation" },
+  { label: "Product Documentation", href: "/developer-documentation" },
 ];
 
 export function HrPeopleTeamsImplementationSection() {

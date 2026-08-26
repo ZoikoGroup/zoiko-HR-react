@@ -41,7 +41,7 @@ export function HrTeamsHeroSection() {
                   Request Pricing
                 </Button>
                 <Link
-                  href="/resources/product-tour"
+                  href="/product-tour"
                   className="group inline-flex items-center gap-1.5 py-3 text-sm font-semibold text-primary hover:text-white"
                 >
                   Take the Product Tour

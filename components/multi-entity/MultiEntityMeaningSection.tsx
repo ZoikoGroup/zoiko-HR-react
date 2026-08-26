@@ -58,14 +58,14 @@ export function MultiEntityMeaningSection() {
             Growing complexity within a single legal entity may be better served
             by{" "}
             <Link
-              href="/solutions/mid-market"
+              href="/mid-market"
               className="text-primary hover:text-primary-dark"
             >
               Mid-Market Organizations
             </Link>
             . Jurisdictional coordination alone may be better served by{" "}
             <Link
-              href="/solutions/global-organizations"
+              href="/global-organizations"
               className="text-primary hover:text-primary-dark"
             >
               Global Organizations
