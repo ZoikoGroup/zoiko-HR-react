@@ -1,0 +1,12 @@
+export { PartnersHeroSection } from "./PartnersHeroSection";
+export { RelationshipMeaningSection } from "./RelationshipMeaningSection";
+export { RelationshipTypesSection } from "./RelationshipTypesSection";
+export { FindAPartnerSection } from "./FindAPartnerSection";
+export { TechnologyPartnersSection } from "./TechnologyPartnersSection";
+export { ImplementationServicesSection } from "./ImplementationServicesSection";
+export { AdvisoryChannelStrategicSection } from "./AdvisoryChannelStrategicSection";
+export { PartnerStandardsSection } from "./PartnerStandardsSection";
+export { SecurityComplianceSection } from "./SecurityComplianceSection";
+export { BecomePartnerSection } from "./BecomePartnerSection";
+export { PartnerEvidenceSection } from "./PartnerEvidenceSection";
+export { PartnersFaqSection } from "./PartnersFaqSection";
