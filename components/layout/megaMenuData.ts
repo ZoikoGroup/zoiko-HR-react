@@ -220,21 +220,21 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         heading: "About",
         links: [
           { label: "About Zoiko HR", description: "Our mission, vision, and principles", href: "/about" },
-          { label: "Leadership", description: "Meet our approved leadership team", href: "/company/leadership" },
+          { label: "Leadership", description: "Meet our approved leadership team", href: "/leadership" },
           { label: "Zoiko Group", description: "Our place in the Zoiko Group", href: "/company/about-zoiko-group" },
         ],
       },
       {
         heading: "Work With Us",
         links: [
-          { label: "Partners", description: "Explore technology and channel partnerships", href: "/company/partners" },
+          { label: "Partners", description: "Explore technology and channel partnerships", href: "/partners" },
           { label: "Careers", description: "Explore open roles at Zoiko", href: "/company/careers" },
         ],
       },
       {
         heading: "News & Contact",
         links: [
-          { label: "Newsroom", description: "Read approved company announcements", href: "/company/newsroom" },
+          { label: "Newsroom", description: "Read approved company announcements", href: "/newsroom" },
           { label: "Press & Media", description: "Access media contacts and resources", href: "/company/press" },
           { label: "Contact Us", description: "Reach sales, support, or media", href: "/contact-us" },
           { label: "Locations", description: "View our approved office locations", href: "/company/locations" },
