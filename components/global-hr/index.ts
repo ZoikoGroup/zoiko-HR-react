@@ -18,3 +18,4 @@ export { PricingEvaluationSection } from "./PricingEvaluationSection";
 export { CustomerEvidenceSection } from "./CustomerEvidenceSection";
 export { GlobalHrFinalCtaSection } from "./GlobalHrFinalCtaSection";
 export { GlobalHrFaqSection } from "./GlobalHrFaqSection";
+export { GlobalPeopleOperationsHero } from "./GlobalPeopleOperationsHero";
