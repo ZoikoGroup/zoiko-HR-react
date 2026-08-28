@@ -1,0 +1,14 @@
+export { AdminGuideHeroSection } from "./AdminGuideHeroSection";
+export { ResponsibilitiesSection } from "./ResponsibilitiesSection";
+export { AdminTaskMapSection } from "./AdminTaskMapSection";
+export { OrganizationSetupSection } from "./OrganizationSetupSection";
+export { PeopleAccessSection } from "./PeopleAccessSection";
+export { PoliciesGovernanceSection } from "./PoliciesGovernanceSection";
+export { DataAdministrationSection } from "./DataAdministrationSection";
+export { IntegrationsSection } from "./IntegrationsSection";
+export { TrustHandoffsSection } from "./TrustHandoffsSection";
+export { AuditHealthSection } from "./AuditHealthSection";
+export { ChangeManagementSection } from "./ChangeManagementSection";
+export { TroubleshootingEscalationSection } from "./TroubleshootingEscalationSection";
+export { SupportAuthorityMapSection } from "./SupportAuthorityMapSection";
+export { AdminGuideFaqSection } from "./AdminGuideFaqSection";

@@ -202,7 +202,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         heading: "For Customers",
         links: [
           { label: "Help Center", description: "Find product support and troubleshooting", href: "/help-center" },
-          { label: "Documentation", description: "Access product and integration documentation", href: "/developer-documentation" },
+          { label: "Documentation", description: "Access product and integration documentation", href: "/documentation" },
           { label: "Product Updates", description: "Review release notes and changes", href: "/product-updates" },
           { label: "Service Status", description: "View service availability and notices", href: "/service-status" },
         ],
