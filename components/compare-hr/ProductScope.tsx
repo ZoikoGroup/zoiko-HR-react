@@ -75,7 +75,7 @@ export default function ProductScope() {
 }
 
 // Reusable Card Component
-function ScopeCard({ title, description }) {
+function ScopeCard({ title, description }: { title: string; description: string }) {
   return (
     <div className="w-full p-5 bg-sky-950 rounded-xl border border-white/10 border-t-2 flex flex-col justify-between items-start min-h-[9rem]">
       <div className="flex flex-col gap-1 w-full">

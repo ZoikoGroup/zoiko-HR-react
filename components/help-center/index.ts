@@ -1,0 +1,12 @@
+export { HelpCenterHeroSection } from "./HelpCenterHeroSection";
+export { HelpPathsSection } from "./HelpPathsSection";
+export { SupportCategoriesSection } from "./SupportCategoriesSection";
+export { RolePathwaysSection } from "./RolePathwaysSection";
+export { FeaturedHelpSection } from "./FeaturedHelpSection";
+export { ProductAreasSection } from "./ProductAreasSection";
+export { TroubleshootingSection } from "./TroubleshootingSection";
+export { AccountAccessSection } from "./AccountAccessSection";
+export { SpecialistHelpSection } from "./SpecialistHelpSection";
+export { ServiceStatusSection } from "./ServiceStatusSection";
+export { ContactSupportSection } from "./ContactSupportSection";
+export { HelpCenterFaqSection } from "./HelpCenterFaqSection";

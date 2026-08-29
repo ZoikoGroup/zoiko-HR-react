@@ -177,7 +177,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
           { label: "Resource Center", description: "Browse guides, research, and checklists", href: "/resource-center" },
           { label: "HR Guides", description: "Practical guidance for HR teams", href: "/hr-guides" },
           { label: "HR Glossary", description: "Clear definitions of HR terms", href: "/hr-glossary" },
-          { label: "FAQs", description: "Direct answers to common questions", href: "/faq" },
+          { label: "FAQs", description: "Direct answers to common questions", href: "/resources/faq" },
         ],
       },
       {
@@ -202,7 +202,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         heading: "For Customers",
         links: [
           { label: "Help Center", description: "Find product support and troubleshooting", href: "/help-center" },
-          { label: "Documentation", description: "Access product and integration documentation", href: "/developer-documentation" },
+          { label: "Documentation", description: "Access product and integration documentation", href: "/documentation" },
           { label: "Product Updates", description: "Review release notes and changes", href: "/product-updates" },
           { label: "Service Status", description: "View service availability and notices", href: "/service-status" },
         ],
@@ -220,21 +220,21 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         heading: "About",
         links: [
           { label: "About Zoiko HR", description: "Our mission, vision, and principles", href: "/about" },
-          { label: "Leadership", description: "Meet our approved leadership team", href: "/company/leadership" },
+          { label: "Leadership", description: "Meet our approved leadership team", href: "/leadership" },
           { label: "Zoiko Group", description: "Our place in the Zoiko Group", href: "/company/about-zoiko-group" },
         ],
       },
       {
         heading: "Work With Us",
         links: [
-          { label: "Partners", description: "Explore technology and channel partnerships", href: "/company/partners" },
+          { label: "Partners", description: "Explore technology and channel partnerships", href: "/partners" },
           { label: "Careers", description: "Explore open roles at Zoiko", href: "/company/careers" },
         ],
       },
       {
         heading: "News & Contact",
         links: [
-          { label: "Newsroom", description: "Read approved company announcements", href: "/company/newsroom" },
+          { label: "Newsroom", description: "Read approved company announcements", href: "/newsroom" },
           { label: "Press & Media", description: "Access media contacts and resources", href: "/company/press" },
           { label: "Contact Us", description: "Reach sales, support, or media", href: "/contact-us" },
           { label: "Locations", description: "View our approved office locations", href: "/company/locations" },
