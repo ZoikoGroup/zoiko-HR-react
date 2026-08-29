@@ -82,7 +82,7 @@ export default function MethodologySection() {
           <div className="relative h-44 bg-sky-950 rounded-2xl overflow-hidden outline outline-1 outline-offset-[-1px] outline-black/10">
             <img 
               className="w-full h-full object-cover object-center" 
-              src="https://placehold.co/371x222" 
+              src="/images/compare-hr/comparison work.png" 
               alt="Methodology visual" 
             />
           </div>

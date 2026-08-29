@@ -79,7 +79,7 @@ export default function CriterionTaxonomy() {
           <div className="flex-1 min-h-[300px] lg:min-h-full bg-sky-950 rounded-r-xl border-l-2 border-violet-400 overflow-hidden relative">
             <img 
               className="w-full h-full object-cover object-left absolute inset-0" 
-              src="https://placehold.co/734x477" 
+              src="/images/compare-hr/criterion.png" 
               alt="Criterion Taxonomy Visual" 
             />
           </div>

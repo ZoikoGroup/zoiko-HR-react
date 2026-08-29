@@ -73,8 +73,8 @@ export default function SourceMethodology() {
         <div className="w-full h-80 relative bg-red-200 rounded-2xl overflow-hidden">
           <img 
             className="w-full h-full object-cover object-center absolute inset-0" 
-            src="https://placehold.co/1024x683" 
-            alt="Methodology visualization" 
+            src="/images/compare-hr/source.png" 
+            alt="Source methodology visualization" 
           />
         </div>
 
