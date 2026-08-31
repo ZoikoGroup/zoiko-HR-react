@@ -60,7 +60,7 @@ export default function ProductScope() {
           <div className="relative w-full min-h-[18rem] md:min-h-full bg-sky-950 rounded-xl border border-white/10 border-t-2 overflow-hidden lg:col-span-2 lg:row-span-2">
             <img 
               className="w-full h-full object-cover object-top absolute inset-0" 
-              src="https://placehold.co/763x429" 
+              src="/images/compare-hr/product scope.png" 
               alt="Platform Preview" 
             />
           </div>

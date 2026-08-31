@@ -32,7 +32,7 @@ export default function CommercialCriteria() {
           <div className="relative w-full h-80 md:h-96 bg-sky-950 rounded-2xl outline outline-1 outline-offset-[-1px] outline-white/10 overflow-hidden mb-6">
             <img 
               className="w-full h-full object-cover object-center absolute inset-0" 
-              src="https://placehold.co/552x551" 
+              src="/images/compare-hr/commercial.png" 
               alt="Commercial Evaluation Team" 
             />
           </div>

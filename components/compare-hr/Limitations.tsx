@@ -57,7 +57,7 @@ export default function Limitations() {
           {/* Right Column: Image Container */}
           <div className="relative w-full h-[400px] lg:h-auto min-h-[300px] bg-slate-50 rounded-2xl outline outline-1 outline-offset-[-1px] outline-black/10 overflow-hidden">
             <img 
-              src="https://placehold.co/731x488" 
+              src="/images/compare-hr/limitations.png" 
               alt="Team discussing limitations" 
               className="w-full h-full object-cover object-center absolute inset-0" 
             />

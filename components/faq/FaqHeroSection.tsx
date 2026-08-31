@@ -1,117 +1,69 @@
-"use client";
+import Image from "next/image"
 
-import { useState } from "react";
-import { Container, Reveal, PlaceholderImage } from "@/components/ui";
-
-const TOPICS = [
-  "Product & Platform",
-  "Global & Multi-Entity",
-  "Integrations",
-  "Security & Privacy",
-  "Implementation",
-  "Pricing & Access",
-  "Roles",
-  "Support",
-];
-
-const SUPPORT_LINKS = [
-  { label: "Help Center", href: "/help-center" },
-  { label: "Documentation", href: "/resources/developer-documentation" },
-  { label: "Service Status", href: "/service-status" },
-  { label: "Contact Support", href: "/contact-us" },
-];
-
-export function FaqHeroSection() {
-  const [query, setQuery] = useState("");
+export const FaqHeroSection = () => {
+  const tags = ["Product & Platform", "Global & Multi-Entity", "Integrations", "Security & Privacy", "Implementation", "Pricing & Access", "Roles", "Support"]
 
   return (
-    <section className="relative overflow-hidden bg-ink pb-20 pt-20 text-white sm:pt-28">
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-full bg-[radial-gradient(60%_50%_at_20%_0%,rgba(49,94,251,0.35),transparent)]"
-      />
-
-      <Container>
-        <div className="grid items-center gap-12 lg:grid-cols-2">
-          <div>
-            <Reveal>
-              <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary/80">
-                Zoiko HR FAQ
-              </span>
-            </Reveal>
-
-            <Reveal delay={0.08}>
-              <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-                Get direct answers about Zoiko HR — and know where to
-                verify the details.
+    <section className="bg-gradient-to-br from-[#0c274b] to-[#0a1628] text-white py-16 md:py-24 overflow-hidden relative">
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="space-y-8 z-10 relative">
+            <div>
+              <h1 className="text-[11px] font-bold tracking-[0.15em] text-blue-400 uppercase mb-4">
+                ZOIKO HR FAQ
               </h1>
-            </Reveal>
-
-            <Reveal delay={0.16}>
-              <p className="mt-6 text-white/70">
-                Every answer is source-governed and reviewed. Where
-                availability varies by region, plan, or configuration,
-                that is stated explicitly.
+              <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.15]">
+                Get direct answers about Zoiko HR — and know where to verify the details.
+              </h2>
+              <p className="text-base text-slate-400 leading-relaxed max-w-xl">
+                Every answer is source-governed and reviewed. Where availability varies by region, plan, or configuration, that is stated explicitly.
               </p>
-            </Reveal>
-
-            <Reveal delay={0.22}>
-              <input
-                type="search"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search questions..."
-                className="mt-6 w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/40 outline-none transition-colors duration-150 focus:border-primary focus:ring-1 focus:ring-primary/40"
+            </div>
+            
+            <div className="relative max-w-xl">
+              <svg className="w-5 h-5 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input 
+                type="text" 
+                placeholder="Search questions..." 
+                className="w-full bg-transparent border border-white/10 rounded-xl outline-none text-white px-4 py-3 pl-12 focus:border-white/30 transition-colors shadow-sm"
               />
-            </Reveal>
-
-            <Reveal delay={0.28}>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {TOPICS.map((topic) => (
-                  <span
-                    key={topic}
-                    className="rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-medium text-white/70 transition-colors duration-200 hover:border-primary/40 hover:text-primary"
-                  >
-                    {topic}
-                  </span>
-                ))}
+            </div>
+            
+            <div className="flex flex-wrap gap-2 max-w-2xl">
+              {tags.map(tag => (
+                <button key={tag} className="px-4 py-1.5 bg-transparent border border-white/10 hover:bg-white/5 rounded-full text-[13px] font-medium text-slate-300 transition-colors">
+                  {tag}
+                </button>
+              ))}
+            </div>
+            
+            <div className="pt-8 border-t border-white/10 space-y-3">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[13px]">
+                <span className="text-slate-400">Already using Zoiko HR?</span>
+                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Help Center</a>
+                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Documentation</a>
+                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Service Status</a>
+                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Contact Support</a>
               </div>
-            </Reveal>
-
-            <Reveal delay={0.34}>
-              <div className="mt-6 flex flex-wrap items-center gap-x-2 gap-y-1 border-t border-white/10 pt-4 text-sm">
-                <span className="text-white/50">Already using Zoiko HR?</span>
-                {SUPPORT_LINKS.map((link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    className="font-semibold text-primary hover:text-white"
-                  >
-                    {link.label}
-                  </a>
-                ))}
-              </div>
-            </Reveal>
-
-            <Reveal delay={0.4}>
-              <p className="mt-3 text-xs text-white/40">
-                Current answers are source-governed, reviewed, scoped, and
-                qualified where availability varies.
+              <p className="text-[11px] text-slate-500">
+                Current answers are source-governed, reviewed, scoped, and qualified where availability varies.
               </p>
-            </Reveal>
+            </div>
           </div>
-
-          <Reveal delay={0.2} y={36}>
-            <PlaceholderImage
-              src="/images/faq/hero.png"
-              alt="Colleagues high-fiving in an office"
-              label="Direct, source-governed answers"
-              fit="contain"
-              className="w-full rounded-2xl"
+          
+          <div className="relative z-10 w-full aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-white/5 mx-auto lg:ml-auto max-w-xl">
+            <Image 
+              src="/images/faq/FAQCoverage.png" 
+              alt="Team high five" 
+              fill
+              className="object-cover"
+              priority
             />
-          </Reveal>
+          </div>
         </div>
-      </Container>
+      </div>
     </section>
-  );
+  )
 }

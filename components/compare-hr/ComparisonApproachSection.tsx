@@ -25,7 +25,7 @@ export default function ComparisonApproachSection() {
         <div className="w-full h-80 relative bg-slate-100 rounded-lg overflow-hidden">
           <img 
             className="w-full h-full object-cover object-center" 
-            src="https://placehold.co/1024x586" 
+            src="/images/compare-hr/software.png" 
             alt="Comparison Software Preview"
           />
         </div>

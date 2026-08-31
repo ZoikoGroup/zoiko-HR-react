@@ -1,15 +1,15 @@
-export { FaqHeroSection } from "./FaqHeroSection";
-export { FaqScopeSection } from "./FaqScopeSection";
-export { FindAnAnswerSection } from "./FindAnAnswerSection";
-export { BrowseByTopicSection } from "./BrowseByTopicSection";
-export { ProductFaqSection } from "./ProductFaqSection";
-export { GlobalFaqSection } from "./GlobalFaqSection";
-export { IntegrationsFaqSection } from "./IntegrationsFaqSection";
-export { SecurityFaqSection } from "./SecurityFaqSection";
-export { ImplementationFaqSection } from "./ImplementationFaqSection";
-export { PricingAccessFaqSection } from "./PricingAccessFaqSection";
-export { RolesFaqSection } from "./RolesFaqSection";
-export { HowAnswersKeptCurrentSection } from "./HowAnswersKeptCurrentSection";
-export { SupportRoutesSection } from "./SupportRoutesSection";
-export { HighIntentLibrarySection } from "./HighIntentLibrarySection";
-export { FaqFinalCtaSection } from "./FaqFinalCtaSection";
+export * from './FaqHeroSection'
+export * from './FaqCoverageSection'
+export * from './FindAnswerSection'
+export * from './BrowseByTopicSection'
+export * from './ProductPlatformSection'
+export * from './GlobalMultiEntitySection'
+export * from './IntegrationsSection'
+export * from './SecurityPrivacySection'
+export * from './ImplementationAdoptionSection'
+export * from './PricingSection'
+export * from './RoleQuestionsSection'
+export * from './FreshnessAndSourcingSection'
+export * from './GetDirectHelpSection'
+export * from './HighIntentFAQLibrarySection'
+export * from './EvaluationNextStepsSection'
