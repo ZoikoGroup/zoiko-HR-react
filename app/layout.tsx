@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Manrope, IBM_Plex_Sans } from "next/font/google";
 import { Navbar, Footer } from "@/components/layout";
+import { ChatWidget } from "@/components/chat-widget";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -42,6 +43,7 @@ export default function RootLayout({
         <Navbar />
         <main className="w-full min-w-0 flex-1">{children}</main>
         <Footer />
+        <ChatWidget />
       </body>
     </html>
   );

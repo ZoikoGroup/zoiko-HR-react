@@ -63,7 +63,7 @@ export const FindAnswerSection = () => {
         </div>
         
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[13px]">
-          <span className="text-slate-500">Can't find it? Browse</span>
+          <span className="text-slate-500">Can&apos;t find it? Browse</span>
           <a href="#" className="text-blue-600 hover:text-blue-800 font-medium">Documentation</a>
           <a href="#" className="text-blue-600 hover:text-blue-800 font-medium">Help Center</a>
           <a href="#" className="text-blue-600 hover:text-blue-800 font-medium">Contact Support</a>
