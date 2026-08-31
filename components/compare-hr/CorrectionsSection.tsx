@@ -47,7 +47,7 @@ export default function CorrectionsSection() {
               </label>
               <textarea 
                 id="explanation" 
-                rows="3" 
+                rows={3}
                 placeholder="Describe the inaccuracy…" 
                 className="w-full px-4 py-3 bg-white rounded-xl border border-black/10 focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-900 text-sm font-normal font-['Inter'] placeholder:text-slate-400 resize-none"
               />
