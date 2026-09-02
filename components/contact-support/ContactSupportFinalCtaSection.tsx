@@ -20,7 +20,7 @@ export function ContactSupportFinalCtaSection() {
 
             <div className="flex flex-none flex-wrap items-center gap-4">
               <Link
-                href="/book-a-demo"
+                href="#"
                 className="rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
               >
                 Book a Demo

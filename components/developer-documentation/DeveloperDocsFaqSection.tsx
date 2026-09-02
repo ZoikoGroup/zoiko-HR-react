@@ -58,26 +58,39 @@ export function DeveloperDocsFaqSection() {
           implementation details are never converted to confident guesses.
         </SectionHeading>
 
-        <div className="mt-9 grid items-start gap-2 lg:grid-cols-2 lg:gap-x-4">
-          {FAQS.map((faq, i) => (
-            <Reveal key={faq.question} delay={Math.min(i * 0.04, 0.3)}>
-              <details className="group overflow-hidden rounded-xl border border-black/10 bg-white">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4">
-                  <span className="text-sm font-semibold text-ink">
-                    {faq.question}
-                  </span>
-                  <span
-                    aria-hidden
-                    className="flex-none text-lg text-slate-400 transition-transform duration-200 group-open:rotate-45"
-                  >
-                    +
-                  </span>
-                </summary>
-                <p className="px-5 pb-4 text-sm leading-relaxed text-slate-600">
-                  {faq.answer}
-                </p>
-              </details>
-            </Reveal>
+        {/* Independent columns so opening one card cannot resize its neighbour;
+            `display:contents` below lg keeps the cards in 1..n order there. */}
+        <div className="mt-9 flex flex-col gap-2 lg:flex-row lg:items-start lg:gap-4">
+          {[0, 1].map((column) => (
+            <div
+              key={column}
+              className="contents lg:flex lg:min-w-0 lg:flex-1 lg:flex-col lg:gap-2"
+            >
+              {FAQS.map((faq, i) => ({ faq, i }))
+                .filter(({ i }) => i % 2 === column)
+                .map(({ faq, i }) => (
+                  <div key={faq.question} style={{ order: i }}>
+                    <Reveal delay={Math.min(i * 0.04, 0.3)}>
+                      <details className="group overflow-hidden rounded-xl border border-black/10 bg-white">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-4">
+                          <span className="text-sm font-semibold text-ink">
+                            {faq.question}
+                          </span>
+                          <span
+                            aria-hidden
+                            className="flex-none text-lg text-slate-400 transition-transform duration-200 group-open:rotate-45"
+                          >
+                            +
+                          </span>
+                        </summary>
+                        <p className="px-5 pb-4 text-sm leading-relaxed text-slate-600">
+                          {faq.answer}
+                        </p>
+                      </details>
+                    </Reveal>
+                  </div>
+                ))}
+            </div>
           ))}
         </div>
       </Container>
