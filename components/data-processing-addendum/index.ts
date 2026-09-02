@@ -1,0 +1,13 @@
+export { DpaHeroSection } from "./DpaHeroSection";
+export { AeoAnswerSection } from "./AeoAnswerSection";
+export { ScopeNavigatorSection } from "./ScopeNavigatorSection";
+export { PackageVersionSection } from "./PackageVersionSection";
+export { PartiesRolesSection } from "./PartiesRolesSection";
+export { AnnexOneSection } from "./AnnexOneSection";
+export { ProcessorObligationsSection } from "./ProcessorObligationsSection";
+export { SecurityMeasuresSection } from "./SecurityMeasuresSection";
+export { SubprocessorsSection } from "./SubprocessorsSection";
+export { TransfersSection } from "./TransfersSection";
+export { AuditEvidenceSection } from "./AuditEvidenceSection";
+export { ExecutionSection } from "./ExecutionSection";
+export { DpaFaqSection } from "./DpaFaqSection";

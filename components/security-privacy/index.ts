@@ -1,0 +1,11 @@
+export { SecurityPrivacyHeroSection } from "./SecurityPrivacyHeroSection";
+export { AccessGovernanceSection } from "./AccessGovernanceSection";
+export { DataLifecycleSection } from "./DataLifecycleSection";
+export { EncryptionSection } from "./EncryptionSection";
+export { VulnerabilityManagementSection } from "./VulnerabilityManagementSection";
+export { LoggingMonitoringSection } from "./LoggingMonitoringSection";
+export { IncidentManagementSection } from "./IncidentManagementSection";
+export { ResilienceSection } from "./ResilienceSection";
+export { PrivacyEngineeringSection } from "./PrivacyEngineeringSection";
+export { AssuranceEvidenceSection } from "./AssuranceEvidenceSection";
+export { SecurityPrivacyFaqSection } from "./SecurityPrivacyFaqSection";
