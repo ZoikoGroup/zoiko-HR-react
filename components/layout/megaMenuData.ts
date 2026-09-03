@@ -236,7 +236,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         links: [
           { label: "Newsroom", description: "Read approved company announcements", href: "/newsroom" },
           { label: "Press & Media", description: "Access media contacts and resources", href: "/company/press" },
-          { label: "Contact Us", description: "Reach sales, support, or media", href: "/contact-us" },
+          { label: "Contact Us", description: "Reach sales, support, or media", href: "/contact-zoiko-hr" },
           { label: "Locations", description: "View our approved office locations", href: "/company/locations" },
         ],
       },
