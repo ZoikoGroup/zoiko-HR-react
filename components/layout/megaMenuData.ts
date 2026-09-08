@@ -145,11 +145,11 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
       {
         heading: "Connect & Control",
         links: [
-          { label: "Integrations Overview", description: "Understand connection models and controls", href: "/integrations" },
-          { label: "Identity & Single Sign-On", description: "Connect approved identity providers securely", href: "/integrations/identity-sso" },
-          { label: "Data Import & Export", description: "Prepare, validate, and export data", href: "/integrations/data-import-export" },
+          { label: "Integrations Overview", description: "Understand connection models and controls", href: "/integration-overview" },
+          { label: "Identity & Single Sign-On", description: "Connect approved identity providers securely", href: "/identity-and-single-sign-on" },
+          { label: "Data Import & Export", description: "Prepare, validate, and export data", href: "/data-import-and-export" },
           { label: "API & Developer Documentation", description: "Access API and integration guidance", href: "/developers" },
-          { label: "Integration Security", description: "Review authentication and access controls", href: "/integrations/security" },
+          { label: "Integration Security", description: "Review authentication and access controls", href: "/integration-security" },
         ],
       },
     ],
