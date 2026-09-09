@@ -133,10 +133,10 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
       {
         heading: "Zoiko Ecosystem",
         links: [
-          { label: "ZoikoTime", description: "Connect schedule and attendance data", href: "/hr-people-teams" },
-          { label: "Zoiko Payroll", description: "Feed employee payroll preparation data", href: "/integrations/zoiko-payroll" },
-          { label: "Zoiko Docs Pro", description: "Connect documentation and distribution workflows", href: "/integrations/zoiko-docs-pro" },
-          { label: "Zoiko Comply", description: "Connect policies and compliance evidence", href: "/integrations/zoiko-comply" },
+          { label: "ZoikoTime", description: "Connect schedule and attendance data", href: "/zoikotime" },
+          { label: "Zoiko Payroll", description: "Feed employee payroll preparation data", href: "/zoiko-payroll" },
+          { label: "Zoiko Docs Pro", description: "Connect documentation and distribution workflows", href: "/zoiko-docs-pro" },
+          { label: "Zoiko Comply", description: "Connect policies and compliance evidence", href: "/zoiko-comply" },
           { label: "Zoiko Insights", description: "Extend cross-product workforce intelligence", href: "/integrations/zoiko-insights" },
           { label: "ZoikoID", description: "Support identity and access control", href: "/integrations/zoikoid" },
           { label: "Zoiko One", description: "Use the integrated business suite", href: "/integrations/zoiko-one" },
