@@ -1,0 +1,11 @@
+export { ComplyHeroSection } from "./ComplyHeroSection";
+export { DirectAnswerSection } from "./DirectAnswerSection";
+export { EvidenceRequirementsSection } from "./EvidenceRequirementsSection";
+export { EvidenceBoundarySection } from "./EvidenceBoundarySection";
+export { ClaimBoundarySection } from "./ClaimBoundarySection";
+export { ExceptionsSection } from "./ExceptionsSection";
+export { WorkflowHandoffSection } from "./WorkflowHandoffSection";
+export { EvidenceMinimizationSection } from "./EvidenceMinimizationSection";
+export { AdjacentAuthoritiesSection } from "./AdjacentAuthoritiesSection";
+export { ComplyFaqSection } from "./ComplyFaqSection";
+export { ComplyCtaSection } from "./ComplyCtaSection";
