@@ -138,8 +138,8 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
           { label: "Zoiko Docs Pro", description: "Connect documentation and distribution workflows", href: "/zoiko-docs-pro" },
           { label: "Zoiko Comply", description: "Connect policies and compliance evidence", href: "/zoiko-comply" },
           { label: "Zoiko Insights", description: "Extend cross-product workforce intelligence", href: "/integrations/zoiko-insights" },
-          { label: "ZoikoID", description: "Support identity and access control", href: "/integrations/zoikoid" },
-          { label: "Zoiko One", description: "Use the integrated business suite", href: "/integrations/zoiko-one" },
+          { label: "ZoikoID", description: "Support identity and access control", href: "/zoiko-id" },
+          { label: "Zoiko One", description: "Use the integrated business suite", href: "/zoiko-one" },
         ],
       },
       {
