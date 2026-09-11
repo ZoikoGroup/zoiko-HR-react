@@ -211,7 +211,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
   },
   {
     label: "Company",
-    href: "/about",
+    href: "/company",
     heading: "About Zoiko HR",
     intro:
       "Learn why Zoiko HR exists, how the company operates, who is behind the platform, and how to work with or contact the organization.",
