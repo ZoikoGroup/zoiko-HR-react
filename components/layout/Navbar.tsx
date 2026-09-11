@@ -124,7 +124,7 @@ export function Navbar() {
         {/* Actions */}
         <div className="hidden items-center gap-2 justify-self-end lg:flex">
           <Link
-            href="/sign-in"
+            href="https://app.zoikohr.com/login"
             className="rounded-full px-4 py-2.5 text-sm font-semibold text-ink/80 transition-colors duration-150 hover:text-primary"
           >
             Sign In
@@ -273,7 +273,7 @@ export function Navbar() {
 
               <div className="mt-4 flex flex-col gap-3">
                 <Link
-                  href="/sign-in"
+                  href="https://app.zoikohr.com/login"
                   onClick={() => setMobileOpen(false)}
                   className="text-center text-sm font-semibold text-ink/80"
                 >
