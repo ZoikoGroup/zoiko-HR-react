@@ -19,6 +19,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://zoikohr.com"),
   title: "Zoiko HR | Global HR Management Platform",
   description:
     "Zoiko HR centralizes workforce information, structures HR processes, and connects your people operations for growing, mid-market, and global organizations.",
