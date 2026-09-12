@@ -98,7 +98,7 @@ export function FindAnAnswerSection() {
         <Reveal delay={0.3}>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-4 text-sm text-ink/60">
             Can&apos;t find it? Browse
-            <Link href="/resources/developer-documentation" className="font-semibold text-primary hover:text-primary-dark">
+            <Link href="/developer-documentation" className="font-semibold text-primary hover:text-primary-dark">
               Documentation
             </Link>
             <span aria-hidden>·</span>

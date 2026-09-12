@@ -1,9 +1,11 @@
 "use client"
 import { useState } from "react"
+import { FAQ_TOPICS } from "./faqData"
 
-const FAQItem = ({ question, hasAnswer = false }: { question: string, hasAnswer?: boolean }) => {
-  const [isOpen, setIsOpen] = useState(hasAnswer)
-  
+const FAQItem = ({ question, answer, authorityLabel, authorityHref, reviewed, isOpenInitial = false }: { question: string, answer: string, authorityLabel: string, authorityHref: string, reviewed: string, isOpenInitial?: boolean }) => {
+  const [isOpen, setIsOpen] = useState(isOpenInitial)
+  const hasAnswer = true
+
   return (
     <div className="border-b border-slate-200 last:border-b-0 bg-white">
       <button 
@@ -35,13 +37,13 @@ const FAQItem = ({ question, hasAnswer = false }: { question: string, hasAnswer?
       {isOpen && hasAnswer && (
         <div className="px-8 pb-6">
           <p className="text-[14px] text-slate-600 mb-6 leading-relaxed">
-            Zoiko HR is a workforce-administration platform for managing employee records, org structure, time, absence, and connected operations at scale.
+            {answer}
           </p>
           <div className="bg-[#fafafa] rounded-md px-4 py-3 flex items-center justify-between border border-slate-100">
-            <a href="#" className="text-[12px] text-blue-500 hover:text-blue-700 font-medium flex items-center group">
-              Authority: Platform <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
+            <a href={authorityHref} className="text-[12px] text-blue-500 hover:text-blue-700 font-medium flex items-center group">
+              Authority: {authorityLabel} <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
             </a>
-            <span className="text-[12px] text-slate-400">Reviewed Aug 2024</span>
+            <span className="text-[12px] text-slate-400">Reviewed {reviewed}</span>
           </div>
         </div>
       )}
@@ -59,12 +61,17 @@ export const ProductPlatformSection = () => {
         </div>
         
         <div className="bg-white rounded-xl shadow-[0_2px_10px_rgba(0,0,0,0.04)] border border-slate-200 overflow-hidden mx-auto">
-          <FAQItem question="What is Zoiko HR?" hasAnswer={true} />
-          <FAQItem question="Is Zoiko HR a cloud platform?" />
-          <FAQItem question="What modules does Zoiko HR include?" />
-          <FAQItem question="Can Zoiko HR support large workforces?" />
-          <FAQItem question="How is Zoiko HR updated?" />
-          <FAQItem question="Can administrators configure the platform?" />
+          {FAQ_TOPICS.find((t) => t.key === "product")!.entries.map((entry, i) => (
+            <FAQItem
+              key={entry.question}
+              question={entry.question}
+              answer={entry.answer}
+              authorityLabel={entry.authorityLabel}
+              authorityHref={entry.authorityHref}
+              reviewed={entry.reviewed}
+              isOpenInitial={i === 0}
+            />
+          ))}
         </div>
       </div>
     </section>

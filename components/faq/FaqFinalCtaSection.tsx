@@ -1,10 +1,10 @@
 import { Container, Reveal, Button } from "@/components/ui";
 
 const ROWS = [
-  { label: "See the product", tag: "no signup", linkLabel: "Product Tour →", href: "/resources/product-tour", primary: false },
-  { label: "Plan implementation", tag: null, linkLabel: "Implementation Guide →", href: "/resources/implementation-guide", primary: false },
-  { label: "Compare options", tag: null, linkLabel: "Compare Zoiko HR →", href: "/resources/compare", primary: false },
-  { label: "Review proof", tag: null, linkLabel: "Customer Stories →", href: "/resources/customer-stories", primary: false },
+  { label: "See the product", tag: "no signup", linkLabel: "Product Tour →", href: "/product-tour", primary: false },
+  { label: "Plan implementation", tag: null, linkLabel: "Implementation Guide →", href: "/implementation-guide", primary: false },
+  { label: "Compare options", tag: null, linkLabel: "Compare Zoiko HR →", href: "/compare-hr", primary: false },
+  { label: "Review proof", tag: null, linkLabel: "Customer Stories →", href: "/customer-stories", primary: false },
   { label: "Get current pricing", tag: null, linkLabel: "Request Pricing →", href: "/pricing", primary: false },
   { label: "Get tailored evaluation", tag: "primary", linkLabel: "Book a Demo →", href: "/book-a-demo", primary: true },
   { label: "Need customer help", tag: null, linkLabel: "Help / Docs / Support →", href: "/help-center", primary: false },
@@ -66,7 +66,7 @@ export function FaqFinalCtaSection() {
               Request Pricing
             </Button>
             <a
-              href="/resources/product-tour"
+              href="/product-tour"
               className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
             >
               Take the Product Tour

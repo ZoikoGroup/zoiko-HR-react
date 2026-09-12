@@ -1,14 +1,15 @@
 "use client"
 import Image from "next/image"
 import { useState } from "react"
+import { FAQ_TOPICS } from "./faqData"
 
-const FAQItem = ({ question, answer, isOpenInitial = false }: { question: string, answer?: string, isOpenInitial?: boolean }) => {
+const FAQItem = ({ question, answer, authorityLabel, authorityHref, isOpenInitial = false }: { question: string, answer?: string, authorityLabel?: string, authorityHref?: string, isOpenInitial?: boolean }) => {
   const [isOpen, setIsOpen] = useState(isOpenInitial)
   const hasAnswer = !!answer
-  
+
   return (
     <div className="border-b border-slate-200 last:border-b-0 bg-white">
-      <button 
+      <button
         onClick={() => hasAnswer && setIsOpen(!isOpen)}
         className={`w-full flex justify-between items-center text-left px-8 py-6 focus:outline-none ${hasAnswer ? 'cursor-pointer hover:bg-slate-50 transition-colors' : 'cursor-default'}`}
       >
@@ -31,6 +32,11 @@ const FAQItem = ({ question, answer, isOpenInitial = false }: { question: string
           <p className="text-[13px] text-slate-600 leading-relaxed">
             {answer}
           </p>
+          {authorityHref && (
+            <a href={authorityHref} className="mt-3 inline-flex items-center gap-1 text-[12px] font-medium text-blue-500 hover:text-blue-700">
+              Authority: {authorityLabel} <span aria-hidden>→</span>
+            </a>
+          )}
         </div>
       )}
     </div>
@@ -38,13 +44,9 @@ const FAQItem = ({ question, answer, isOpenInitial = false }: { question: string
 }
 
 export const SecurityPrivacySection = () => {
-  const faqs = [
-    { q: "Is Zoiko HR GDPR compliant?" },
-    { q: "Where is Zoiko HR data hosted?" },
-    { q: "Who can access employee records?" },
-    { q: "Does Zoiko HR use AI on employee data?" },
-    { q: "How are security incidents handled?" }
-  ]
+  // Answers, authority links and review dates come from the shared FAQ data so
+  // every question here opens instead of being a dead row.
+  const faqs = FAQ_TOPICS.find((t) => t.key === "security")!.entries
 
   return (
     <section className="py-16 md:py-24 bg-[#f8fafe] border-b border-slate-200">
@@ -56,13 +58,15 @@ export const SecurityPrivacySection = () => {
         
         <div className="grid lg:grid-cols-[1.4fr_1fr] gap-8 lg:gap-12 items-stretch">
           <div className="bg-white rounded-[20px] shadow-[0_2px_10px_rgba(0,0,0,0.03)] border border-slate-200 overflow-hidden flex flex-col justify-center">
-            <FAQItem 
-              question="How does Zoiko HR protect employee data?" 
-              answer="Zoiko HR applies encryption in transit and at rest, access controls, and audit logging. Full detail is in the Trust Center." 
-              isOpenInitial={true} 
-            />
             {faqs.map((faq, i) => (
-              <FAQItem key={i} question={faq.q} />
+              <FAQItem
+                key={faq.question}
+                question={faq.question}
+                answer={faq.answer}
+                authorityLabel={faq.authorityLabel}
+                authorityHref={faq.authorityHref}
+                isOpenInitial={i === 0}
+              />
             ))}
           </div>
           
