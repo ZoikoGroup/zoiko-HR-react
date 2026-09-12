@@ -176,6 +176,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         links: [
           { label: "Resource Center", description: "Browse guides, research, and checklists", href: "/resource-center" },
           { label: "HR Guides", description: "Practical guidance for HR teams", href: "/hr-guides" },
+          { label: "Blog", description: "Read HR insights and platform perspectives", href: "/blog" },
           { label: "HR Glossary", description: "Clear definitions of HR terms", href: "/hr-glossary" },
           { label: "FAQs", description: "Direct answers to common questions", href: "/resources/faq" },
         ],

@@ -34,6 +34,7 @@ const FOOTER_COLUMNS: { title: string; links: string[] }[] = [
       "Resource Center",
       "Product Tour",
       "HR Guides",
+      "Blog",
       "Customer Stories",
       "Implementation Guide",
       "Compare Zoiko HR",
