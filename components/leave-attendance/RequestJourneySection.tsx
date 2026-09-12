@@ -16,7 +16,7 @@ export function RequestJourneySection() {
   const [active, setActive] = useState("Draft");
 
   return (
-    <section className="py-24">
+    <section id="request-journey" className="py-24">
       <Container>
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.3fr_1fr] lg:items-stretch">
           <div className="flex flex-col justify-center">

@@ -185,7 +185,7 @@ const FAQS: { question: string; answer: string; bold?: string }[] = [
 /** Section heading with the brand accent bar used across the marketing pages. */
 function H2({ children }: { children: ReactNode }) {
   return (
-    <h2 className="mt-14 mb-5 border-l-4 border-primary pl-4 font-heading text-2xl font-extrabold leading-tight tracking-tight text-ink sm:text-3xl">
+    <h2 className="mt-10 mb-4 border-l-4 border-primary pl-3 font-heading text-xl font-extrabold leading-snug tracking-tight text-ink sm:mt-14 sm:mb-5 sm:pl-4 sm:text-2xl lg:text-3xl">
       {children}
     </h2>
   );
@@ -193,7 +193,7 @@ function H2({ children }: { children: ReactNode }) {
 
 function H3({ children }: { children: ReactNode }) {
   return (
-    <h3 className="mt-10 mb-4 font-heading text-xl font-bold leading-snug text-ink sm:text-2xl">
+    <h3 className="mt-8 mb-3 font-heading text-lg font-bold leading-snug text-ink sm:mt-10 sm:mb-4 sm:text-xl lg:text-2xl">
       {children}
     </h3>
   );
@@ -208,11 +208,11 @@ function BulletList({
   variant?: "dot" | "check";
 }) {
   return (
-    <ul className="mb-8 grid gap-2.5 sm:grid-cols-2">
+    <ul className="mb-6 grid gap-2.5 sm:mb-8 sm:grid-cols-2">
       {items.map((item) => (
         <li
           key={item}
-          className="flex items-start gap-3 rounded-lg border border-slate-200 bg-white px-4 py-3 text-base transition-colors duration-200 hover:border-primary/40"
+          className="flex items-start gap-3 rounded-lg border border-slate-200 bg-white px-3.5 py-3 text-[15px] transition-colors duration-200 hover:border-primary/40 sm:px-4 sm:text-base"
         >
           <span
             aria-hidden
@@ -234,7 +234,7 @@ function BulletList({
 /** Tinted callout used for the Quick Summary block. */
 function Callout({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <div className="my-8 rounded-2xl border border-primary/15 bg-primary-light/60 p-6 sm:p-7 [&_p]:mb-4 [&_p]:text-justify [&_p]:hyphens-auto [&_p:last-child]:mb-0">
+    <div className="my-6 rounded-xl border border-primary/15 bg-primary-light/60 p-5 sm:my-8 sm:rounded-2xl sm:p-7 [&_p]:mb-4 sm:[&_p]:text-justify sm:[&_p]:hyphens-auto [&_p:last-child]:mb-0">
       <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-primary">
         {title}
       </p>
@@ -256,15 +256,17 @@ function InlineLink({ href, children }: { href: string; children: ReactNode }) {
 
 function DataTable({ head, rows }: { head: string[]; rows: string[][] }) {
   return (
-    <div className="my-8 overflow-x-auto rounded-2xl border border-slate-200 shadow-sm shadow-slate-900/[0.03]">
-      <table className="w-full min-w-[520px] border-collapse text-left text-base leading-relaxed">
+    // -mx gutter bleed: the table keeps a scrollable full-bleed width on phones
+    // instead of being squeezed inside the article column.
+    <div className="-mx-6 my-6 overflow-x-auto border-y border-slate-200 sm:mx-0 sm:my-8 sm:rounded-2xl sm:border sm:shadow-sm sm:shadow-slate-900/[0.03]">
+      <table className="w-full min-w-[460px] border-collapse text-left text-[15px] leading-relaxed sm:min-w-[520px] sm:text-base">
         <thead className="bg-primary-light">
           <tr>
             {head.map((cell) => (
               <th
                 key={cell}
                 scope="col"
-                className="border-b border-primary/15 px-4 py-3.5 font-semibold text-ink"
+                className="border-b border-primary/15 px-3.5 py-3 font-semibold text-ink sm:px-4 sm:py-3.5"
               >
                 {cell}
               </th>
@@ -277,10 +279,12 @@ function DataTable({ head, rows }: { head: string[]; rows: string[][] }) {
               key={first}
               className="border-b border-slate-200 transition-colors duration-200 last:border-b-0 hover:bg-primary-light/40"
             >
-              <td className="px-4 py-3.5 align-top font-semibold text-ink">
+              <td className="px-3.5 py-3 align-top font-semibold text-ink sm:px-4 sm:py-3.5">
                 {first}
               </td>
-              <td className="px-4 py-3.5 align-top text-ink/75">{second}</td>
+              <td className="px-3.5 py-3 align-top text-ink/75 sm:px-4 sm:py-3.5">
+                {second}
+              </td>
             </tr>
           ))}
         </tbody>
@@ -292,7 +296,7 @@ function DataTable({ head, rows }: { head: string[]; rows: string[][] }) {
 /** The article images carry a pull-quote from the adjacent paragraph, so the alt repeats it. */
 function Figure({ src, alt }: { src: string; alt: string }) {
   return (
-    <figure className="my-10 overflow-hidden rounded-xl border border-slate-200">
+    <figure className="my-7 overflow-hidden rounded-lg border border-slate-200 sm:my-10 sm:rounded-xl">
       <Image
         src={src}
         alt={alt}
@@ -308,20 +312,20 @@ function Figure({ src, alt }: { src: string; alt: string }) {
 export function GlobalHrManagementBlog() {
   return (
     <article className="bg-white text-slate-700">
-      <header className="border-b border-slate-200 bg-slate-50 py-14 sm:py-20">
+      <header className="border-b border-slate-200 bg-slate-50 py-10 sm:py-14 lg:py-20">
         <Container>
           <div className="mx-auto max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.1em] text-primary">
               Global HR Management
             </p>
-            <h1 className="mt-4 font-heading text-4xl font-extrabold leading-[1.12] tracking-tight text-slate-950 sm:text-5xl">
+            <h1 className="mt-3 font-heading text-[28px] font-extrabold leading-[1.15] tracking-tight text-ink sm:mt-4 sm:text-4xl sm:leading-[1.12] lg:text-5xl">
               {BLOG_TITLE}
             </h1>
-            <p className="mt-5 text-sm text-slate-500">
+            <p className="mt-4 text-sm text-slate-500 sm:mt-5">
               Published: <time dateTime={PUBLISHED_ISO}>{PUBLISHED_LABEL}</time>
             </p>
           </div>
-          <div className="mx-auto mt-10 max-w-5xl overflow-hidden rounded-xl">
+          <div className="mx-auto mt-7 max-w-5xl overflow-hidden rounded-lg sm:mt-10 sm:rounded-xl">
             <Image
               src="/images/blog/global-hr-management-platform-header.jpg"
               alt={BLOG_TITLE}
@@ -336,7 +340,11 @@ export function GlobalHrManagementBlog() {
       </header>
 
       <Container>
-        <div className="mx-auto max-w-3xl break-words py-12 text-[17px] leading-8 sm:py-16 sm:text-lg [&>p]:mb-5 [&>p]:text-justify [&>p]:hyphens-auto">
+        {/*
+          Justification is held back until sm: on a phone-width column it opens
+          rivers of white space between words, so narrow screens stay ragged-right.
+        */}
+        <div className="mx-auto max-w-3xl break-words py-10 text-base leading-7 sm:py-14 sm:text-[17px] sm:leading-8 lg:py-16 lg:text-lg [&>p]:mb-4 sm:[&>p]:mb-5 sm:[&>p]:text-justify sm:[&>p]:hyphens-auto">
           <p>Managing employees across different countries, departments, locations, and business entities has become increasingly complex. As companies expand internationally, HR teams are responsible for much more than maintaining employee records. They need to coordinate recruitment, onboarding, employee changes, documentation, policies, approvals, workforce information, employee requests, and offboarding while maintaining consistency across the organization.</p>
           <p>This growing complexity has made <strong>global HR management</strong> an important part of modern business operations. Organizations need systems that can help HR teams manage workforce information efficiently while providing employees and managers with clear and consistent experience.</p>
           <p>A modern <InlineLink href="/"><strong>HR management platform</strong></InlineLink> can provide a centralized environment for managing employee information, HR processes, workflows, approvals, reporting, and employee lifecycle activities. Instead of depending entirely on spreadsheets, emails, disconnected applications, and manual follow-ups, businesses can use <strong>HR management software</strong> to organize important HR operations in one structured environment.</p>
@@ -433,11 +441,11 @@ export function GlobalHrManagementBlog() {
           <H2>What Are the Benefits of HR Management Software?</H2>
           <p>The benefits of <strong>HR management software</strong> extend beyond automation.</p>
           <p>A well-implemented platform can help improve the overall structure of HR operations.</p>
-          <div className="my-8 grid gap-4 sm:grid-cols-2">
+          <div className="my-6 grid gap-3.5 sm:my-8 sm:grid-cols-2 sm:gap-4">
             {BENEFITS.map(([title, body], i) => (
               <div
                 key={title}
-                className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-900/[0.03] transition-colors duration-200 hover:border-primary/40"
+                className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-900/[0.03] transition-colors duration-200 hover:border-primary/40 sm:rounded-2xl sm:p-5"
               >
                 <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary-light text-sm font-bold text-primary">
                   {String(i + 1).padStart(2, "0")}
@@ -445,7 +453,9 @@ export function GlobalHrManagementBlog() {
                 <h3 className="mt-4 font-heading text-lg font-bold leading-snug text-ink">
                   {title}
                 </h3>
-                <p className="mt-2 mb-0 text-base leading-7 text-ink/75">{body}</p>
+                <p className="mt-2 mb-0 text-[15px] leading-7 text-ink/75 sm:text-base">
+                  {body}
+                </p>
               </div>
             ))}
           </div>
@@ -509,12 +519,12 @@ export function GlobalHrManagementBlog() {
           <p>The broader goal of modern HR technology is to create a more organized operating environment where HR teams can manage workforce information and processes effectively.</p>
 
           <H2>Frequently Asked Questions About Global HR Management</H2>
-          <div className="my-8 divide-y divide-slate-200 rounded-2xl border border-slate-200 shadow-sm shadow-slate-900/[0.03]">
+          <div className="my-6 divide-y divide-slate-200 rounded-xl border border-slate-200 shadow-sm shadow-slate-900/[0.03] sm:my-8 sm:rounded-2xl">
             {FAQS.map(({ question, answer, bold }, i) => {
               const [before, after] = bold ? answer.split(bold) : [answer];
               return (
-                <details key={question} className="group px-5 py-4 sm:px-6 sm:py-5" open={i === 0}>
-                  <summary className="flex cursor-pointer list-none items-center justify-between gap-6 text-left">
+                <details key={question} className="group px-4 py-3.5 sm:px-6 sm:py-5" open={i === 0}>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-4 text-left sm:items-center sm:gap-6">
                     <span className="font-heading font-semibold text-ink">
                       {question}
                     </span>
@@ -525,7 +535,7 @@ export function GlobalHrManagementBlog() {
                       +
                     </span>
                   </summary>
-                  <p className="mt-3 mb-0 text-base leading-7 text-ink/75">
+                  <p className="mt-3 mb-0 text-[15px] leading-7 text-ink/75 sm:text-base">
                     {before}
                     {bold && <strong>{bold}</strong>}
                     {after}
