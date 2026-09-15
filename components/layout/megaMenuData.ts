@@ -133,23 +133,23 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
       {
         heading: "Zoiko Ecosystem",
         links: [
-          { label: "ZoikoTime", description: "Connect schedule and attendance data", href: "/hr-people-teams" },
-          { label: "Zoiko Payroll", description: "Feed employee payroll preparation data", href: "/integrations/zoiko-payroll" },
-          { label: "Zoiko Docs Pro", description: "Connect documentation and distribution workflows", href: "/integrations/zoiko-docs-pro" },
-          { label: "Zoiko Comply", description: "Connect policies and compliance evidence", href: "/integrations/zoiko-comply" },
+          { label: "ZoikoTime", description: "Connect schedule and attendance data", href: "/zoikotime" },
+          { label: "Zoiko Payroll", description: "Feed employee payroll preparation data", href: "/zoiko-payroll" },
+          { label: "Zoiko Docs Pro", description: "Connect documentation and distribution workflows", href: "/zoiko-docs-pro" },
+          { label: "Zoiko Comply", description: "Connect policies and compliance evidence", href: "/zoiko-comply" },
           { label: "Zoiko Insights", description: "Extend cross-product workforce intelligence", href: "/integrations/zoiko-insights" },
-          { label: "ZoikoID", description: "Support identity and access control", href: "/integrations/zoikoid" },
-          { label: "Zoiko One", description: "Use the integrated business suite", href: "/integrations/zoiko-one" },
+          { label: "ZoikoID", description: "Support identity and access control", href: "/zoiko-id" },
+          { label: "Zoiko One", description: "Use the integrated business suite", href: "/zoiko-one" },
         ],
       },
       {
         heading: "Connect & Control",
         links: [
-          { label: "Integrations Overview", description: "Understand connection models and controls", href: "/integrations" },
-          { label: "Identity & Single Sign-On", description: "Connect approved identity providers securely", href: "/integrations/identity-sso" },
-          { label: "Data Import & Export", description: "Prepare, validate, and export data", href: "/integrations/data-import-export" },
+          { label: "Integrations Overview", description: "Understand connection models and controls", href: "/integration-overview" },
+          { label: "Identity & Single Sign-On", description: "Connect approved identity providers securely", href: "/identity-and-single-sign-on" },
+          { label: "Data Import & Export", description: "Prepare, validate, and export data", href: "/data-import-and-export" },
           { label: "API & Developer Documentation", description: "Access API and integration guidance", href: "/developers" },
-          { label: "Integration Security", description: "Review authentication and access controls", href: "/integrations/security" },
+          { label: "Integration Security", description: "Review authentication and access controls", href: "/integration-security" },
         ],
       },
     ],
@@ -176,6 +176,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         links: [
           { label: "Resource Center", description: "Browse guides, research, and checklists", href: "/resource-center" },
           { label: "HR Guides", description: "Practical guidance for HR teams", href: "/hr-guides" },
+          { label: "Blog", description: "Read HR insights and platform perspectives", href: "/blog/why-global-businesses-need-hr-management-platform" },
           { label: "HR Glossary", description: "Clear definitions of HR terms", href: "/hr-glossary" },
           { label: "FAQs", description: "Direct answers to common questions", href: "/resources/faq" },
         ],
@@ -211,7 +212,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
   },
   {
     label: "Company",
-    href: "/about",
+    href: "/company",
     heading: "About Zoiko HR",
     intro:
       "Learn why Zoiko HR exists, how the company operates, who is behind the platform, and how to work with or contact the organization.",
@@ -236,7 +237,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
         links: [
           { label: "Newsroom", description: "Read approved company announcements", href: "/newsroom" },
           { label: "Press & Media", description: "Access media contacts and resources", href: "/company/press" },
-          { label: "Contact Us", description: "Reach sales, support, or media", href: "/contact-us" },
+          { label: "Contact Us", description: "Reach sales, support, or media", href: "/contact-zoiko-hr" },
           { label: "Locations", description: "View our approved office locations", href: "/company/locations" },
         ],
       },

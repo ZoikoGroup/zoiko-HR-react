@@ -102,15 +102,15 @@ export function DataQualitySection() {
                         {issue.status}
                       </td>
                       <td className="px-6 py-3.5">
-                        <button
-                          type="button"
-                          className="group inline-flex items-center gap-1 text-xs font-semibold text-primary hover:text-white"
-                        >
+                        {/*
+                          Static label, not a control: this table is an
+                          illustration of the in-product issue queue, so the
+                          row action has nothing to act on outside the app.
+                        */}
+                        <span className="inline-flex items-center gap-1 text-xs font-semibold text-primary">
                           Resolve
-                          <span className="transition-transform duration-200 group-hover:translate-x-1">
-                            →
-                          </span>
-                        </button>
+                          <span aria-hidden>→</span>
+                        </span>
                       </td>
                     </tr>
                   ))}

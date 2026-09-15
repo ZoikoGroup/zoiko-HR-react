@@ -1,7 +1,15 @@
 import Image from "next/image"
 
 export const FaqHeroSection = () => {
+  /** Static topic labels — they describe the FAQ coverage and are not interactive. */
   const tags = ["Product & Platform", "Global & Multi-Entity", "Integrations", "Security & Privacy", "Implementation", "Pricing & Access", "Roles", "Support"]
+
+  const customerLinks = [
+    { label: "Help Center", href: "/help-center" },
+    { label: "Documentation", href: "/documentation" },
+    { label: "Service Status", href: "/service-status" },
+    { label: "Contact Support", href: "/contact-support" },
+  ]
 
   return (
     <section className="bg-gradient-to-br from-[#0c274b] to-[#0a1628] text-white py-16 md:py-24 overflow-hidden relative">
@@ -33,19 +41,20 @@ export const FaqHeroSection = () => {
             
             <div className="flex flex-wrap gap-2 max-w-2xl">
               {tags.map(tag => (
-                <button key={tag} className="px-4 py-1.5 bg-transparent border border-white/10 hover:bg-white/5 rounded-full text-[13px] font-medium text-slate-300 transition-colors">
+                <span key={tag} className="px-4 py-1.5 bg-transparent border border-white/10 rounded-full text-[13px] font-medium text-slate-300">
                   {tag}
-                </button>
+                </span>
               ))}
             </div>
             
             <div className="pt-8 border-t border-white/10 space-y-3">
               <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[13px]">
                 <span className="text-slate-400">Already using Zoiko HR?</span>
-                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Help Center</a>
-                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Documentation</a>
-                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Service Status</a>
-                <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">Contact Support</a>
+                {customerLinks.map(link => (
+                  <a key={link.label} href={link.href} className="text-blue-400 hover:text-blue-300 font-medium transition-colors">
+                    {link.label}
+                  </a>
+                ))}
               </div>
               <p className="text-[11px] text-slate-500">
                 Current answers are source-governed, reviewed, scoped, and qualified where availability varies.

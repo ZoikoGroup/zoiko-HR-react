@@ -1,3 +1,9 @@
+/** Authority label → the page that owns that answer. */
+const AUTHORITY_HREFS: Record<string, string> = {
+  "Implementation Guide": "/implementation-guide",
+  "Help Center": "/help-center",
+}
+
 export const ImplementationAdoptionSection = () => {
   const phases = [
     { num: "1", name: "Discovery" },
@@ -57,7 +63,7 @@ export const ImplementationAdoptionSection = () => {
               </div>
               <p className="text-slate-600 text-[13px] leading-relaxed mb-6 flex-grow">{faq.a}</p>
               <div className="mt-auto">
-                <a href="#" className="text-[12px] text-blue-500 hover:text-blue-700 font-medium flex items-center group w-fit">
+                <a href={AUTHORITY_HREFS[faq.link]} className="text-[12px] text-blue-500 hover:text-blue-700 font-medium flex items-center group w-fit">
                   {faq.link} <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
                 </a>
               </div>

@@ -13,7 +13,7 @@ export const WhyZoikoGroup = () => {
               Zoiko Group exists to enable focused, accountable businesses within a coherent portfolio — not to create a single product monolith. Each entity operates with clear ownership, defined scope, and governed connections.
             </p>
             <p className="text-[13px] text-slate-400 italic">
-              Design mandate: No "all-in-one" or "seamless ecosystem" claims are made. Each connection is explicitly scoped and approved.
+              Design mandate: No &quot;all-in-one&quot; or &quot;seamless ecosystem&quot; claims are made. Each connection is explicitly scoped and approved.
             </p>
           </div>
           

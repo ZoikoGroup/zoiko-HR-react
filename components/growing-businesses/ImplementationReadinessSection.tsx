@@ -3,12 +3,17 @@ import { Container, Reveal } from "@/components/ui";
 type Stage = {
   number: number;
   title: string;
-  /** Empty for stages whose copy is not yet supplied — see note in page docs. */
-  description?: string;
-  owner?: string;
-  dependencies?: string;
+  description: string;
+  owner: string;
+  dependencies: string;
 };
 
+/*
+ * Stage 1 is the original supplied copy. Stages 2-6 follow the same shape and
+ * stay inside claims the Implementation Guide page already makes — scope stays
+ * approval-bound, launch is an authorized evidence-based decision rather than a
+ * date, and no stage promises a duration.
+ */
 const STAGES: Stage[] = [
   {
     number: 1,
@@ -18,11 +23,46 @@ const STAGES: Stage[] = [
     owner: "Customer + Zoiko",
     dependencies: "Business goals, stakeholders",
   },
-  { number: 2, title: "Prepare" },
-  { number: 3, title: "Configure" },
-  { number: 4, title: "Validate" },
-  { number: 5, title: "Launch" },
-  { number: 6, title: "Adopt & Improve" },
+  {
+    number: 2,
+    title: "Prepare",
+    description:
+      "Extract current records, agree data owners, confirm required fields and close gaps before configuration begins.",
+    owner: "Customer + Zoiko",
+    dependencies: "Data extracts, field owners",
+  },
+  {
+    number: 3,
+    title: "Configure",
+    description:
+      "Set up the org model, workflows, approval chains, policies and role-based permissions within approved product scope.",
+    owner: "Zoiko + Customer administrators",
+    dependencies: "Approved scope, confirmed org model",
+  },
+  {
+    number: 4,
+    title: "Validate",
+    description:
+      "Run functional, access and recovery testing against agreed acceptance criteria, recording evidence for each area in scope.",
+    owner: "Customer + Zoiko",
+    dependencies: "Configured environment, test data",
+  },
+  {
+    number: 5,
+    title: "Launch",
+    description:
+      "Launch is an authorized, evidence-based decision signed off by designated data owners — not a fixed date.",
+    owner: "Customer executive + data owners",
+    dependencies: "Complete validation evidence, no open blockers",
+  },
+  {
+    number: 6,
+    title: "Adopt & Improve",
+    description:
+      "Training, adoption tracking, stabilization and ongoing improvement continue after go-live; implementation does not end at launch.",
+    owner: "Customer change lead + Zoiko",
+    dependencies: "Launch complete, enablement plan",
+  },
 ];
 
 export function ImplementationReadinessSection() {
@@ -70,25 +110,21 @@ export function ImplementationReadinessSection() {
                   </span>
                 </summary>
 
-                {stage.description && (
-                  <div className="border-t border-slate-200 px-5 py-4">
-                    <p className="text-sm text-ink/70">{stage.description}</p>
-                    <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                      <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
-                        <p className="text-xs text-ink/40">Owner</p>
-                        <p className="mt-1 text-sm text-ink">{stage.owner}</p>
-                      </div>
-                      <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
-                        <p className="text-xs text-ink/40">
-                          Key dependencies
-                        </p>
-                        <p className="mt-1 text-sm text-ink">
-                          {stage.dependencies}
-                        </p>
-                      </div>
+                <div className="border-t border-slate-200 px-5 py-4">
+                  <p className="text-sm text-ink/70">{stage.description}</p>
+                  <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                    <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
+                      <p className="text-xs text-ink/40">Owner</p>
+                      <p className="mt-1 text-sm text-ink">{stage.owner}</p>
+                    </div>
+                    <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
+                      <p className="text-xs text-ink/40">Key dependencies</p>
+                      <p className="mt-1 text-sm text-ink">
+                        {stage.dependencies}
+                      </p>
                     </div>
                   </div>
-                )}
+                </div>
               </details>
             </Reveal>
           ))}

@@ -1,0 +1,15 @@
+export { SelfServiceHeroSection } from "./SelfServiceHeroSection";
+export { WhatIsSelfServiceSection } from "./WhatIsSelfServiceSection";
+export { AccessInputsSection } from "./AccessInputsSection";
+export { ProductProofSection } from "./ProductProofSection";
+export { RecordActionsSection } from "./RecordActionsSection";
+export { RequestTypesSection } from "./RequestTypesSection";
+export { AssignedTasksSection } from "./AssignedTasksSection";
+export { LeaveAttendanceSection } from "./LeaveAttendanceSection";
+export { LifecycleTasksSection } from "./LifecycleTasksSection";
+export { TeamActionsSection } from "./TeamActionsSection";
+export { MobileFirstSection } from "./MobileFirstSection";
+export { CrossModuleSection } from "./CrossModuleSection";
+export { ImplementationSection } from "./ImplementationSection";
+export { SelfServiceFaqSection } from "./SelfServiceFaqSection";
+export { SelfServiceCtaSection } from "./SelfServiceCtaSection";

@@ -1,3 +1,10 @@
+/** Authority label → the page that owns that answer. */
+const AUTHORITY_HREFS: Record<string, string> = {
+  "Integration Docs": "/integrations",
+  "API Docs": "/developer-documentation",
+  Documentation: "/documentation",
+}
+
 export const IntegrationsSection = () => {
   const faqs = [
     { q: "Does Zoiko HR integrate with payroll systems?", a: "Zoiko HR connects to payroll providers through a defined integration layer. Specific provider availability is listed in integration documentation.", link: "Integration Docs" },
@@ -33,7 +40,7 @@ export const IntegrationsSection = () => {
                 <p className="text-slate-400 text-[13px] leading-relaxed">{faq.a}</p>
               </div>
               <div className="flex flex-col sm:items-end w-full sm:w-auto">
-                <a href="#" className="text-blue-500 hover:text-blue-400 font-medium text-[13px] mb-1 flex items-center group">
+                <a href={AUTHORITY_HREFS[faq.link]} className="text-blue-500 hover:text-blue-400 font-medium text-[13px] mb-1 flex items-center group">
                   {faq.link} <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
                 </a>
                 <span className="text-slate-500 text-[11px]">Reviewed Aug 2024</span>

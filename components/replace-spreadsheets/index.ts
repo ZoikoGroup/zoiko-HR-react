@@ -1,0 +1,10 @@
+export { ReplaceSpreadsheetsHeroSection } from "./ReplaceSpreadsheetsHeroSection";
+export { OperatingSignalsSection } from "./OperatingSignalsSection";
+export { BeforeAfterSection } from "./BeforeAfterSection";
+export { RoleExperienceSection } from "./RoleExperienceSection";
+export { ReportingSection } from "./ReportingSection";
+export { AccessGovernanceSection } from "./AccessGovernanceSection";
+export { ModernizeQuestionsSection } from "./ModernizeQuestionsSection";
+export { ImplementationMigrationSection } from "./ImplementationMigrationSection";
+export { ReplaceSpreadsheetsFaqSection } from "./ReplaceSpreadsheetsFaqSection";
+export { ReplaceSpreadsheetsFinalCtaSection } from "./ReplaceSpreadsheetsFinalCtaSection";

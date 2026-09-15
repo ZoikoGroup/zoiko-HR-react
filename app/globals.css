@@ -76,3 +76,100 @@ h6 {
 .animate-float-slow {
   animation: float-slow 8s ease-in-out infinite;
 }
+
+/* ── Chat widget toggle — glossy 3D orb ──────────────────────────────────
+   Matches the authenticated platform's assistant launcher (zoiko-hr-platform
+   /frontend/src/modules/shared-layers/assistant/assistant-tokens.css) so the
+   two chatbots read as the same product. Two elements: the button itself
+   (gradient + layered shadow) and a separate blurred, pulsing halo behind it. */
+.chat-orb-btn {
+  --chat-orb-rot: 0deg;
+  background: radial-gradient(circle at 32% 26%, #93c5fd 0%, var(--color-primary) 55%, var(--color-primary-dark) 100%);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    inset 0 -8px 14px -6px rgba(0, 0, 0, 0.4),
+    0 16px 30px -8px rgba(0, 0, 0, 0.45);
+  transform: rotate(var(--chat-orb-rot)) translateY(0) scale(1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chat-orb-btn.is-open {
+  --chat-orb-rot: 90deg;
+}
+
+.chat-orb-btn:hover {
+  transform: rotate(var(--chat-orb-rot)) translateY(-3px) scale(1.04);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.4),
+    inset 0 -8px 14px -6px rgba(0, 0, 0, 0.45),
+    0 20px 36px -8px rgba(0, 0, 0, 0.5);
+}
+
+.chat-orb-btn:active {
+  transform: rotate(var(--chat-orb-rot)) translateY(0) scale(1);
+  transition-duration: 0.08s;
+}
+
+.chat-orb-halo {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 40;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 1rem;
+  background: var(--color-primary);
+  filter: blur(20px);
+  animation: chat-orb-halo-pulse 2.8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.chat-orb-halo.is-open {
+  animation-name: chat-orb-halo-pulse-open;
+}
+
+.chat-orb-btn:hover + .chat-orb-halo {
+  animation-name: chat-orb-halo-pulse-hover;
+}
+
+.chat-orb-btn:hover + .chat-orb-halo.is-open {
+  animation-name: chat-orb-halo-pulse-open-hover;
+}
+
+@keyframes chat-orb-halo-pulse {
+  0%, 100% { transform: scale(1);    opacity: 0.55; }
+  50%      { transform: scale(1.12); opacity: 0.9; }
+}
+
+@keyframes chat-orb-halo-pulse-hover {
+  0%, 100% { transform: scale(1.02); opacity: 0.7; }
+  50%      { transform: scale(1.14); opacity: 0.95; }
+}
+
+@keyframes chat-orb-halo-pulse-open {
+  0%, 100% { transform: scale(1);    opacity: 0.8; }
+  50%      { transform: scale(1.12); opacity: 1; }
+}
+
+@keyframes chat-orb-halo-pulse-open-hover {
+  0%, 100% { transform: scale(1.02); opacity: 0.9; }
+  50%      { transform: scale(1.14); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-orb-halo,
+  .chat-orb-btn:hover + .chat-orb-halo {
+    animation: none;
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  .chat-orb-halo.is-open,
+  .chat-orb-btn:hover + .chat-orb-halo.is-open {
+    animation: none;
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  .chat-orb-btn {
+    transition-duration: 0.01ms;
+  }
+}

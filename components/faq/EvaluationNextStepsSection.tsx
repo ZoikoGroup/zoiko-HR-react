@@ -1,12 +1,12 @@
 export const EvaluationNextStepsSection = () => {
   const steps = [
-    { title: "See the product", badge: "no signup", link: "Product Tour →" },
-    { title: "Plan implementation", link: "Implementation Guide →" },
-    { title: "Compare options", link: "Compare Zoiko HR →" },
-    { title: "Review proof", link: "Customer Stories →" },
-    { title: "Get current pricing", link: "Request Pricing →" },
-    { title: "Get tailored evaluation", badge: "primary", link: "Book a Demo →" },
-    { title: "Need customer help", link: "Help / Docs / Support →" }
+    { title: "See the product", badge: "no signup", link: "Product Tour →", href: "/product-tour" },
+    { title: "Plan implementation", link: "Implementation Guide →", href: "/implementation-guide" },
+    { title: "Compare options", link: "Compare Zoiko HR →", href: "/compare-hr" },
+    { title: "Review proof", link: "Customer Stories →", href: "/customer-stories" },
+    { title: "Get current pricing", link: "Request Pricing →", href: "/pricing" },
+    { title: "Get tailored evaluation", badge: "primary", link: "Book a Demo →", href: "/book-a-demo" },
+    { title: "Need customer help", link: "Help / Docs / Support →", href: "/help-center" }
   ]
 
   return (
@@ -31,7 +31,7 @@ export const EvaluationNextStepsSection = () => {
                       {step.badge}
                     </span>
                   )}
-                  <a href="#" className={`text-[13px] font-medium transition-colors ${isPrimary ? 'text-white' : 'text-blue-400 hover:text-blue-300'}`}>
+                  <a href={step.href} className={`text-[13px] font-medium transition-colors ${isPrimary ? 'text-white' : 'text-blue-400 hover:text-blue-300'}`}>
                     {step.link}
                   </a>
                 </div>
@@ -41,13 +41,13 @@ export const EvaluationNextStepsSection = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10">
-          <button className="px-8 py-3 bg-white text-slate-900 text-[14px] font-bold rounded-full hover:bg-slate-100 transition-colors shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+          <a href="/book-a-demo" className="px-8 py-3 bg-white text-slate-900 text-[14px] font-bold rounded-full hover:bg-slate-100 transition-colors shadow-[0_0_15px_rgba(255,255,255,0.1)]">
             Book a Demo
-          </button>
-          <button className="px-8 py-3 bg-transparent text-white border border-slate-600 text-[14px] font-medium rounded-full hover:bg-slate-800 transition-colors">
+          </a>
+          <a href="/pricing" className="px-8 py-3 bg-transparent text-white border border-slate-600 text-[14px] font-medium rounded-full hover:bg-slate-800 transition-colors">
             Request Pricing
-          </button>
-          <a href="#" className="inline-flex items-center justify-center px-4 py-3 text-blue-400 text-[14px] font-medium hover:text-blue-300 transition-colors sm:ml-2 group">
+          </a>
+          <a href="/product-tour" className="inline-flex items-center justify-center px-4 py-3 text-blue-400 text-[14px] font-medium hover:text-blue-300 transition-colors sm:ml-2 group">
             Take the Product Tour <span className="ml-2 transition-transform group-hover:translate-x-1">→</span>
           </a>
         </div>
