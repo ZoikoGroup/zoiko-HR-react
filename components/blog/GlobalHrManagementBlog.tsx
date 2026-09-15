@@ -5,9 +5,12 @@ import { Container } from "@/components/ui";
 
 export const BLOG_TITLE =
   "Why Do Global Businesses Need an HR Management Platform Today?";
+export const BLOG_SEO_TITLE =
+  "Why Global Businesses Need an HR Management Platform Today";
 export const BLOG_DESCRIPTION =
-  "Learn why global businesses need an HR management platform to centralize employee information, manage workflows, support employee lifecycle management, and improve HR operations.";
-export const BLOG_CANONICAL = "https://zoikohr.com/blog";
+  "Discover why global businesses need an HR management platform to streamline employee lifecycle management, automate HR processes, and support global teams.";
+export const BLOG_SLUG = "why-global-businesses-need-hr-management-platform";
+export const BLOG_CANONICAL = `https://zoikohr.com/blog/${BLOG_SLUG}`;
 const PUBLISHED_ISO = "2026-09-11";
 const PUBLISHED_LABEL = "September 11, 2026";
 
