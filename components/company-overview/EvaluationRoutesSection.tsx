@@ -14,7 +14,7 @@ const ROUTES = [
     title: "About Zoiko Group",
     description: "Understand the parent group and product portfolio.",
     linkLabel: "About Zoiko Group",
-    href: "/company/about-zoiko-group",
+    href: "/about-zoiko-group",
     highlighted: false,
   },
   {

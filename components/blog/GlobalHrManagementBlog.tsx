@@ -518,7 +518,7 @@ export function GlobalHrManagementBlog() {
           <p>Businesses evaluating modern HR technology can explore Zoiko HR and its solutions for HR teams.</p>
           <p>The <InlineLink href="/hr-teams"><strong>Zoiko HR HR Teams page</strong></InlineLink> provides information for organizations looking at HR team operations and workforce management capabilities.</p>
           <p>When evaluating an <strong>HR management platform</strong>, businesses should consider how the solution fits their employee records, workflows, lifecycle processes, access requirements, reporting needs, and overall HR operating model.</p>
-          <p>Organizations and professionals interested in Zoiko HR career opportunities can also visit the <InlineLink href="/company/careers"><strong>Zoiko HR Careers page</strong></InlineLink>.</p>
+          <p>Organizations and professionals interested in Zoiko HR career opportunities can also visit the <InlineLink href="/careers"><strong>Zoiko HR Careers page</strong></InlineLink>.</p>
           <p>The broader goal of modern HR technology is to create a more organized operating environment where HR teams can manage workforce information and processes effectively.</p>
 
           <H2>Frequently Asked Questions About Global HR Management</H2>
