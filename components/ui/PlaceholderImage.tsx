@@ -9,6 +9,8 @@ type PlaceholderImageProps = {
   className?: string;
   /** "cover" crops to fill the box (default); "contain" keeps the image's original, uncropped proportions. */
   fit?: "cover" | "contain";
+  /** Defaults to the browser's eager load; pass "lazy" for images far below the fold. */
+  loading?: "eager" | "lazy";
 };
 
 export function PlaceholderImage({
@@ -17,6 +19,7 @@ export function PlaceholderImage({
   label,
   className = "",
   fit = "cover",
+  loading,
 }: PlaceholderImageProps) {
   const [errored, setErrored] = useState(false);
   const [checkedSrc, setCheckedSrc] = useState<string | null>(null);
@@ -47,6 +50,7 @@ export function PlaceholderImage({
           ref={imgRef}
           src={src}
           alt={alt}
+          loading={loading}
           onError={() => setErrored(true)}
           className={
             fit === "contain"

@@ -47,7 +47,7 @@ export function CompanyOverviewHeroSection() {
 
             <Reveal delay={0.3}>
               <a
-                href="/company/about-zoiko-group"
+                href="/about-zoiko-group"
                 className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
               >
                 About Zoiko Group →

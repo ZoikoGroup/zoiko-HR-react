@@ -38,7 +38,7 @@ export function CareersCultureSection() {
                 Zoiko Group entities.
               </p>
               <Link
-                href="/company/careers"
+                href="/careers"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-xl border border-white/20 px-5 py-3 text-sm font-semibold transition-colors duration-200 hover:border-primary hover:bg-primary"
               >
                 Explore Careers →
