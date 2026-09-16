@@ -13,7 +13,7 @@ const DESTINATIONS = [
     title: "Implementation Guide",
     description: "Approved setup and migration guidance for a controlled rollout.",
     linkLabel: "Open Implementation Guide",
-    href: "/Implementation-guide",
+    href: "/implementation-guide",
   },
   {
     title: "Developer Documentation",
