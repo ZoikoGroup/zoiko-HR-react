@@ -114,7 +114,7 @@ const FOOTER_LINK_OVERRIDES: Record<string, string> = {
   "Global HR Management": "/global-hr-management",
   "Onboarding & Lifecycle": "/onboarding-lifecycle",
   "Connect HR, Time & Payroll": "/connect-hr",
-  "About Zoiko Group": "/company/about-zoiko-group",
+  "About Zoiko Group": "/about-zoiko-group",
   FAQ: "/resources/faq",
   "Solutions Overview": "/solutions",
   "Mid-Market Organizations": "/mid-market",

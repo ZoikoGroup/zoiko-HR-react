@@ -15,7 +15,7 @@ export function AuthHeader() {
     <header className="flex w-full items-center justify-between px-5 py-4 sm:px-6">
       <Link href="/" className="rounded-sm" aria-label="Zoiko HR home">
         <Image
-          src="/images/sign-in/zoiko-hr-logo.webp"
+          src="/images/sign-in/zoiko-hr-logo.png"
           alt="Zoiko HR"
           width={164}
           height={28}

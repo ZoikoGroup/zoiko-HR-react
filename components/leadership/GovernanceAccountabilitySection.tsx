@@ -82,7 +82,7 @@ export function GovernanceAccountabilitySection() {
         <Reveal delay={0.4}>
           <div className="mt-10 text-center">
             <Link
-              href="/company/about-zoiko-group"
+              href="/about-zoiko-group"
               className="text-sm font-medium text-primary hover:text-white"
             >
               About Zoiko Group →

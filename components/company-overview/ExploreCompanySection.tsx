@@ -2,9 +2,9 @@ import { Container, Reveal, PlaceholderImage } from "@/components/ui";
 
 const DESTINATIONS = [
   { title: "About Zoiko HR", recommended: true, description: "Mission, scope and standalone commercial model.", linkLabel: "Explore About Zoiko HR", href: "/about", position: "lg:col-start-1 lg:row-start-1" },
-  { title: "About Zoiko Group", recommended: false, description: "The parent group and product portfolio.", linkLabel: "Explore About Zoiko Group", href: "/company/about-zoiko-group", position: "lg:col-start-2 lg:row-start-1" },
+  { title: "About Zoiko Group", recommended: false, description: "The parent group and product portfolio.", linkLabel: "Explore About Zoiko Group", href: "/about-zoiko-group", position: "lg:col-start-2 lg:row-start-1" },
   { title: "Leadership", recommended: false, description: "Approved executive and governance leadership.", linkLabel: "Explore Leadership", href: "/leadership", position: "lg:col-start-3 lg:row-start-1" },
-  { title: "Careers", recommended: false, description: "Roles, culture and recruitment process.", linkLabel: "Explore Careers", href: "/company/careers", position: "lg:col-start-1 lg:row-start-2" },
+  { title: "Careers", recommended: false, description: "Roles, culture and recruitment process.", linkLabel: "Explore Careers", href: "/careers", position: "lg:col-start-1 lg:row-start-2" },
   { title: "Contact", recommended: false, description: "General, media, partnership and privacy inquiries.", linkLabel: "Explore Contact", href: "/contact-zoiko-hr", position: "lg:col-start-2 lg:row-start-2" },
 ];
 
