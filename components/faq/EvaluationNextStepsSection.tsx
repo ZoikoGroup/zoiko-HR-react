@@ -2,7 +2,7 @@ export const EvaluationNextStepsSection = () => {
   const steps = [
     { title: "See the product", badge: "no signup", link: "Product Tour →", href: "/product-tour" },
     { title: "Plan implementation", link: "Implementation Guide →", href: "/implementation-guide" },
-    { title: "Compare options", link: "Compare Zoiko HR →", href: "/compare-hr" },
+    { title: "Compare options", link: "Compare Zoiko HR →", href: "/compare-zoikohr" },
     { title: "Review proof", link: "Customer Stories →", href: "/customer-stories" },
     { title: "Get current pricing", link: "Request Pricing →", href: "/pricing" },
     { title: "Get tailored evaluation", badge: "primary", link: "Book a Demo →", href: "/book-a-demo" },

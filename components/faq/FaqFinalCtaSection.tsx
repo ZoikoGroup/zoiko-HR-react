@@ -3,7 +3,7 @@ import { Container, Reveal, Button } from "@/components/ui";
 const ROWS = [
   { label: "See the product", tag: "no signup", linkLabel: "Product Tour →", href: "/product-tour", primary: false },
   { label: "Plan implementation", tag: null, linkLabel: "Implementation Guide →", href: "/implementation-guide", primary: false },
-  { label: "Compare options", tag: null, linkLabel: "Compare Zoiko HR →", href: "/compare-hr", primary: false },
+  { label: "Compare options", tag: null, linkLabel: "Compare Zoiko HR →", href: "/compare-zoikohr", primary: false },
   { label: "Review proof", tag: null, linkLabel: "Customer Stories →", href: "/customer-stories", primary: false },
   { label: "Get current pricing", tag: null, linkLabel: "Request Pricing →", href: "/pricing", primary: false },
   { label: "Get tailored evaluation", tag: "primary", linkLabel: "Book a Demo →", href: "/book-a-demo", primary: true },
