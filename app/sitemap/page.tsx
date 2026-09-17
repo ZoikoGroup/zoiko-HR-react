@@ -44,7 +44,7 @@ const SITEMAP_GROUPS: SitemapGroup[] = [
       { label: "HR Guides", href: "/hr-guides" },
       { label: "Customer Stories", href: "/customer-stories" },
       { label: "Implementation Guide", href: "/Implementation-guide" },
-      { label: "Compare Zoiko HR", href: "/compare-hr" },
+      { label: "Compare Zoiko HR", href: "/compare-zoikohr" },
       { label: "FAQ", href: "/faq" },
       { label: "Resources FAQ", href: "/resources/faq" },
       { label: "Help Center", href: "/help-center" },

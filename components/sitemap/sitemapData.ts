@@ -64,7 +64,7 @@ export const SITEMAP_GROUPS: SitemapGroup[] = [
       {
         label: "Zoiko Insights",
         description: "People analytics and workforce reporting dashboards.",
-        href: "/integrations/zoiko-insights",
+        href: "/zoiko-insights",
       },
       {
         label: "Pricing",
@@ -165,7 +165,7 @@ export const SITEMAP_GROUPS: SitemapGroup[] = [
       {
         label: "Compare Zoiko HR",
         description: "Side-by-side comparisons to help evaluate your options.",
-        href: "/compare-hr",
+        href: "/compare-zoikohr",
       },
       {
         label: "Product Updates",
@@ -223,7 +223,7 @@ export const SITEMAP_GROUPS: SitemapGroup[] = [
       {
         label: "Company Locations",
         description: "Where Zoiko HR teams and offices are based.",
-        href: "/company/locations",
+        href: "/company-locations",
       },
       {
         label: "Contact",
