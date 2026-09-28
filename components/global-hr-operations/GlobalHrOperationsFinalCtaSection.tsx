@@ -26,7 +26,7 @@ export function GlobalHrOperationsFinalCtaSection() {
                 Book a Demo
               </Button>
               <Button
-                href="/Implementation-guide"
+                href="/implementation-guide"
                 variant="outline"
                 className="!rounded-lg !border-white/20 !px-8 !py-3.5 !text-white hover:!border-primary hover:!text-primary"
               >
