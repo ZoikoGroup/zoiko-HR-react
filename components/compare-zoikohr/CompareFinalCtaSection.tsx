@@ -38,7 +38,7 @@ export function CompareFinalCtaSection() {
                 Visit Trust Center →
               </Link>
               <Link
-                href="/Implementation-guide"
+                href="/implementation-guide"
                 className="text-sm font-semibold text-indigo-400 transition-colors hover:text-white"
               >
                 View Implementation Guide →

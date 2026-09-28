@@ -20,7 +20,7 @@ const DESTINATIONS = [
     description:
       "Owns API, authentication, webhook and SDK reference truth.",
     linkLabel: "Open Developer Documentation",
-    href: "/integrations",
+    href: "/developer-documentation",
   },
 ];
 

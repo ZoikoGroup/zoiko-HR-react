@@ -43,7 +43,7 @@ const SITEMAP_GROUPS: SitemapGroup[] = [
       { label: "Product Tour", href: "/product-tour" },
       { label: "HR Guides", href: "/hr-guides" },
       { label: "Customer Stories", href: "/customer-stories" },
-      { label: "Implementation Guide", href: "/Implementation-guide" },
+      { label: "Implementation Guide", href: "/implementation-guide" },
       { label: "Compare Zoiko HR", href: "/compare-zoikohr" },
       { label: "FAQ", href: "/faq" },
       { label: "Resources FAQ", href: "/resources/faq" },
@@ -57,7 +57,7 @@ const SITEMAP_GROUPS: SitemapGroup[] = [
     links: [
       { label: "About Zoiko HR", href: "/about" },
       { label: "About Zoiko Group", href: "/company/about-zoiko-group" },
-      { label: "Careers", href: "/company/careers" },
+      { label: "Careers", href: "/careers" },
       { label: "Leadership", href: "/leadership" },
       { label: "Partners", href: "/partners" },
       { label: "Newsroom", href: "/newsroom" },

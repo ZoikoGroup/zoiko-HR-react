@@ -52,7 +52,7 @@ export function ImplementationSection() {
 
         <Reveal delay={0.3}>
           <Link
-            href="/Implementation-guide"
+            href="/implementation-guide"
             className="mt-10 inline-block text-base font-semibold text-primary hover:underline"
           >
             View the Implementation Guide →

@@ -34,7 +34,7 @@ const RIGHT: Route[] = [
     tag: "Implementation",
     title: "Implementation Guide",
     body: "Discovery, migration, configuration, testing, training, launch, and support responsibilities.",
-    href: "/Implementation-guide",
+    href: "/implementation-guide",
   },
 ];
 
