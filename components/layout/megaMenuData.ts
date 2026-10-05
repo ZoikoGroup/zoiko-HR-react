@@ -187,7 +187,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
           { label: "Product Tour", description: "Explore a self-guided product tour", href: "/product-tour" },
           { label: "Customer Stories", description: "Review verified implementations and outcomes", href: "/customer-stories" },
           { label: "Implementation Guide", description: "Understand configuration, migration, and launch", href: "/implementation-guide" },
-          { label: "Compare Zoiko HR", description: "Compare Zoiko HR to alternatives", href: "/compare-zoikohr" },
+          { label: "Compare Zoiko HR", description: "Compare Zoiko HR to alternatives", href: "/compare" },
         ],
       },
       {
