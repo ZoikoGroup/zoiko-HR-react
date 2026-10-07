@@ -119,7 +119,7 @@ const FOOTER_LINK_OVERRIDES: Record<string, string> = {
   "Solutions Overview": "/solutions",
   "Mid-Market Organizations": "/mid-market",
   "About Zoiko HR": "/about",
-  Careers: "/company/careers",
+  Careers: "/careers",
   "Compare Zoiko HR": "/compare-hr",
   Newsroom: "/press-newsrooms",
   "Implementation Guide": "/implementation-guide",

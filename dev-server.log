@@ -1,0 +1,10 @@
+
+> zoiko-hr@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.12 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.137.1:3000
+✓ Ready in 2.1s
+
+ GET /terms-of-service 200 in 2.7s (next.js: 339ms, application-code: 2.3s)

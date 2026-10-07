@@ -148,7 +148,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
           { label: "Integrations Overview", description: "Understand connection models and controls", href: "/integration-overview" },
           { label: "Identity & Single Sign-On", description: "Connect approved identity providers securely", href: "/identity-and-single-sign-on" },
           { label: "Data Import & Export", description: "Prepare, validate, and export data", href: "/data-import-and-export" },
-          { label: "API & Developer Documentation", description: "Access API and integration guidance", href: "/developers" },
+          { label: "API & Developer Documentation", description: "Access API and integration guidance", href: "/developer-documentation" },
           { label: "Integration Security", description: "Review authentication and access controls", href: "/integration-security" },
         ],
       },
@@ -187,7 +187,7 @@ export const MEGA_MENUS: MegaMenuConfig[] = [
           { label: "Product Tour", description: "Explore a self-guided product tour", href: "/product-tour" },
           { label: "Customer Stories", description: "Review verified implementations and outcomes", href: "/customer-stories" },
           { label: "Implementation Guide", description: "Understand configuration, migration, and launch", href: "/implementation-guide" },
-          { label: "Compare Zoiko HR", description: "Compare Zoiko HR to alternatives", href: "/compare-zoikohr" },
+          { label: "Compare Zoiko HR", description: "Compare Zoiko HR to alternatives", href: "/compare" },
         ],
       },
       {
