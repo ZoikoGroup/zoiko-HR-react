@@ -16,7 +16,7 @@ const SUPPORT_LINKS = [
   { label: "Help Center", href: "/help-center" },
   { label: "Documentation", href: "/documentation" },
   { label: "Administrator Guide", href: "/administrator-guide" },
-  { label: "Developer Documentation", href: "/developer-documentation" },
+  { label: "Developer Documentation", href: "/developers" },
   { label: "Product Updates", href: "/product-updates" },
   { label: "Contact Support", href: "/contact-support" },
 ];

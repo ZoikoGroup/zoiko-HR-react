@@ -1,7 +1,7 @@
 /** Authority label → the page that owns that answer. */
 const AUTHORITY_HREFS: Record<string, string> = {
   "Integration Docs": "/integrations",
-  "API Docs": "/developer-documentation",
+  "API Docs": "/developers",
   Documentation: "/documentation",
 }
 

@@ -57,7 +57,7 @@ export function IntegrationsHeroSection() {
                   </span>
                 </a>
                 <a
-                  href="/developer-documentation"
+                  href="/developers"
                   className="group inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
                 >
                   View Developer Documentation
