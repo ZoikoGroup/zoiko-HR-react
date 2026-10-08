@@ -21,6 +21,16 @@ const nextConfig: NextConfig = {
         destination: "/developers",
         permanent: true,
       },
+      {
+        source: "/integrations/security",
+        destination: "/integration-security",
+        permanent: true,
+      },
+      {
+        source: "/integrations/identity-sso",
+        destination: "/identity-and-single-sign-on",
+        permanent: true,
+      },
     ];
   },
 };
