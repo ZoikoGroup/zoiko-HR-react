@@ -34,12 +34,12 @@ const LEVELS = [
     title: "Verify current behavior",
     body: "Documentation and product detail are authoritative for configuration, field behavior, states and current product truth.",
     links: [
-      ["Product documentation", "/developer-documentation"],
+      ["Product documentation", "/developers"],
       ["Help Center", "/help-center"],
       ["Administrator Guide", "/hr-guides"],
     ],
     action: "Open Documentation",
-    href: "/developer-documentation",
+    href: "/developers",
     dark: false,
   },
 ];

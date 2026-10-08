@@ -180,7 +180,7 @@ export const SITEMAP_GROUPS: SitemapGroup[] = [
       {
         label: "Developer Documentation",
         description: "API references, webhooks, and integration guides.",
-        href: "/developer-documentation",
+        href: "/developers",
       },
     ],
   },

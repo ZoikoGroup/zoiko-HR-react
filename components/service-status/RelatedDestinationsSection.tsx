@@ -3,7 +3,7 @@ import { Container, Reveal } from "@/components/ui";
 
 const DESTINATIONS = [
   { label: "Documentation", href: "/documentation" },
-  { label: "Developer Documentation", href: "/developer-documentation" },
+  { label: "Developer Documentation", href: "/developers" },
   { label: "Product Updates", href: "/product-updates" },
   { label: "Help Center", href: "/help-center" },
   // Contact Support is not yet an approved public route — the hero says to

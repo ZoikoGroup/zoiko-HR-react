@@ -16,6 +16,11 @@ const nextConfig: NextConfig = {
         destination: "/blog/why-global-businesses-need-hr-management-platform",
         permanent: true,
       },
+      {
+        source: "/developer-documentation",
+        destination: "/developers",
+        permanent: true,
+      },
     ];
   },
 };
