@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   title: "Zoiko HR | Global HR Management Platform",
   description:
     "Zoiko HR centralizes workforce information, structures HR processes, and connects your people operations for growing, mid-market, and global organizations.",
+  verification: {
+    google: "F94dvutraSy0wZfpcnV6t15MX8dcGH_s3WyCMYcyMyE",
+  },
 };
 
 export default function RootLayout({
