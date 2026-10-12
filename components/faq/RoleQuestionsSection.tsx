@@ -40,7 +40,7 @@ export const RoleQuestionsSection = () => {
           
           <div className="bg-white rounded-[20px] shadow-[0_2px_10px_rgba(0,0,0,0.03)] border border-slate-200 p-6 flex flex-col">
             <h3 className="font-bold text-[14px] text-slate-900 mb-2.5">Can employees update their own records?</h3>
-            <p className="text-slate-600 text-[13px] leading-relaxed">Self-service editing is configurable. What employees can edit depends on their organisation's configuration.</p>
+            <p className="text-slate-600 text-[13px] leading-relaxed">Self-service editing is configurable. What employees can edit depends on their organisation&apos;s configuration.</p>
           </div>
           
           <div className="bg-white rounded-[20px] shadow-[0_2px_10px_rgba(0,0,0,0.03)] border border-slate-200 p-6 flex flex-col">

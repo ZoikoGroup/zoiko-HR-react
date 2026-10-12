@@ -35,7 +35,8 @@ export const BrowseByTopicSection = () => {
     }
   ]
 
-  const Card = ({ topic }: { topic: any }) => (
+  type Topic = { title: string; count: string; desc: string; dotColor: string; dotGlow: string };
+  const Card = ({ topic }: { topic: Topic }) => (
     <div className="bg-[#213149] rounded-[20px] p-7 hover:bg-[#283a54] transition-colors cursor-pointer h-full flex flex-col">
       <div className="w-10 h-10 rounded-full bg-slate-900/30 flex items-center justify-center mb-6">
         <div className={`w-2.5 h-2.5 rounded-full ${topic.dotColor} ${topic.dotGlow}`}></div>

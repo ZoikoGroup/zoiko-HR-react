@@ -13,3 +13,21 @@ export * from './FreshnessAndSourcingSection'
 export * from './GetDirectHelpSection'
 export * from './HighIntentFAQLibrarySection'
 export * from './EvaluationNextStepsSection'
+
+// The pair above this line and the pair below it are separate component
+// sets that ended up coexisting after a merge — app/resources/faq/page.tsx
+// actually renders this second set; the first set is currently unused.
+// Re-exporting both here so the build isn't broken either way.
+export * from './FaqScopeSection'
+export * from './FindAnAnswerSection'
+export * from './ProductFaqSection'
+export * from './GlobalFaqSection'
+export * from './IntegrationsFaqSection'
+export * from './SecurityFaqSection'
+export * from './ImplementationFaqSection'
+export * from './PricingAccessFaqSection'
+export * from './RolesFaqSection'
+export * from './HowAnswersKeptCurrentSection'
+export * from './SupportRoutesSection'
+export * from './HighIntentLibrarySection'
+export * from './FaqFinalCtaSection'

@@ -19,14 +19,21 @@ export function PlaceholderImage({
   fit = "cover",
 }: PlaceholderImageProps) {
   const [errored, setErrored] = useState(false);
+  const [checkedSrc, setCheckedSrc] = useState<string | null>(null);
   const imgRef = useRef<HTMLImageElement>(null);
 
-  useEffect(() => {
+  // Reset during render (not in an effect) when src changes — React commits
+  // this before painting, so there's no flash of the old errored state.
+  if (checkedSrc !== src) {
+    setCheckedSrc(src);
     setErrored(false);
-    const img = imgRef.current;
+  }
+
+  useEffect(() => {
     // The image request starts as soon as SSR HTML is parsed, before React
     // hydrates and attaches onError — so a fast 404 can fail before any
     // listener is wired up. Catch that race by checking completion on mount.
+    const img = imgRef.current;
     if (img && img.complete && img.naturalWidth === 0) {
       setErrored(true);
     }
