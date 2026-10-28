@@ -6,7 +6,7 @@ import { Container, Reveal } from "@/components/ui";
 const ROUTES = [
   { label: "Support question", linkLabel: "Help Center", href: "/resources/faq" },
   { label: "Sales inquiry", linkLabel: "Talk to sales", href: "/book-a-demo" },
-  { label: "Careers inquiry", linkLabel: "Careers", href: "/company/careers" },
+  { label: "Careers inquiry", linkLabel: "Careers", href: "/careers" },
   { label: "Partner inquiry", linkLabel: "Partners", href: "/partners" },
 ];
 

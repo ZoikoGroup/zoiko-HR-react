@@ -1,0 +1,14 @@
+export { AupHeroSection } from "./AupHeroSection";
+export { AuthorityMapSection } from "./AuthorityMapSection";
+export { ResponsibleUseSection } from "./ResponsibleUseSection";
+export { EmploymentDecisionsSection } from "./EmploymentDecisionsSection";
+export { AiAssistanceSection } from "./AiAssistanceSection";
+export { PrivacyDataSection } from "./PrivacyDataSection";
+export { SecuritySection } from "./SecuritySection";
+export { AvailabilitySection } from "./AvailabilitySection";
+export { EnforcementSection } from "./EnforcementSection";
+export { ReportingSection } from "./ReportingSection";
+export { VersioningSection } from "./VersioningSection";
+export { AupFaqSection } from "./AupFaqSection";
+export { RelatedResourcesSection } from "./RelatedResourcesSection";
+export { AupCtaSection } from "./AupCtaSection";

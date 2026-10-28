@@ -7,7 +7,7 @@ const NEXT_LINKS: [string, string][] = [
   ["Implementation Guide", "/implementation-guide"],
   ["Read FAQ", "/faq"],
   ["Help Center", "/help-center"],
-  ["Documentation", "/developer-documentation"],
+  ["Documentation", "/developers"],
   ["Customer Stories", "/customer-stories"],
   ["Compare Zoiko HR", "/compare"],
   ["Trust Center", "/trust-center"],

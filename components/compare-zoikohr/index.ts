@@ -1,0 +1,12 @@
+export { CompareHeroSection } from "./CompareHeroSection";
+export { EvaluationQuestionsSection } from "./EvaluationQuestionsSection";
+export { ComparisonSubjectsSection } from "./ComparisonSubjectsSection";
+export { ComparisonMatrixSection } from "./ComparisonMatrixSection";
+export { MethodologySection } from "./MethodologySection";
+export { AuthorityRoutesSection } from "./AuthorityRoutesSection";
+export { WhatWeCompareSection } from "./WhatWeCompareSection";
+export { StatusModelSection } from "./StatusModelSection";
+export { SourceReviewSection } from "./SourceReviewSection";
+export { LimitationsReportSection } from "./LimitationsReportSection";
+export { CompareFaqSection } from "./CompareFaqSection";
+export { CompareFinalCtaSection } from "./CompareFinalCtaSection";

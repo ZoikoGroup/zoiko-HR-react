@@ -20,7 +20,7 @@ export function SecurityFaqSection() {
           <div className="divide-y divide-slate-200 rounded-2xl border border-slate-200 bg-white lg:flex-1">
             {topic.entries.map((entry, i) => (
               <Reveal key={entry.question} delay={Math.min(i * 0.03, 0.3)}>
-                <details className="group px-6 py-5" open={i === 0}>
+                <details className="group px-6 py-5" open>
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-6">
                     <span className="font-semibold text-ink">{entry.question}</span>
                     <svg

@@ -57,3 +57,8 @@ env/
 .idea/
 *.swp
 *.swo
+
+# scratch files
+print_frames.js
+scratch_hero_details.js
+

@@ -1,0 +1,12 @@
+export { DocumentsHeroSection } from "./DocumentsHeroSection";
+export { ContentLifecycleSection } from "./ContentLifecycleSection";
+export { DocumentCatalogSection } from "./DocumentCatalogSection";
+export { TemplatesSection } from "./TemplatesSection";
+export { VersionHistorySection } from "./VersionHistorySection";
+export { VariantsSection } from "./VariantsSection";
+export { DistributionProofSection } from "./DistributionProofSection";
+export { AccessibleContentSection } from "./AccessibleContentSection";
+export { PermissionsSection } from "./PermissionsSection";
+export { SourcesStorageSection } from "./SourcesStorageSection";
+export { DocumentsFaqSection } from "./DocumentsFaqSection";
+export { DocumentsCtaSection } from "./DocumentsCtaSection";

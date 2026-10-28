@@ -23,7 +23,7 @@ export function DataMappingAuthoritySection() {
             </Reveal>
             <Reveal delay={0.16}>
               <Link
-                href="/developer-documentation"
+                href="/developers"
                 className="group mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
               >
                 Review the authority model

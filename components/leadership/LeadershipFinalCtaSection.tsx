@@ -75,7 +75,7 @@ const DESTINATIONS: {
     description:
       "Understand the broader portfolio and group governance context.",
     linkLabel: "About Zoiko Group",
-    href: "/company/about-zoiko-group",
+    href: "/about-zoiko-group",
   },
   {
     title: "Careers",
@@ -83,7 +83,7 @@ const DESTINATIONS: {
     description:
       "Explore verified career opportunities and employer information.",
     linkLabel: "Careers",
-    href: "/company/careers",
+    href: "/careers",
   },
   {
     title: "Partnerships",

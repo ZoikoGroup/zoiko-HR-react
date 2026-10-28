@@ -1,0 +1,13 @@
+export { AiGovernanceHeroSection } from "./AiGovernanceHeroSection";
+export { AeoAnswerSection } from "./AeoAnswerSection";
+export { TransparencyStatusSection } from "./TransparencyStatusSection";
+export { UseCaseRegistrySection } from "./UseCaseRegistrySection";
+export { HumanReviewSection } from "./HumanReviewSection";
+export { PermissionControlsSection } from "./PermissionControlsSection";
+export { DataUseBoundariesSection } from "./DataUseBoundariesSection";
+export { EvaluationSection } from "./EvaluationSection";
+export { ProhibitedUsesSection } from "./ProhibitedUsesSection";
+export { LoggingEvidenceSection } from "./LoggingEvidenceSection";
+export { ChangeGovernanceSection } from "./ChangeGovernanceSection";
+export { ConcernEscalationSection } from "./ConcernEscalationSection";
+export { AiGovernanceFaqSection } from "./AiGovernanceFaqSection";

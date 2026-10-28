@@ -1,0 +1,11 @@
+export { PayrollHeroSection } from "./PayrollHeroSection";
+export { DirectAnswerSection } from "./DirectAnswerSection";
+export { InformationModelSection } from "./InformationModelSection";
+export { CutoffTimingSection } from "./CutoffTimingSection";
+export { IntakeBoundarySection } from "./IntakeBoundarySection";
+export { CorrelationSection } from "./CorrelationSection";
+export { RejectionSection } from "./RejectionSection";
+export { ResultBoundarySection } from "./ResultBoundarySection";
+export { SecuritySection } from "./SecuritySection";
+export { PayrollFaqSection } from "./PayrollFaqSection";
+export { PayrollCtaSection } from "./PayrollCtaSection";

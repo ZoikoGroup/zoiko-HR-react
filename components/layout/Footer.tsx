@@ -34,6 +34,7 @@ const FOOTER_COLUMNS: { title: string; links: string[] }[] = [
       "Resource Center",
       "Product Tour",
       "HR Guides",
+      "Blog",
       "Customer Stories",
       "Implementation Guide",
       "Compare Zoiko HR",
@@ -113,11 +114,17 @@ const FOOTER_LINK_OVERRIDES: Record<string, string> = {
   "Global HR Management": "/global-hr-management",
   "Onboarding & Lifecycle": "/onboarding-lifecycle",
   "Connect HR, Time & Payroll": "/connect-hr",
-  "About Zoiko Group": "/company/about-zoiko-group",
+  "About Zoiko Group": "/about-zoiko-group",
   FAQ: "/resources/faq",
   "Solutions Overview": "/solutions",
   "Mid-Market Organizations": "/mid-market",
   "About Zoiko HR": "/about",
+  Careers: "/careers",
+  "Compare Zoiko HR": "/compare-hr",
+  Newsroom: "/press-newsrooms",
+  "Implementation Guide": "/implementation-guide",
+  LinkedIn: "https://www.linkedin.com/company/zoikohr",
+  YouTube: "https://www.youtube.com/channel/UC_SKEjTZM8mhClzOm5oW3zw",
 };
 
 export function Footer() {

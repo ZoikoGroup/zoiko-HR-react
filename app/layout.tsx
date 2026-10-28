@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Manrope, IBM_Plex_Sans } from "next/font/google";
-import { Navbar, Footer } from "@/components/layout";
-import { ChatWidget } from "@/components/chat-widget";
+import { SiteChrome } from "@/components/layout";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -19,9 +18,13 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://zoikohr.com"),
   title: "Zoiko HR | Global HR Management Platform",
   description:
     "Zoiko HR centralizes workforce information, structures HR processes, and connects your people operations for growing, mid-market, and global organizations.",
+  verification: {
+    google: "F94dvutraSy0wZfpcnV6t15MX8dcGH_s3WyCMYcyMyE",
+  },
 };
 
 export default function RootLayout({
@@ -40,10 +43,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
        
-        <Navbar />
-        <main className="w-full min-w-0 flex-1">{children}</main>
-        <Footer />
-        <ChatWidget />
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );

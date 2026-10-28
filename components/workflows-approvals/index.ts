@@ -1,0 +1,12 @@
+export { WorkflowsHeroSection } from "./WorkflowsHeroSection";
+export { GovernedByDesignSection } from "./GovernedByDesignSection";
+export { SixStepsSection } from "./SixStepsSection";
+export { WorkflowLibrarySection } from "./WorkflowLibrarySection";
+export { ProductProofSection } from "./ProductProofSection";
+export { ConditionsRoutingSection } from "./ConditionsRoutingSection";
+export { DecisionRightsSection } from "./DecisionRightsSection";
+export { ExceptionsSection } from "./ExceptionsSection";
+export { ActionsContractSection } from "./ActionsContractSection";
+export { OperationalHealthSection } from "./OperationalHealthSection";
+export { WorkflowsFaqSection } from "./WorkflowsFaqSection";
+export { WorkflowsFinalCtaSection } from "./WorkflowsFinalCtaSection";
