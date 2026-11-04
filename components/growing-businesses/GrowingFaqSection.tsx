@@ -1,28 +1,58 @@
 import { Container, Reveal } from "@/components/ui";
 
 /**
- * Questions come from the approved design. Answers are intentionally empty
- * until the approved answer copy is supplied — nothing is drafted here.
+ * Questions come from the approved design. Each answer is assembled from claims
+ * this page already makes — the route definition, the foundation checklist, the
+ * connections authority table, the trust/shared-responsibility controls and the
+ * readiness timing rule — so none introduces a compliance, automation or
+ * timeline promise of its own.
  */
 const FAQS: { question: string; answer: string }[] = [
-  { question: 'What does "Growing Businesses" mean here?', answer: "" },
-  { question: "Is Zoiko HR only for small businesses?", answer: "" },
+  {
+    question: 'What does "Growing Businesses" mean here?',
+    answer:
+      "It is a solution pathway for organizations that want more structured HR foundations: reliable workforce information, clearer organization and role structures, repeatable lifecycle workflows, permissioned employee and manager experiences, reviewable reporting, and governed system connections. It is not a size threshold or an employee-count tier.",
+  },
+  {
+    question: "Is Zoiko HR only for small businesses?",
+    answer:
+      "No. This route describes one pathway into Zoiko HR, not the limit of the platform. Zoiko HR also supports mid-market, multi-entity and global organizations — the difference is the foundations and scope an organization starts from, not the product itself.",
+  },
   {
     question: "What foundations should a growing organization review?",
-    answer: "",
+    answer:
+      "Four areas: Data (records, ownership and effective dates), Structure (organization, roles and permissions), Insight (reviewable reporting) and Connections (governed links to the systems that already hold time, payroll or identity truth). Reviewing these before configuration is what keeps later stages predictable.",
   },
-  { question: "Does Zoiko HR automate employment decisions?", answer: "" },
+  {
+    question: "Does Zoiko HR automate employment decisions?",
+    answer:
+      "No. Zoiko HR organizes records, routes workflows and records approvals and evidence. Employment decisions remain with the customer, who is responsible for policy, configuration and the decisions made within the system.",
+  },
   {
     question: "Does Zoiko HR guarantee HR or employment compliance?",
-    answer: "",
+    answer:
+      "No. Zoiko HR provides software for workforce administration and does not provide legal, tax, payroll, employment, compliance or other professional advice. Compliance obligations remain with the customer; the platform supports them with audit history, effective dates and administrative controls.",
   },
   {
     question: "Can Zoiko HR connect to payroll and time systems?",
-    answer: "",
+    answer:
+      "Yes, through governed connections with an explicit authoritative source for each object. Worker records are authoritative in Zoiko HR and flow downstream, time and schedule data stays authoritative in the connected time system, and the payroll system decides payroll outcomes from HR-supplied input.",
   },
-  { question: "How long does implementation take?", answer: "" },
-  { question: "How much does it cost?", answer: "" },
-  { question: "Can existing customers use this page?", answer: "" },
+  {
+    question: "How long does implementation take?",
+    answer:
+      "There is no universal timeline. Scope depends on approved product areas, data, configuration, integrations, testing and customer decisions, and the readiness path above sets owners and exit criteria per stage rather than fixed durations. Launch is an authorized, evidence-based decision — not a date.",
+  },
+  {
+    question: "How much does it cost?",
+    answer:
+      "Pricing depends on organization size, the product areas in scope, integrations and support level, so it is confirmed through a commercial conversation rather than published as a fixed figure here. Use Request Pricing to get current pricing for your scope.",
+  },
+  {
+    question: "Can existing customers use this page?",
+    answer:
+      "Yes, though this page is written for evaluation. Existing customers are usually better served by the direct routes — Documentation and Contact Support — which stay accessible and are never sales-gated.",
+  },
 ];
 
 export function GrowingFaqSection() {
@@ -52,11 +82,9 @@ export function GrowingFaqSection() {
                     +
                   </span>
                 </summary>
-                {faq.answer && (
-                  <p className="mt-3 text-sm leading-relaxed text-ink/60">
-                    {faq.answer}
-                  </p>
-                )}
+                <p className="mt-3 text-sm leading-relaxed text-ink/60">
+                  {faq.answer}
+                </p>
               </details>
             </Reveal>
           ))}

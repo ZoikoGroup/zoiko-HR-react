@@ -3,9 +3,9 @@ import { Container, Reveal, PlaceholderImage } from "@/components/ui";
 
 const COMPANY_LINKS = [
   { label: "Company Overview", href: "/company" },
-  { label: "About Zoiko Group", href: "/company/about-zoiko-group" },
+  { label: "About Zoiko Group", href: "/about-zoiko-group" },
   { label: "Leadership", href: "/company/leadership" },
-  { label: "Careers", href: "/company/careers" },
+  { label: "Careers", href: "/careers" },
   { label: "Partners", href: "/company/partners" },
   { label: "Newsroom", href: "/company/newsroom" },
   { label: "Contact", href: "/contact-us" },
@@ -90,7 +90,7 @@ export function CompanySection() {
 
         <Reveal delay={0.18}>
           <Link
-            href="/company/about-zoiko-group"
+            href="/about-zoiko-group"
             className="group mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-white"
           >
             Learn About Zoiko Group

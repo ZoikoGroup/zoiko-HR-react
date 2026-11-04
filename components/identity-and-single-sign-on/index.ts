@@ -1,0 +1,12 @@
+export { IdentitySsoHeroSection } from "./IdentitySsoHeroSection";
+export { ProviderRegistrySection } from "./ProviderRegistrySection";
+export { ProtocolSupportSection } from "./ProtocolSupportSection";
+export { SigninDiscoverySection } from "./SigninDiscoverySection";
+export { ConfiguringSsoSection } from "./ConfiguringSsoSection";
+export { AttributeMappingSection } from "./AttributeMappingSection";
+export { AutomaticProvisioningSection } from "./AutomaticProvisioningSection";
+export { OperationalTraceabilitySection } from "./OperationalTraceabilitySection";
+export { AdjacentProductsSection } from "./AdjacentProductsSection";
+export { ReadinessAccordionSection } from "./ReadinessAccordionSection";
+export { IdentitySsoFaqSection } from "./IdentitySsoFaqSection";
+export { IdentitySsoFinalCtaSection } from "./IdentitySsoFinalCtaSection";

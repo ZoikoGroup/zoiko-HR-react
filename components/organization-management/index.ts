@@ -1,0 +1,11 @@
+export { OrgMgmtHeroSection } from "./OrgMgmtHeroSection";
+export { OrganizationModelSection } from "./OrganizationModelSection";
+export { OverviewProofSection } from "./OverviewProofSection";
+export { StructuralTypesSection } from "./StructuralTypesSection";
+export { RelationshipsSection } from "./RelationshipsSection";
+export { GovernedChangeSection } from "./GovernedChangeSection";
+export { GovernancePermissionsSection } from "./GovernancePermissionsSection";
+export { DataQualityAuditSection } from "./DataQualityAuditSection";
+export { ImportSyncSection } from "./ImportSyncSection";
+export { CrossModuleAuthoritySection } from "./CrossModuleAuthoritySection";
+export { OrgMgmtFaqSection } from "./OrgMgmtFaqSection";

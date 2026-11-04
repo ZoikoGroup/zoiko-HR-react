@@ -19,7 +19,7 @@ const PATHS = [
     eyebrow: "Build or troubleshoot an integration",
     title: "Developer Documentation",
     description: "API, authentication, webhook, SDK and integration reference.",
-    href: "/integrations",
+    href: "/developer-documentation",
   },
   {
     eyebrow: "I still need help",

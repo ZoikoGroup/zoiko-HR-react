@@ -40,13 +40,14 @@ function KeyIcon() {
 const ROUTES = [
   { title: "Help Center", Icon: LifeRingIcon, description: "Step-by-step troubleshooting and how-to guides.", linkLabel: "Go to Help Center", href: "/help-center" },
   { title: "Service Status", Icon: StatusDotIcon, description: "Live and historical service health information.", linkLabel: "Check Status", href: "/service-status" },
-  { title: "Product Updates", Icon: BoxIcon, description: "Shipped changes, release notes, and what is new.", linkLabel: "View Updates", href: "/resources/product-updates" },
-  { title: "Sign In", Icon: KeyIcon, description: "Access your authenticated Zoiko HR workspace.", linkLabel: "Sign In", href: "/sign-in" },
+  { title: "Product Updates", Icon: BoxIcon, description: "Shipped changes, release notes, and what is new.", linkLabel: "View Updates", href: "/product-updates" },
+  // Same destination the navbar uses — there is no in-app /sign-in route.
+  { title: "Sign In", Icon: KeyIcon, description: "Access your authenticated Zoiko HR workspace.", linkLabel: "Sign In", href: "https://app.zoikohr.com/login" },
 ];
 
 export function SupportRoutesSection() {
   return (
-    <section className="bg-ink py-24 text-white">
+    <section id="support" className="bg-ink py-24 text-white">
       <Container>
         <Reveal>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">

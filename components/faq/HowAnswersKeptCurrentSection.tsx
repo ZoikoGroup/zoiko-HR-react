@@ -62,8 +62,14 @@ export function HowAnswersKeptCurrentSection() {
               <div className="mt-4 rounded-xl bg-primary-light p-5">
                 <p className="font-semibold text-primary">Correction path</p>
                 <p className="mt-1 text-sm leading-relaxed text-primary/80">
-                  Report an outdated answer → sends stable question ID and
-                  context. No sensitive free text required.
+                  <a
+                    href="/contact-support"
+                    className="font-semibold text-primary underline underline-offset-2 hover:text-primary-dark"
+                  >
+                    Report an outdated answer →
+                  </a>{" "}
+                  sends stable question ID and context. No sensitive free text
+                  required.
                 </p>
               </div>
             </Reveal>

@@ -1,0 +1,16 @@
+export { GlobalHrOperationsHeroSection } from "./GlobalHrOperationsHeroSection";
+export { ExpansionPressureSection } from "./ExpansionPressureSection";
+export { ExpansionReadinessSection } from "./ExpansionReadinessSection";
+export { OperatingModelSection } from "./OperatingModelSection";
+export { EntityArchitectureSection } from "./EntityArchitectureSection";
+export { ConfigurationDomainsSection } from "./ConfigurationDomainsSection";
+export { GovernedPoliciesSection } from "./GovernedPoliciesSection";
+export { PermissionsGovernanceSection } from "./PermissionsGovernanceSection";
+export { OperationalVisibilitySection } from "./OperationalVisibilitySection";
+export { ConnectedWorkforceStackSection } from "./ConnectedWorkforceStackSection";
+export { ImplementationPathSection } from "./ImplementationPathSection";
+export { ExpansionScenariosSection } from "./ExpansionScenariosSection";
+export { BusinessOutcomesSection } from "./BusinessOutcomesSection";
+export { TrustEnterpriseReadinessSection } from "./TrustEnterpriseReadinessSection";
+export { GlobalHrOperationsFaqSection } from "./GlobalHrOperationsFaqSection";
+export { GlobalHrOperationsFinalCtaSection } from "./GlobalHrOperationsFinalCtaSection";

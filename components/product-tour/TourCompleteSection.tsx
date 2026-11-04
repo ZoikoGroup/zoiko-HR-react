@@ -27,7 +27,7 @@ const NEXT_STEPS = [
 ];
 
 const SUPPORT_LINKS = [
-  ["Documentation", "/developer-documentation"],
+  ["Documentation", "/developers"],
   ["Help Center", "/help-center"],
   ["Product Updates", "/product-updates"],
   ["Service Status", "/service-status"],

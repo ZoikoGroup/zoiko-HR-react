@@ -1,0 +1,12 @@
+export { EmployeeHeroSection } from "./EmployeeHeroSection";
+export { SimplerExperienceSection } from "./SimplerExperienceSection";
+export { EmployeeHomeSection } from "./EmployeeHomeSection";
+export { PersonalInformationSection } from "./PersonalInformationSection";
+export { RequestManagementSection } from "./RequestManagementSection";
+export { LifecycleMomentsSection } from "./LifecycleMomentsSection";
+export { DocumentsAnswersSection } from "./DocumentsAnswersSection";
+export { PrivacyPermissionsSection } from "./PrivacyPermissionsSection";
+export { ConnectedStackSection } from "./ConnectedStackSection";
+export { GlobalMultiEntitySection } from "./GlobalMultiEntitySection";
+export { EmployeeFaqSection } from "./EmployeeFaqSection";
+export { EmployeeCtaSection } from "./EmployeeCtaSection";

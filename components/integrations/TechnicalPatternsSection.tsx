@@ -45,7 +45,7 @@ export function TechnicalPatternsSection() {
 
         <Reveal delay={0.4}>
           <Link
-            href="/developer-documentation"
+            href="/developers"
             className="group mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark"
           >
             View Developer Documentation

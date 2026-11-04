@@ -1,3 +1,10 @@
+/** Authority label → the page that owns that answer. */
+const AUTHORITY_HREFS: Record<string, string> = {
+  Documentation: "/documentation",
+  "Global Coverage": "/global-hr-management",
+  "Implementation Guide": "/implementation-guide",
+}
+
 export const GlobalMultiEntitySection = () => {
   const faqs = [
     { q: "Can Zoiko HR support multiple legal entities?", a: "Yes — Zoiko HR supports a product hierarchy that organises employees across multiple entities within one deployment.", link: "Documentation" },
@@ -22,7 +29,7 @@ export const GlobalMultiEntitySection = () => {
               <h3 className="text-[14px] font-bold text-slate-900 mb-3">{faq.q}</h3>
               <p className="text-[13px] text-slate-600 leading-relaxed mb-6 flex-grow">{faq.a}</p>
               <div className="flex items-center justify-between mt-auto">
-                <a href="#" className="text-[11px] text-blue-500 hover:text-blue-700 font-medium flex items-center group uppercase tracking-wider">
+                <a href={AUTHORITY_HREFS[faq.link]} className="text-[11px] text-blue-500 hover:text-blue-700 font-medium flex items-center group uppercase tracking-wider">
                   {faq.link} <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
                 </a>
                 <span className="text-[11px] text-slate-400">Reviewed Aug 2024</span>

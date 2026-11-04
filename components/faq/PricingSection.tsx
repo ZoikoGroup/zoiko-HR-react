@@ -41,10 +41,10 @@ export const PricingSection = () => {
           <h3 className="font-bold text-white text-[15px] mb-3">How do I get current pricing?</h3>
           <p className="text-slate-400 text-[13px] leading-relaxed mb-6 max-w-3xl">Request current pricing through the sales team or book a demo to discuss your specific requirements and receive a tailored proposal.</p>
           <div className="flex flex-wrap gap-4">
-            <a href="#" className="border border-white/20 text-white hover:bg-white/10 rounded-lg px-6 py-2.5 text-[13px] font-medium transition-colors flex items-center group">
+            <a href="/pricing" className="border border-white/20 text-white hover:bg-white/10 rounded-lg px-6 py-2.5 text-[13px] font-medium transition-colors flex items-center group">
               Request Pricing <span className="ml-2 transition-transform group-hover:translate-x-1">→</span>
             </a>
-            <a href="#" className="border border-white/20 text-white hover:bg-white/10 rounded-lg px-6 py-2.5 text-[13px] font-medium transition-colors flex items-center group">
+            <a href="/book-a-demo" className="border border-white/20 text-white hover:bg-white/10 rounded-lg px-6 py-2.5 text-[13px] font-medium transition-colors flex items-center group">
               Book a Demo <span className="ml-2 transition-transform group-hover:translate-x-1">→</span>
             </a>
           </div>

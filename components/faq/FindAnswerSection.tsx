@@ -54,9 +54,7 @@ export const FindAnswerSection = () => {
                   </span>
                   <span className="text-[11px] text-slate-400">Reviewed Aug 2024</span>
                 </div>
-                <a href="#" className="text-[13px] text-blue-500 hover:text-blue-700 font-medium flex items-center group">
-                  View answer <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
-                </a>
+                {/* No "View answer" link: the answer is already shown in the card. */}
               </div>
             </div>
           ))}
@@ -64,9 +62,9 @@ export const FindAnswerSection = () => {
         
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[13px]">
           <span className="text-slate-500">Can&apos;t find it? Browse</span>
-          <a href="#" className="text-blue-600 hover:text-blue-800 font-medium">Documentation</a>
-          <a href="#" className="text-blue-600 hover:text-blue-800 font-medium">Help Center</a>
-          <a href="#" className="text-blue-600 hover:text-blue-800 font-medium">Contact Support</a>
+          <a href="/documentation" className="text-blue-600 hover:text-blue-800 font-medium">Documentation</a>
+          <a href="/help-center" className="text-blue-600 hover:text-blue-800 font-medium">Help Center</a>
+          <a href="/contact-support" className="text-blue-600 hover:text-blue-800 font-medium">Contact Support</a>
         </div>
       </div>
     </section>

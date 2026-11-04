@@ -1,0 +1,1490 @@
+<frame id="1018:3148" name="Global HR Operations" x="76094" y="-2551" width="1441" height="13132">
+  <frame id="1021:5908" name="Header" x="0" y="0" width="1440" height="100">
+    <frame id="1021:5909" name="Nav" x="270.2998046875" y="14" width="538.75" height="71.19999694824219">
+      <text id="1021:5910" name="Link → Pricing" x="492.05999755859375" y="26" width="47.032779693603516" height="19.200000762939453" />
+      <frame id="1021:5911" name="Button" x="0" y="0" width="71.51000213623047" height="71.19999694824219">
+        <text id="1021:5912" name="Platform" x="0" y="26" width="58.08721923828125" height="19.200000762939453" />
+        <text id="1021:5913" name="▾" x="62.709999084472656" y="28.799999237060547" width="9" height="12.800000190734863" />
+      </frame>
+      <frame id="1021:5914" name="Button" x="89.51000213623047" y="0" width="76.0199966430664" height="71.19999694824219">
+        <text id="1021:5915" name="Solutions" x="0" y="26" width="62.62134552001953" height="19.200000762939453" />
+        <text id="1021:5916" name="▾" x="67.2300033569336" y="28.799999237060547" width="9" height="12.800000190734863" />
+      </frame>
+      <frame id="1021:5917" name="Button" x="183.5399932861328" y="0" width="95.48999786376953" height="71.19999694824219">
+        <text id="1021:5918" name="Integrations" x="0" y="26" width="82.01607513427734" height="19.200000762939453" />
+        <text id="1021:5919" name="▾" x="86.68000030517578" y="28.799999237060547" width="9" height="12.800000190734863" />
+      </frame>
+      <frame id="1021:5920" name="Button" x="297.0299987792969" y="0" width="82.83000183105469" height="71.19999694824219">
+        <text id="1021:5921" name="Resources" x="0" y="26" width="69.3363037109375" height="19.200000762939453" />
+        <text id="1021:5922" name="▾" x="74.0199966430664" y="28.799999237060547" width="9" height="12.800000190734863" />
+      </frame>
+      <frame id="1021:5923" name="Button" x="397.8500061035156" y="0" width="76.20999908447266" height="71.19999694824219">
+        <text id="1021:5924" name="Company" x="0" y="26" width="62.80190658569336" height="19.200000762939453" />
+        <text id="1021:5925" name="▾" x="67.41000366210938" y="28.799999237060547" width="9" height="12.800000190734863" />
+      </frame>
+    </frame>
+    <text id="1021:5926" name="Link → Sign In" x="1207.699951171875" y="40" width="46.902374267578125" height="19.200000762939453" />
+    <frame id="1021:5927" name="Button" x="1272.260009765625" y="28" width="128.13999938964844" height="43.20000076293945">
+      <text id="1021:5928" name="Book a Demo" x="20" y="12" width="88.47615051269531" height="19.200000762939453" />
+    </frame>
+    <rounded-rectangle id="1021:5929" name="zoikohr-logo-png 1" x="57" y="33" width="196" height="33" />
+  </frame>
+  <frame id="1018:3185" name="HeroSection" x="0" y="100" width="1441" height="788.329833984375">
+    <frame id="1023:5931" name="Frame 133" x="105" y="128" width="615.989501953125" height="532.984375">
+      <frame id="1018:3205" name="Paragraph" x="0" y="0" width="615.989501953125" height="16">
+        <text id="1018:3206" name="Global HR Operations" x="0" y="0" width="176" height="16" />
+      </frame>
+      <frame id="1018:3208" name="Heading 1" x="0" y="16" width="615.989501953125" height="198">
+        <text id="1018:3209" name="Expand globally without fragmenting HR operations." x="0" y="16" width="616" height="182" />
+      </frame>
+      <frame id="1018:3238" name="Paragraph:margin" x="0" y="214" width="520" height="141">
+        <text id="1018:3212" name="Bring entities, workforce records, permissions, po" x="0" y="24" width="520" height="117" />
+      </frame>
+      <frame id="1018:3214" name="Container" x="0" y="355.0001220703125" width="615.989501953125" height="77.9895248413086">
+        <frame id="1018:3215" name="Link" x="0" y="32" width="137" height="45.989524841308594">
+          <text id="1018:3216" name="Book a Demo" x="24" y="12.994762420654297" width="89" height="20" />
+        </frame>
+        <frame id="1018:3218" name="Link" x="149" y="32" width="217.01048278808594" height="45.989524841308594">
+          <text id="1018:3219" name="See the Global HR Model" x="25.005239486694336" y="12.994762420654297" width="167" height="20" />
+        </frame>
+      </frame>
+      <frame id="1018:3240" name="Capability highlights:margin" x="0" y="432.9896240234375" width="615.989501953125" height="99.99475860595703">
+        <frame id="1018:3221" name="Capability highlights" x="0" y="32" width="615.989501953125" height="67.99475860595703">
+          <frame id="1018:3222" name="Text" x="0" y="0" width="144.01048278808594" height="30.010478973388672">
+            <text id="1018:3223" name="Multi-entity structure" x="13.005239486694336" y="7.005239963531494" width="118" height="16" />
+          </frame>
+          <frame id="1018:3225" name="Text" x="151.50784301757812" y="0" width="205.01048278808594" height="30.010478973388672">
+            <text id="1018:3226" name="Jurisdiction-aware configuration" x="13.005239486694336" y="7.005239963531494" width="179" height="16" />
+          </frame>
+          <frame id="1018:3228" name="Text" x="364.16229248046875" y="0" width="156.01048278808594" height="30.010478973388672">
+            <text id="1018:3229" name="Governed local variants" x="13.005239486694336" y="7.005239963531494" width="130" height="16" />
+          </frame>
+          <frame id="1018:3231" name="Text" x="0" y="37.9947509765625" width="140.01048278808594" height="30.010478973388672">
+            <text id="1018:3232" name="Group-wide visibility" x="13.005239486694336" y="7.005239963531494" width="114" height="16" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:3242" name="Container" x="721" y="176" width="616.0051879882812" height="435.801025390625">
+      <rounded-rectangle id="1024:5955" name="image 525" x="-80" y="0" width="776" height="436" />
+    </frame>
+  </frame>
+  <frame id="1018:3386" name="ProblemSection" x="0" y="888.329833984375" width="1441" height="657.8115234375">
+    <frame id="1018:3457" name="Container:margin" x="24" y="96" width="1393" height="465.8114929199219">
+      <frame id="1018:3387" name="Container" x="56.50262451171875" y="0" width="1279.9947509765625" height="465.8114929199219">
+        <frame id="1018:3388" name="Heading 2" x="0" y="0" width="1279.9947509765625" height="47.999996185302734">
+          <text id="1018:3389" name="Every new market adds structure. It should not add" x="0" y="0" width="1263" height="48" />
+        </frame>
+        <frame id="1018:3455" name="Paragraph:margin" x="0" y="47.999996185302734" width="600" height="84">
+          <text id="1018:3392" name="The problem is unmanaged variation, duplicated sys" x="0" y="12" width="600" height="72" />
+        </frame>
+        <frame id="1018:3394" name="Container" x="0" y="132" width="1279.9947509765625" height="333.8114929199219">
+          <frame id="1018:3395" name="Table - Expansion pressure and impact" x="0" y="40" width="1279.9947509765625" height="293.8114929199219">
+            <frame id="1018:3398" name="Header Cell" x="0" y="0" width="486.39263916015625" height="28.492145538330078">
+              <text id="1018:3399" name="Expansion Pressure" x="0" y="0.24607276916503906" width="151" height="16" />
+            </frame>
+            <frame id="1018:3401" name="Header Cell" x="486.39263916015625" y="0" width="793.60205078125" height="28.492145538330078">
+              <text id="1018:3402" name="What Breaks Without a Governed Model" x="0" y="0.24607276916503906" width="302" height="16" />
+            </frame>
+            <frame id="1018:3406" name="Table Cell" x="0" y="28.492145538330078" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3407" name="Container" x="0" y="16" width="454.39788818359375" height="19.97905731201172">
+                <frame id="1018:3411" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:3408" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <text id="1018:3409" name="New legal entity" x="14" y="0" width="109" height="20" />
+              </frame>
+            </frame>
+            <frame id="1018:3412" name="Table Cell" x="486.39263916015625" y="28.492145538330078" width="793.60205078125" height="52.963348388671875">
+              <text id="1018:3413" name="Records, ownership and reporting may split across " x="0" y="16" width="551" height="20" />
+            </frame>
+            <frame id="1018:3416" name="Table Cell" x="0" y="81.45549011230469" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3417" name="Container" x="0" y="16" width="454.39788818359375" height="19.97905731201172">
+                <frame id="1018:3421" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:3418" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <text id="1018:3419" name="New country or location" x="14" y="0" width="162" height="20" />
+              </frame>
+            </frame>
+            <frame id="1018:3422" name="Table Cell" x="486.39263916015625" y="81.45549011230469" width="793.60205078125" height="52.963348388671875">
+              <text id="1018:3423" name="Local policies and processes become hard to distin" x="0" y="16" width="527" height="20" />
+            </frame>
+            <frame id="1018:3426" name="Table Cell" x="0" y="134.41883850097656" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3427" name="Container" x="0" y="16" width="454.39788818359375" height="19.97905731201172">
+                <frame id="1018:3431" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:3428" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <text id="1018:3429" name="Distributed team" x="14" y="0" width="114" height="20" />
+              </frame>
+            </frame>
+            <frame id="1018:3432" name="Table Cell" x="486.39263916015625" y="134.41883850097656" width="793.60205078125" height="52.963348388671875">
+              <text id="1018:3433" name="Managers and employees may not know which process," x="0" y="16" width="584" height="20" />
+            </frame>
+            <frame id="1018:3436" name="Table Cell" x="0" y="187.38218688964844" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3437" name="Container" x="0" y="16" width="454.39788818359375" height="19.97905731201172">
+                <frame id="1018:3441" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:3438" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <text id="1018:3439" name="Acquisition or reorganization" x="14" y="0" width="196" height="20" />
+              </frame>
+            </frame>
+            <frame id="1018:3442" name="Table Cell" x="486.39263916015625" y="187.38218688964844" width="793.60205078125" height="52.963348388671875">
+              <text id="1018:3443" name="Legacy structures and data need controlled mapping" x="0" y="16" width="564" height="20" />
+            </frame>
+            <frame id="1018:3446" name="Table Cell" x="0" y="240.3455352783203" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3447" name="Container" x="0" y="16" width="454.39788818359375" height="19.97905731201172">
+                <frame id="1018:3451" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:3448" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <text id="1018:3449" name="More leadership layers" x="14" y="0" width="154" height="20" />
+              </frame>
+            </frame>
+            <frame id="1018:3452" name="Table Cell" x="486.39263916015625" y="240.3455352783203" width="793.60205078125" height="52.963348388671875">
+              <text id="1018:3453" name="Group leaders need consolidated visibility while l" x="0" y="16" width="669" height="20" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:3458" name="ReadinessSection" x="0" y="1546.141357421875" width="1441" height="830.28271484375">
+    <frame id="1018:3460" name="Paragraph" x="80.50262451171875" y="96" width="1279.9947509765625" height="16">
+      <text id="1018:3461" name="Expansion Readiness" x="0" y="0" width="169" height="16" />
+    </frame>
+    <frame id="1018:3463" name="Heading 2" x="80.50262451171875" y="112" width="640" height="156">
+      <text id="1018:3464" name="A global HR foundation should answer six questions" x="0" y="12" width="640" height="144" />
+    </frame>
+    <frame id="1018:3467" name="Container" x="80.50262451171875" y="308" width="631.9947509765625" height="131.43455505371094">
+      <frame id="1018:3468" name="Container" x="25.005239486694336" y="25.005239486694336" width="581.9842529296875" height="24">
+        <frame id="1018:3469" name="Text" x="0" y="0" width="31" height="24">
+          <text id="1018:3470" name="01" x="8" y="4" width="15" height="16" />
+        </frame>
+        <frame id="1018:3472" name="Paragraph" x="43" y="0" width="226" height="20">
+          <text id="1018:3473" name="Where does each worker belong?" x="0" y="0" width="226" height="20" />
+        </frame>
+      </frame>
+      <frame id="1018:3475" name="Paragraph" x="25.005239486694336" y="49.00524139404297" width="581.9842529296875" height="58">
+        <text id="1018:3476" name="Group, legal entity, location, business unit, depa" x="36" y="12" width="546" height="46" />
+      </frame>
+    </frame>
+    <frame id="1018:3479" name="Container" x="729" y="307.858642578125" width="632" height="426">
+      <rounded-rectangle id="1025:5958" name="image 526" x="-108" y="-51" width="848" height="477" />
+    </frame>
+    <frame id="1018:3491" name="Container" x="80.50274658203125" y="455.4352111816406" width="631.9947509765625" height="131.43455505371094">
+      <frame id="1018:3492" name="Container" x="25.005239486694336" y="25.005239486694336" width="581.9842529296875" height="24">
+        <frame id="1018:3493" name="Text" x="0" y="0" width="31" height="24">
+          <text id="1018:3494" name="03" x="8" y="4" width="15" height="16" />
+        </frame>
+        <frame id="1018:3496" name="Paragraph" x="43" y="0" width="207" height="20">
+          <text id="1018:3497" name="Who can see and act on what?" x="0" y="0" width="207" height="20" />
+        </frame>
+      </frame>
+      <frame id="1018:3499" name="Paragraph" x="25.005239486694336" y="49.00524139404297" width="581.9842529296875" height="58">
+        <text id="1018:3500" name="Role-based access and scoped responsibilities redu" x="36" y="12" width="546" height="46" />
+      </frame>
+    </frame>
+    <frame id="1018:3515" name="Container" x="80.50274658203125" y="602.8702392578125" width="631.9947509765625" height="131.43455505371094">
+      <frame id="1018:3516" name="Container" x="25.005239486694336" y="25.005239486694336" width="581.9842529296875" height="24">
+        <frame id="1018:3517" name="Text" x="0" y="0" width="31" height="24">
+          <text id="1018:3518" name="05" x="8" y="4" width="15" height="16" />
+        </frame>
+        <frame id="1018:3520" name="Paragraph" x="43" y="0" width="306" height="20">
+          <text id="1018:3521" name="How can leaders see the whole organization?" x="0" y="0" width="306" height="20" />
+        </frame>
+      </frame>
+      <frame id="1018:3523" name="Paragraph" x="25.005239486694336" y="49.00524139404297" width="581.9842529296875" height="58">
+        <text id="1018:3524" name="Local views coexist with consolidated workforce re" x="36" y="12" width="546" height="46" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:3542" name="OperatingModelSection" x="0" y="2376.424072265625" width="1441" height="829.5601806640625">
+    <frame id="1018:3642" name="Container:margin" x="24" y="96" width="1393" height="637.5601806640625">
+      <frame id="1018:3543" name="Container" x="56.50262451171875" y="0" width="1279.9947509765625" height="637.5601806640625">
+        <frame id="1018:3544" name="Paragraph" x="0" y="0" width="1279.9947509765625" height="16">
+          <text id="1018:3545" name="Global HR Operating Model" x="0" y="0" width="220" height="16" />
+        </frame>
+        <frame id="1018:3547" name="Heading 2" x="0" y="16" width="1279.9947509765625" height="59.999996185302734">
+          <text id="1018:3548" name="One governed foundation. Multiple controlled conte" x="0" y="12" width="1050" height="48" />
+        </frame>
+        <frame id="1018:3640" name="Paragraph:margin" x="0" y="76" width="560" height="60">
+          <text id="1018:3551" name="Inherited configuration must be visually distingui" x="0" y="12" width="560" height="48" />
+        </frame>
+        <frame id="1018:3641" name="Numbered List - Five-layer global HR operating model:margin" x="0" y="136" width="1280.005126953125" height="501.5601806640625">
+          <frame id="1018:3553" name="Numbered List - Five-layer global HR operating model" x="16" y="48" width="1264.005126953125" height="453.5601806640625">
+            <frame id="1018:3554" name="List Item" x="1.0052399635314941" y="0" width="1262.9998779296875" height="98.7120361328125">
+              <frame id="1018:3558" name="Container" x="32" y="0" width="1231.005126953125" height="58.712039947509766">
+                <frame id="1018:3559" name="Container" x="0" y="0" width="1007.280029296875" height="58.712039947509766">
+                  <frame id="1018:3560" name="Heading 3" x="0" y="0" width="1007.280029296875" height="28">
+                    <text id="1018:3561" name="Global foundation" x="0" y="0" width="159" height="28" />
+                  </frame>
+                  <frame id="1018:3563" name="Paragraph" x="0" y="28" width="1007.280029296875" height="31">
+                    <text id="1018:3564" name="Common record model, core lifecycle structure, sec" x="0" y="8" width="663" height="23" />
+                  </frame>
+                </frame>
+                <frame id="1018:3567" name="Container" x="1023.2799072265625" y="0" width="207.7382049560547" height="30.50261688232422">
+                  <frame id="1018:3568" name="Text" x="0" y="0" width="207.7382049560547" height="30.50261688232422">
+                    <text id="1018:3569" name="Global settings / organization model" x="13.0052490234375" y="7.010498046875" width="182" height="17" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1018:3555" name="Text" x="-15.989524841308594" y="0" width="31.994762420654297" height="31.994762420654297">
+                <text id="1018:3556" name="1" x="11.997381210327148" y="7.997381210327148" width="8" height="16" />
+              </frame>
+            </frame>
+            <frame id="1018:3571" name="List Item" x="1.0052399635314941" y="98.7120361328125" width="1262.9998779296875" height="98.7120361328125">
+              <frame id="1018:3575" name="Container" x="32" y="0" width="1231.005126953125" height="58.712039947509766">
+                <frame id="1018:3576" name="Container" x="0" y="0" width="1016.530029296875" height="58.712039947509766">
+                  <frame id="1018:3577" name="Heading 3" x="0" y="0" width="1016.530029296875" height="28">
+                    <text id="1018:3578" name="Entity &amp; location structure" x="0" y="0" width="235" height="28" />
+                  </frame>
+                  <frame id="1018:3580" name="Paragraph" x="0" y="28" width="1016.530029296875" height="31">
+                    <text id="1018:3581" name="Make legal entities, business units and operating " x="0" y="8" width="678" height="23" />
+                  </frame>
+                </frame>
+                <frame id="1018:3584" name="Container" x="1032.530029296875" y="0" width="198.48690795898438" height="30.50261688232422">
+                  <frame id="1018:3585" name="Text" x="0" y="0" width="198.48690795898438" height="30.50261688232422">
+                    <text id="1018:3586" name="Entity directory / organization tree" x="13.0052490234375" y="7.010498046875" width="173" height="17" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1018:3572" name="Text" x="-15.989524841308594" y="0" width="31.994762420654297" height="31.994762420654297">
+                <text id="1018:3573" name="2" x="11.997381210327148" y="7.997381210327148" width="8" height="16" />
+              </frame>
+            </frame>
+            <frame id="1018:3588" name="List Item" x="1.0052399635314941" y="197.424072265625" width="1262.9998779296875" height="98.7120361328125">
+              <frame id="1018:3592" name="Container" x="32" y="0" width="1231.005126953125" height="58.712039947509766">
+                <frame id="1018:3593" name="Container" x="0.000244140625" y="0" width="999.8795166015625" height="58.712039947509766">
+                  <frame id="1018:3594" name="Heading 3" x="0" y="0" width="999.8795166015625" height="28">
+                    <text id="1018:3595" name="Controlled local configuration" x="0" y="0" width="268" height="28" />
+                  </frame>
+                  <frame id="1018:3597" name="Paragraph" x="0" y="28" width="999.8795166015625" height="31">
+                    <text id="1018:3598" name="Apply supported policy, workflow, calendar, termin" x="0" y="8" width="612" height="23" />
+                  </frame>
+                </frame>
+                <frame id="1018:3601" name="Container" x="1015.8799438476562" y="0" width="215.1361083984375" height="30.50261688232422">
+                  <frame id="1018:3602" name="Text" x="0" y="0" width="215.1361083984375" height="30.50261688232422">
+                    <text id="1018:3603" name="Inherited default + approved override" x="13.0052490234375" y="7.010498046875" width="190" height="17" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1018:3589" name="Text" x="-15.989524841308594" y="0" width="31.994762420654297" height="31.994762420654297">
+                <text id="1018:3590" name="3" x="11.997381210327148" y="7.997381210327148" width="8" height="16" />
+              </frame>
+            </frame>
+            <frame id="1018:3605" name="List Item" x="1.0052399635314941" y="296.1361083984375" width="1262.9998779296875" height="98.7120361328125">
+              <frame id="1018:3609" name="Container" x="32" y="0" width="1231.005126953125" height="58.712039947509766">
+                <frame id="1018:3610" name="Container" x="0" y="0" width="1029.68994140625" height="58.712039947509766">
+                  <frame id="1018:3611" name="Heading 3" x="0" y="0" width="1029.68994140625" height="28">
+                    <text id="1018:3612" name="Role-aware execution" x="0" y="0" width="194" height="28" />
+                  </frame>
+                  <frame id="1018:3614" name="Paragraph" x="0" y="28" width="1029.68994140625" height="31">
+                    <text id="1018:3615" name="Route work to the correct employee, manager, HR te" x="0" y="8" width="450" height="23" />
+                  </frame>
+                </frame>
+                <frame id="1018:3618" name="Container" x="1045.690185546875" y="0" width="185.32460021972656" height="30.50261688232422">
+                  <frame id="1018:3619" name="Text" x="0" y="0" width="185.32460021972656" height="30.50261688232422">
+                    <text id="1018:3620" name="Task / request / approval queue" x="13.0052490234375" y="7.01025390625" width="160" height="17" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1018:3606" name="Text" x="-15.989524841308594" y="0" width="31.994762420654297" height="31.994762420654297">
+                <text id="1018:3607" name="4" x="11.997381210327148" y="7.997381210327148" width="8" height="16" />
+              </frame>
+            </frame>
+            <frame id="1018:3622" name="List Item" x="1.0052399635314941" y="394.84814453125" width="1262.9998779296875" height="58.712039947509766">
+              <frame id="1018:3626" name="Container" x="32" y="0" width="1231.005126953125" height="58.712039947509766">
+                <frame id="1018:3627" name="Container" x="0" y="0" width="1007.8900146484375" height="58.712039947509766">
+                  <frame id="1018:3628" name="Heading 3" x="0" y="0" width="1007.8900146484375" height="28">
+                    <text id="1018:3629" name="Local + group visibility" x="0" y="0" width="197" height="28" />
+                  </frame>
+                  <frame id="1018:3631" name="Paragraph" x="0" y="28" width="1007.8900146484375" height="31">
+                    <text id="1018:3632" name="Provide relevant operational views locally and con" x="0" y="8" width="667" height="23" />
+                  </frame>
+                </frame>
+                <frame id="1018:3635" name="Container" x="1023.8901977539062" y="0" width="207.12564086914062" height="30.50261688232422">
+                  <frame id="1018:3636" name="Text" x="0" y="0" width="207.12564086914062" height="30.50261688232422">
+                    <text id="1018:3637" name="Entity dashboard / group dashboard" x="13.0052490234375" y="7.010498046875" width="182" height="17" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1018:3623" name="Text" x="-15.989524841308594" y="0" width="31.994762420654297" height="31.994762420654297">
+                <text id="1018:3624" name="5" x="11.997381210327148" y="7.997381210327148" width="8" height="16" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:3643" name="EntityArchSection" x="0" y="3205.984375" width="1441" height="667.931884765625">
+    <frame id="1018:3645" name="Container" x="80.50286865234375" y="96" width="615.989501953125" height="475.9319152832031">
+      <frame id="1018:3646" name="Paragraph" x="0" y="0" width="615.989501953125" height="16">
+        <text id="1018:3647" name="Organization Architecture" x="0" y="0" width="224" height="16" />
+      </frame>
+      <frame id="1018:3649" name="Heading 2" x="0" y="16" width="615.989501953125" height="100">
+        <text id="1018:3650" name="Represent the organization the way it actually ope" x="0" y="12" width="616" height="88" />
+      </frame>
+      <frame id="1018:3652" name="List - Architecture capabilities" x="0" y="116" width="615.989501953125" height="320">
+        <frame id="1018:3653" name="List Item" x="0" y="24" width="616" height="40">
+          <frame id="1018:3658" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+            <frame id="1018:3654" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+          </frame>
+          <frame id="1018:3655" name="Container" x="18" y="0" width="598" height="40">
+            <text id="1018:3656" name="Group hierarchy Parent group → legal entity → busi" x="0" y="0" width="598" height="40" />
+          </frame>
+        </frame>
+        <frame id="1018:3683" name="List Item:margin" x="0" y="64" width="615.989501953125" height="56">
+          <frame id="1018:3659" name="List Item" x="0" y="16" width="616" height="40">
+            <frame id="1018:3664" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+              <frame id="1018:3660" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+            </frame>
+            <frame id="1018:3661" name="Container" x="18" y="0" width="598" height="40">
+              <text id="1018:3662" name="Entity profile Entity name, internal identifier, o" x="0" y="0" width="598" height="40" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1018:3684" name="List Item:margin" x="0" y="120" width="615.989501953125" height="56">
+          <frame id="1018:3665" name="List Item" x="0" y="16" width="616" height="40">
+            <frame id="1018:3670" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+              <frame id="1018:3666" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+            </frame>
+            <frame id="1018:3667" name="Container" x="18" y="0" width="598" height="40">
+              <text id="1018:3668" name="Worker association Worker record shows primary ent" x="0" y="0" width="598" height="40" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1018:3685" name="List Item:margin" x="0" y="176" width="615.989501953125" height="56">
+          <frame id="1018:3671" name="List Item" x="0" y="16" width="616" height="40">
+            <frame id="1018:3676" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+              <frame id="1018:3672" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+            </frame>
+            <frame id="1018:3673" name="Container" x="18" y="0" width="598" height="40">
+              <text id="1018:3674" name="Reorganization Changes can be effective-dated or o" x="0" y="0" width="598" height="40" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1018:3686" name="List Item:margin" x="0" y="232" width="615.989501953125" height="56">
+          <frame id="1018:3677" name="List Item" x="0" y="16" width="616" height="40">
+            <frame id="1018:3682" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+              <frame id="1018:3678" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+            </frame>
+            <frame id="1018:3679" name="Container" x="18" y="0" width="598" height="40">
+              <text id="1018:3680" name="Acquisition onboarding Controlled mapping from sou" x="0" y="0" width="598" height="40" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1023:5932" name="Frame 134" x="757" y="96.015625" width="529" height="404">
+      <rounded-rectangle id="1025:5961" name="image 527" x="0" y="-10" width="529" height="424" />
+    </frame>
+  </frame>
+  <frame id="1018:3767" name="ConfigSection" x="0" y="3873.916259765625" width="1441" height="746.7748413085938">
+    <frame id="1018:3903" name="Container:margin" x="24" y="96" width="1393" height="554.7748413085938">
+      <frame id="1018:3768" name="Container" x="56.50262451171875" y="0" width="1279.9947509765625" height="554.7748413085938">
+        <frame id="1018:3769" name="Paragraph" x="0" y="0" width="1279.9947509765625" height="16">
+          <text id="1018:3770" name="Jurisdiction-Aware Configuration" x="0" y="0" width="287" height="16" />
+        </frame>
+        <frame id="1018:3772" name="Heading 2" x="0" y="16" width="1279.9947509765625" height="59.999996185302734">
+          <text id="1018:3773" name="Configure what changes locally — keep the differen" x="0" y="12" width="1150" height="48" />
+        </frame>
+        <frame id="1018:3901" name="Paragraph:margin" x="0" y="76" width="560" height="92">
+          <text id="1018:3776" name="&quot;Jurisdiction-aware&quot; means configuration can refle" x="0" y="12" width="560" height="80" />
+        </frame>
+        <frame id="1018:3778" name="Container" x="0" y="168" width="1279.9947509765625" height="386.77484130859375">
+          <frame id="1018:3779" name="Table - Configuration domains showing global defaults and local variants" x="0" y="40" width="1279.9947509765625" height="346.77484130859375">
+            <frame id="1018:3782" name="Header Cell" x="0" y="0" width="307.1936950683594" height="28.492145538330078">
+              <text id="1018:3783" name="Configuration Domain" x="0" y="0.24607276916503906" width="171" height="16" />
+            </frame>
+            <frame id="1018:3785" name="Header Cell" x="307.1936950683594" y="0" width="486.39263916015625" height="28.492145538330078">
+              <text id="1018:3786" name="Global Default" x="0" y="0.24607276916503906" width="113" height="16" />
+            </frame>
+            <frame id="1018:3788" name="Header Cell" x="793.5863037109375" y="0" width="486.4083557128906" height="28.492145538330078">
+              <text id="1018:3789" name="Controlled Local Variant" x="0" y="0.24607276916503906" width="196" height="16" />
+            </frame>
+            <frame id="1018:3793" name="Table Cell" x="0" y="28.492145538330078" width="307.1936950683594" height="52.963348388671875">
+              <text id="1018:3794" name="Workflow routing" x="0" y="16" width="117" height="20" />
+            </frame>
+            <frame id="1018:3796" name="Table Cell" x="307.1936950683594" y="28.492145538330078" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3797" name="Container" x="0" y="16" width="462.39263916015625" height="20">
+                <frame id="1018:3802" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3798" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3799" name="Text" x="14" y="0" width="246" height="20">
+                  <text id="1018:3800" name="Common lifecycle or request process" x="0" y="0" width="246" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3803" name="Table Cell" x="793.5863037109375" y="28.492145538330078" width="486.4083557128906" height="52.963348388671875">
+              <frame id="1018:3804" name="Container" x="0" y="16" width="486.4083557128906" height="20">
+                <frame id="1018:3809" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3805" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3806" name="Text" x="14" y="0" width="364" height="20">
+                  <text id="1018:3807" name="Different approver or HR owner for an entity or lo" x="0" y="0" width="364" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3811" name="Table Cell" x="0" y="81.45549011230469" width="307.1936950683594" height="52.963348388671875">
+              <text id="1018:3812" name="Policy acknowledgement" x="0" y="16" width="170" height="20" />
+            </frame>
+            <frame id="1018:3814" name="Table Cell" x="307.1936950683594" y="81.45549011230469" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3815" name="Container" x="0" y="16" width="462.39263916015625" height="20">
+                <frame id="1018:3820" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3816" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3817" name="Text" x="14" y="0" width="168" height="20">
+                  <text id="1018:3818" name="Group policy requirement" x="0" y="0" width="168" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3821" name="Table Cell" x="793.5863037109375" y="81.45549011230469" width="486.4083557128906" height="52.963348388671875">
+              <frame id="1018:3822" name="Container" x="0" y="16" width="486.4083557128906" height="20">
+                <frame id="1018:3827" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3823" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3824" name="Text" x="14" y="0" width="434" height="20">
+                  <text id="1018:3825" name="Local supplement or separately governed policy whe" x="0" y="0" width="434" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3829" name="Table Cell" x="0" y="134.41883850097656" width="307.1936950683594" height="52.963348388671875">
+              <text id="1018:3830" name="Calendars &amp; dates" x="0" y="16" width="124" height="20" />
+            </frame>
+            <frame id="1018:3832" name="Table Cell" x="307.1936950683594" y="134.41883850097656" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3833" name="Container" x="0" y="16" width="462.39263916015625" height="20">
+                <frame id="1018:3838" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3834" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3835" name="Text" x="14" y="0" width="193" height="20">
+                  <text id="1018:3836" name="Common working convention" x="0" y="0" width="193" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3839" name="Table Cell" x="793.5863037109375" y="134.41883850097656" width="486.4083557128906" height="52.963348388671875">
+              <frame id="1018:3840" name="Container" x="0" y="16" width="486.4083557128906" height="20">
+                <frame id="1018:3845" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3841" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3842" name="Text" x="14" y="0" width="374" height="20">
+                  <text id="1018:3843" name="Local holiday or calendar configuration where supp" x="0" y="0" width="374" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3847" name="Table Cell" x="0" y="187.38218688964844" width="307.1936950683594" height="52.963348388671875">
+              <text id="1018:3848" name="Terminology" x="0" y="16" width="85" height="20" />
+            </frame>
+            <frame id="1018:3850" name="Table Cell" x="307.1936950683594" y="187.38218688964844" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3851" name="Container" x="0" y="16" width="462.39263916015625" height="20">
+                <frame id="1018:3856" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3852" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3853" name="Text" x="14" y="0" width="180" height="20">
+                  <text id="1018:3854" name="Shared product vocabulary" x="0" y="0" width="180" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3857" name="Table Cell" x="793.5863037109375" y="187.38218688964844" width="486.4083557128906" height="52.963348388671875">
+              <frame id="1018:3858" name="Container" x="0" y="16" width="486.4083557128906" height="20">
+                <frame id="1018:3863" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3859" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3860" name="Text" x="14" y="0" width="438" height="20">
+                  <text id="1018:3861" name="Approved locale terminology or language variant wh" x="0" y="0" width="438" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3865" name="Table Cell" x="0" y="240.3455352783203" width="307.1936950683594" height="52.963348388671875">
+              <text id="1018:3866" name="Fields / forms" x="0" y="16" width="92" height="20" />
+            </frame>
+            <frame id="1018:3868" name="Table Cell" x="307.1936950683594" y="240.3455352783203" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3869" name="Container" x="0" y="16" width="462.39263916015625" height="20">
+                <frame id="1018:3874" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3870" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3871" name="Text" x="14" y="0" width="206" height="20">
+                  <text id="1018:3872" name="Common minimum worker data" x="0" y="0" width="206" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3875" name="Table Cell" x="793.5863037109375" y="240.3455352783203" width="486.4083557128906" height="52.963348388671875">
+              <frame id="1018:3876" name="Container" x="0" y="16" width="486.4083557128906" height="20">
+                <frame id="1018:3881" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3877" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3878" name="Text" x="14" y="0" width="463" height="20">
+                  <text id="1018:3879" name="Additional supported fields needed for a configure" x="0" y="0" width="463" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3883" name="Table Cell" x="0" y="293.30889892578125" width="307.1936950683594" height="52.963348388671875">
+              <text id="1018:3884" name="Notifications" x="0" y="16" width="87" height="20" />
+            </frame>
+            <frame id="1018:3886" name="Table Cell" x="307.1936950683594" y="293.30889892578125" width="486.39263916015625" height="52.963348388671875">
+              <frame id="1018:3887" name="Container" x="0" y="16" width="462.39263916015625" height="20">
+                <frame id="1018:3892" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3888" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3889" name="Text" x="14" y="0" width="156" height="20">
+                  <text id="1018:3890" name="Common event triggers" x="0" y="0" width="156" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:3893" name="Table Cell" x="793.5863037109375" y="293.30889892578125" width="486.4083557128906" height="52.963348388671875">
+              <frame id="1018:3894" name="Container" x="0" y="16" width="486.4083557128906" height="20">
+                <frame id="1018:3899" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:3895" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:3896" name="Text" x="14" y="0" width="387" height="20">
+                  <text id="1018:3897" name="Localized recipient, routing or approved messaging" x="0" y="0" width="387" height="20" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:3904" name="PolicySection" x="0" y="4620.69091796875" width="1441" height="709.8114624023438">
+    <frame id="1018:3906" name="Paragraph" x="80.50262451171875" y="96" width="1279.9947509765625" height="16">
+      <text id="1018:3907" name="Governed Policies" x="0" y="0" width="149" height="16" />
+    </frame>
+    <frame id="1018:3909" name="Heading 2" x="80.50262451171875" y="112" width="1279.9947509765625" height="59.999996185302734">
+      <text id="1018:3910" name="Standardize the operating model. Govern the except" x="0" y="12" width="1080" height="48" />
+    </frame>
+    <frame id="1018:3913" name="Container" x="81" y="212.30908203125" width="415" height="402">
+      <rounded-rectangle id="1025:5964" name="image 528" x="0" y="-6" width="415" height="415" />
+    </frame>
+    <frame id="1018:3939" name="Container" x="512.4974365234375" y="212" width="416.01043701171875" height="192.91098022460938">
+      <frame id="1018:3940" name="Container" x="21.005239486694336" y="21.005239486694336" width="374.0104675292969" height="26.340312957763672">
+        <frame id="1018:3941" name="VariantBadge" x="0" y="3.84814453125" width="202.01048278808594" height="22.492145538330078">
+          <frame id="1018:3942" name="Text" x="9.005239486694336" y="8.246072769165039" width="5.999999523162842" height="5.999999523162842" />
+          <text id="1018:3943" name="Entity variant · Meridian DE GmbH" x="21.005239486694336" y="2.746072769165039" width="172" height="17" />
+        </frame>
+      </frame>
+      <frame id="1018:3945" name="Heading 3" x="21.005239486694336" y="47.345550537109375" width="374.0104675292969" height="32">
+        <text id="1018:3946" name="Germany Leave Policy" x="0" y="12" width="150" height="20" />
+      </frame>
+      <frame id="1018:3969" name="Container:margin" x="21.005233764648438" y="79.34555053710938" width="373.9999694824219" height="43">
+        <frame id="1018:3948" name="Container" x="-0.0052490234375" y="12" width="374.0104675292969" height="31">
+          <frame id="1018:3949" name="Container" x="0" y="0" width="75.39266967773438" height="31">
+            <frame id="1018:3950" name="Paragraph" x="0" y="0" width="75.39266967773438" height="14.999999046325684">
+              <text id="1018:3951" name="Owner" x="0" y="0" width="31" height="15" />
+            </frame>
+            <frame id="1018:3953" name="Paragraph" x="0" y="14.999999046325684" width="75.39266967773438" height="16">
+              <text id="1018:3954" name="Sophie Bauer" x="0" y="0" width="76" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:3956" name="Container" x="339.69110107421875" y="0" width="34.31937026977539" height="31">
+            <frame id="1018:3957" name="Paragraph" x="0" y="0" width="34.31937026977539" height="15">
+              <text id="1018:3958" name="Version" x="-0.6806297302246094" y="0" width="35" height="15" />
+            </frame>
+            <frame id="1018:3960" name="Paragraph" x="0" y="15" width="34.31937026977539" height="16">
+              <text id="1018:3961" name="v1.2" x="5.319370269775391" y="0" width="29" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1018:3970" name="Container:margin" x="21.005239486694336" y="122.34555053710938" width="374.0104675292969" height="49.60209274291992">
+        <frame id="1018:3963" name="Container" x="0" y="12" width="374.0104675292969" height="37.60209274291992">
+          <frame id="1018:3964" name="Text" x="0" y="18.61279296875" width="57" height="18.98952865600586">
+            <frame id="1018:3965" name="Text" x="8" y="6.49476432800293" width="5.999999523162842" height="5.999999523162842" />
+            <text id="1018:3966" name="Active" x="20" y="1.9947643280029297" width="29" height="15" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:3971" name="Container" x="944.5077514648438" y="212" width="415.9947509765625" height="192.91098022460938">
+      <frame id="1018:3972" name="Container" x="21.005239486694336" y="21.005239486694336" width="373.9947509765625" height="26.340312957763672">
+        <frame id="1018:3973" name="VariantBadge" x="0" y="3.84814453125" width="172.01048278808594" height="22.492145538330078">
+          <frame id="1018:3974" name="Text" x="9.005239486694336" y="8.246072769165039" width="5.999999523162842" height="5.999999523162842" />
+          <text id="1018:3975" name="Regional variant · Singapore" x="21.005239486694336" y="2.746072769165039" width="142" height="17" />
+        </frame>
+      </frame>
+      <frame id="1018:3977" name="Heading 3" x="21.005239486694336" y="47.345550537109375" width="373.9947509765625" height="32">
+        <text id="1018:3978" name="APAC Performance Review Cycle" x="0" y="12" width="224" height="20" />
+      </frame>
+      <frame id="1018:4001" name="Container:margin" x="21.005233764648438" y="79.34555053710938" width="373.9842834472656" height="43">
+        <frame id="1018:3980" name="Container" x="-0.0052337646484375" y="12" width="373.9947509765625" height="31">
+          <frame id="1018:3981" name="Container" x="0" y="0" width="99.75392150878906" height="31">
+            <frame id="1018:3982" name="Paragraph" x="0" y="0" width="99.75392150878906" height="14.999999046325684">
+              <text id="1018:3983" name="Owner" x="0" y="0" width="31" height="15" />
+            </frame>
+            <frame id="1018:3985" name="Paragraph" x="0" y="14.999999046325684" width="99.75392150878906" height="16">
+              <text id="1018:3986" name="Regional HR Lead" x="0" y="0" width="100" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:3988" name="Container" x="339.6753845214844" y="0" width="34.31937026977539" height="31">
+            <frame id="1018:3989" name="Paragraph" x="0" y="0" width="34.31937026977539" height="15">
+              <text id="1018:3990" name="Version" x="-0.6806297302246094" y="0" width="35" height="15" />
+            </frame>
+            <frame id="1018:3992" name="Paragraph" x="0" y="15" width="34.31937026977539" height="16">
+              <text id="1018:3993" name="v1.0" x="5.319370269775391" y="0" width="29" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1018:4002" name="Container:margin" x="21.005239486694336" y="122.34555053710938" width="373.9947509765625" height="49.60209274291992">
+        <frame id="1018:3995" name="Container" x="0" y="12" width="373.9947509765625" height="37.60209274291992">
+          <frame id="1018:3996" name="Text" x="0" y="18.61279296875" width="57" height="18.98952865600586">
+            <frame id="1018:3997" name="Text" x="8" y="6.49476432800293" width="5.999999523162842" height="5.999999523162842" />
+            <text id="1018:3998" name="Active" x="20" y="1.9947643280029297" width="29" height="15" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4029" name="Container" x="512.4974365234375" y="420.9110107421875" width="416.01043701171875" height="192.91098022460938">
+      <frame id="1018:4030" name="Container" x="21.005239486694336" y="21.005239486694336" width="374.0104675292969" height="26.340312957763672">
+        <frame id="1018:4031" name="VariantBadge" x="0" y="3.84814453125" width="201.01048278808594" height="22.492145538330078">
+          <frame id="1018:4032" name="Text" x="9.005239486694336" y="8.246072769165039" width="5.999999523162842" height="5.999999523162842" />
+          <text id="1018:4033" name="Location variant · Singapore office" x="21.005239486694336" y="2.746072769165039" width="171" height="17" />
+        </frame>
+      </frame>
+      <frame id="1018:4035" name="Heading 3" x="21.005239486694336" y="47.345550537109375" width="374.0104675292969" height="32">
+        <text id="1018:4036" name="Singapore Public Holiday Calendar" x="0" y="12" width="234" height="20" />
+      </frame>
+      <frame id="1018:4059" name="Container:margin" x="21.005233764648438" y="79.34555053710938" width="373.9999694824219" height="43">
+        <frame id="1018:4038" name="Container" x="-0.0052490234375" y="12" width="374.0104675292969" height="31">
+          <frame id="1018:4039" name="Container" x="0" y="0" width="50.12041473388672" height="31">
+            <frame id="1018:4040" name="Paragraph" x="0" y="0" width="50.12041473388672" height="14.999999046325684">
+              <text id="1018:4041" name="Owner" x="0" y="0" width="31" height="15" />
+            </frame>
+            <frame id="1018:4043" name="Paragraph" x="0" y="14.999999046325684" width="50.12041473388672" height="16">
+              <text id="1018:4044" name="Local HR" x="0" y="0" width="51" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:4046" name="Container" x="323.63873291015625" y="0" width="50.371726989746094" height="31">
+            <frame id="1018:4047" name="Paragraph" x="0" y="0" width="50.371726989746094" height="14.999999046325684">
+              <text id="1018:4048" name="Version" x="15.371726989746094" y="0" width="35" height="15" />
+            </frame>
+            <frame id="1018:4050" name="Paragraph" x="0" y="14.999999046325684" width="50.371726989746094" height="16">
+              <text id="1018:4051" name="v2026.1" x="-0.6282730102539062" y="0" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1018:4060" name="Container:margin" x="21.005239486694336" y="122.34555053710938" width="374.0104675292969" height="49.60209274291992">
+        <frame id="1018:4053" name="Container" x="0" y="12" width="374.0104675292969" height="37.60209274291992">
+          <frame id="1018:4054" name="Text" x="0" y="18.61279296875" width="77" height="18.98952865600586">
+            <frame id="1018:4055" name="Text" x="8" y="6.49476432800293" width="5.999999523162842" height="5.999999523162842" />
+            <text id="1018:4056" name="Scheduled" x="20" y="1.9947643280029297" width="49" height="15" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4061" name="Container" x="944.5077514648438" y="420.9110107421875" width="415.9947509765625" height="192.91098022460938">
+      <frame id="1018:4062" name="Container" x="21.005239486694336" y="21.005239486694336" width="373.9947509765625" height="26.340312957763672">
+        <frame id="1018:4063" name="VariantBadge" x="0" y="3.84814453125" width="202.01048278808594" height="22.492145538330078">
+          <frame id="1018:4064" name="Text" x="9.005239486694336" y="8.246072769165039" width="5.999999523162842" height="5.999999523162842" />
+          <text id="1018:4065" name="Entity variant · Meridian DE GmbH" x="21.005239486694336" y="2.746072769165039" width="172" height="17" />
+        </frame>
+      </frame>
+      <frame id="1018:4067" name="Heading 3" x="21.005239486694336" y="47.345550537109375" width="373.9947509765625" height="32">
+        <text id="1018:4068" name="DE Probation Period Workflow" x="0" y="12" width="203" height="20" />
+      </frame>
+      <frame id="1018:4091" name="Container:margin" x="21.005233764648438" y="79.34555053710938" width="373.9842834472656" height="43">
+        <frame id="1018:4070" name="Container" x="-0.0052337646484375" y="12" width="373.9947509765625" height="31">
+          <frame id="1018:4071" name="Container" x="0" y="0" width="75.39266967773438" height="31">
+            <frame id="1018:4072" name="Paragraph" x="0" y="0" width="75.39266967773438" height="14.999999046325684">
+              <text id="1018:4073" name="Owner" x="0" y="0" width="31" height="15" />
+            </frame>
+            <frame id="1018:4075" name="Paragraph" x="0" y="14.999999046325684" width="75.39266967773438" height="16">
+              <text id="1018:4076" name="Sophie Bauer" x="0" y="0" width="76" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:4078" name="Container" x="339.6753845214844" y="0" width="34.31937026977539" height="31">
+            <frame id="1018:4079" name="Paragraph" x="0" y="0" width="34.31937026977539" height="15">
+              <text id="1018:4080" name="Version" x="-0.6806297302246094" y="0" width="35" height="15" />
+            </frame>
+            <frame id="1018:4082" name="Paragraph" x="0" y="15" width="34.31937026977539" height="16">
+              <text id="1018:4083" name="v1.1" x="5.319370269775391" y="0" width="29" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1018:4092" name="Container:margin" x="21.005239486694336" y="122.34555053710938" width="373.9947509765625" height="49.60209274291992">
+        <frame id="1018:4085" name="Container" x="0" y="12" width="373.9947509765625" height="37.60209274291992">
+          <frame id="1018:4086" name="Text" x="0" y="18.61279296875" width="52" height="18.98952865600586">
+            <frame id="1018:4087" name="Text" x="8" y="6.49476432800293" width="5.999999523162842" height="5.999999523162842" />
+            <text id="1018:4088" name="Draft" x="20" y="1.9947643280029297" width="24" height="15" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4256" name="PermissionsSection" x="0" y="5330.50244140625" width="1441" height="776.28271484375">
+    <frame id="1018:4258" name="Paragraph" x="80.50262451171875" y="96" width="1279.9947509765625" height="16">
+      <text id="1018:4259" name="Permissions &amp; Data Governance" x="0" y="0" width="257" height="16" />
+    </frame>
+    <frame id="1018:4261" name="Heading 2" x="80.50262451171875" y="112" width="640" height="156">
+      <text id="1018:4262" name="Give global teams visibility without making everyt" x="0" y="12" width="640" height="144" />
+    </frame>
+    <frame id="1018:4265" name="Container" x="80.50262451171875" y="308" width="631.9949951171875" height="113.43499755859375">
+      <frame id="1018:4266" name="Text" x="21.005239486694336" y="21.005239486694336" width="31" height="23.968585968017578">
+        <text id="1018:4267" name="01" x="8" y="4" width="15" height="16" />
+      </frame>
+      <frame id="1018:4269" name="Container" x="68.00524139404297" y="21.005239486694336" width="543.612548828125" height="72">
+        <frame id="1018:4270" name="Heading 3" x="0" y="0" width="543.612548828125" height="20">
+          <text id="1018:4271" name="Role-based access" x="0" y="0" width="129" height="20" />
+        </frame>
+        <frame id="1018:4273" name="Paragraph" x="0" y="20" width="543.612548828125" height="52">
+          <text id="1018:4274" name="Authorized access based on role and responsibility" x="0" y="6" width="544" height="46" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4277" name="Container" x="728.4976196289062" y="308" width="632.010009765625" height="113.43499755859375">
+      <frame id="1018:4278" name="Text" x="21.005239486694336" y="21.005239486694336" width="31" height="23.968585968017578">
+        <text id="1018:4279" name="02" x="8" y="4" width="15" height="16" />
+      </frame>
+      <frame id="1018:4281" name="Container" x="68.00524139404297" y="21.005239486694336" width="543.6282348632812" height="72">
+        <frame id="1018:4282" name="Heading 3" x="0" y="0" width="543.6282348632812" height="20">
+          <text id="1018:4283" name="Scope" x="0" y="0" width="43" height="20" />
+        </frame>
+        <frame id="1018:4285" name="Paragraph" x="0" y="20" width="543.6282348632812" height="52">
+          <text id="1018:4286" name="Entity, location, team or functional scope demonst" x="0" y="6" width="544" height="46" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4289" name="Container" x="80.50262451171875" y="437.43499755859375" width="631.9949951171875" height="113.43499755859375">
+      <frame id="1018:4290" name="Text" x="21.005239486694336" y="21.005239486694336" width="31" height="23.968585968017578">
+        <text id="1018:4291" name="03" x="8" y="4" width="15" height="16" />
+      </frame>
+      <frame id="1018:4293" name="Container" x="68.00524139404297" y="21.005239486694336" width="543.612548828125" height="72">
+        <frame id="1018:4294" name="Heading 3" x="0" y="0" width="543.612548828125" height="20">
+          <text id="1018:4295" name="Least practical access" x="0" y="0" width="152" height="20" />
+        </frame>
+        <frame id="1018:4297" name="Paragraph" x="0" y="20" width="543.612548828125" height="52">
+          <text id="1018:4298" name="Admin flows default toward the minimum scope neede" x="0" y="6" width="544" height="46" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4301" name="Container" x="728.4976196289062" y="437.43499755859375" width="632.010009765625" height="113.43499755859375">
+      <frame id="1018:4302" name="Text" x="21.005239486694336" y="21.005239486694336" width="31" height="23.968585968017578">
+        <text id="1018:4303" name="04" x="8" y="4" width="15" height="16" />
+      </frame>
+      <frame id="1018:4305" name="Container" x="68.00524139404297" y="21.005239486694336" width="543.6282348632812" height="72">
+        <frame id="1018:4306" name="Heading 3" x="0" y="0" width="543.6282348632812" height="20">
+          <text id="1018:4307" name="Sensitive data" x="0" y="0" width="97" height="20" />
+        </frame>
+        <frame id="1018:4309" name="Paragraph" x="0" y="20" width="543.6282348632812" height="52">
+          <text id="1018:4310" name="Progressive disclosure and permission checks preve" x="0" y="6" width="544" height="46" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4313" name="Container" x="80.50262451171875" y="566.8699951171875" width="631.9949951171875" height="113.43499755859375">
+      <frame id="1018:4314" name="Text" x="21.005239486694336" y="21.005239486694336" width="31" height="23.968585968017578">
+        <text id="1018:4315" name="05" x="8" y="4" width="15" height="16" />
+      </frame>
+      <frame id="1018:4317" name="Container" x="68.00524139404297" y="21.005239486694336" width="543.612548828125" height="72">
+        <frame id="1018:4318" name="Heading 3" x="0" y="0" width="543.612548828125" height="20">
+          <text id="1018:4319" name="Auditability" x="0" y="0" width="78" height="20" />
+        </frame>
+        <frame id="1018:4321" name="Paragraph" x="0" y="20" width="543.612548828125" height="52">
+          <text id="1018:4322" name="Where supported, who changed configuration or reco" x="0" y="6" width="544" height="46" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4325" name="Container" x="728.4976196289062" y="566.8699951171875" width="632.010009765625" height="113.43499755859375">
+      <frame id="1018:4326" name="Text" x="21.005239486694336" y="21.005239486694336" width="31" height="23.968585968017578">
+        <text id="1018:4327" name="06" x="8" y="4" width="15" height="16" />
+      </frame>
+      <frame id="1018:4329" name="Container" x="68.00524139404297" y="21.005239486694336" width="543.6282348632812" height="72">
+        <frame id="1018:4330" name="Heading 3" x="0" y="0" width="543.6282348632812" height="20">
+          <text id="1018:4331" name="Cross-border data" x="0" y="0" width="125" height="20" />
+        </frame>
+        <frame id="1018:4333" name="Paragraph" x="0" y="20" width="543.6282348632812" height="52">
+          <text id="1018:4334" name="Specific data-residency or international transfer " x="0" y="6" width="544" height="46" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4340" name="VisibilitySection" x="0" y="6106.78515625" width="1441" height="705.8533935546875">
+    <frame id="1018:4420" name="Container:margin" x="24" y="96" width="1393" height="513.8533935546875">
+      <frame id="1018:4341" name="Container" x="56.50262451171875" y="0" width="1279.9947509765625" height="513.8533935546875">
+        <frame id="1018:4342" name="Paragraph" x="0" y="0" width="1279.9947509765625" height="16">
+          <text id="1018:4343" name="Operational Visibility" x="0" y="0" width="185" height="16" />
+        </frame>
+        <frame id="1018:4345" name="Heading 2" x="0" y="16" width="1279.9947509765625" height="59.999996185302734">
+          <text id="1018:4346" name="See the organization locally and as a whole." x="0" y="12" width="818" height="48" />
+        </frame>
+        <frame id="1018:4348" name="Container" x="0" y="76" width="1279.9947509765625" height="437.8533935546875">
+          <frame id="1018:4349" name="Container" x="0" y="40" width="1279.9947509765625" height="81.95811462402344">
+            <frame id="1018:4350" name="Container" x="21.005361557006836" y="21.005231857299805" width="199.9947509765625" height="39.95811462402344">
+              <frame id="1018:4355" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                <frame id="1018:4351" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+              </frame>
+              <frame id="1018:4352" name="Text" x="14" y="0" width="75" height="20">
+                <text id="1018:4353" name="Entity view" x="0" y="0" width="75" height="20" />
+              </frame>
+            </frame>
+            <frame id="1018:4356" name="Paragraph" x="237.00001525878906" y="21.005231857299805" width="503.01043701171875" height="39.95811462402344">
+              <text id="1018:4357" name="Headcount and workforce records, open HR actions, " x="0" y="0" width="504" height="40" />
+            </frame>
+            <frame id="1018:4359" name="Paragraph" x="756.010009765625" y="21.005231857299805" width="503.01043701171875" height="39.95811462402344">
+              <text id="1018:4360" name="Always show current scope prominently." x="0" y="0" width="229" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:4414" name="Container:margin" x="0" y="121.95811462402344" width="1279.9947509765625" height="73.97904968261719">
+            <frame id="1018:4362" name="Container" x="0" y="12" width="1279.9947509765625" height="61.97905349731445">
+              <frame id="1018:4363" name="Container" x="21.005361557006836" y="21.005239486694336" width="199.9947509765625" height="19.97909927368164">
+                <frame id="1018:4368" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:4364" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4365" name="Text" x="14" y="0" width="94" height="20">
+                  <text id="1018:4366" name="Regional view" x="0" y="0" width="94" height="20" />
+                </frame>
+              </frame>
+              <frame id="1018:4369" name="Paragraph" x="237.00001525878906" y="21.005260467529297" width="503.01043701171875" height="19.97905731201172">
+                <text id="1018:4370" name="Authorized roll-up across selected entities and lo" x="0" y="0" width="377" height="20" />
+              </frame>
+              <frame id="1018:4372" name="Paragraph" x="756.010009765625" y="21.005260467529297" width="503.01043701171875" height="19.97905731201172">
+                <text id="1018:4373" name="Filters must not silently broaden the viewer&#39;s per" x="0" y="0" width="360" height="16" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1018:4415" name="Container:margin" x="0" y="195.93716430664062" width="1279.9947509765625" height="93.95811462402344">
+            <frame id="1018:4375" name="Container" x="0" y="12" width="1279.9947509765625" height="81.95811462402344">
+              <frame id="1018:4376" name="Container" x="21.005361557006836" y="21.005231857299805" width="199.9947509765625" height="39.95811462402344">
+                <frame id="1018:4381" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:4377" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4378" name="Text" x="14" y="0" width="77" height="20">
+                  <text id="1018:4379" name="Group view" x="0" y="0" width="77" height="20" />
+                </frame>
+              </frame>
+              <frame id="1018:4382" name="Paragraph" x="237.00001525878906" y="21.005231857299805" width="503.01043701171875" height="39.95811462402344">
+                <text id="1018:4383" name="Consolidated workforce structure, operational tren" x="0" y="0" width="504" height="40" />
+              </frame>
+              <frame id="1018:4385" name="Paragraph" x="756.010009765625" y="21.005231857299805" width="503.01043701171875" height="39.95811462402344">
+                <text id="1018:4386" name="Use clear definitions and &quot;as of&quot; timestamps for m" x="0" y="0" width="368" height="16" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1018:4416" name="Container:margin" x="0" y="289.895263671875" width="1279.9947509765625" height="73.97904968261719">
+            <frame id="1018:4388" name="Container" x="0" y="12" width="1279.9947509765625" height="61.97905349731445">
+              <frame id="1018:4389" name="Container" x="21.005361557006836" y="21.005239486694336" width="199.9947509765625" height="19.97909927368164">
+                <frame id="1018:4394" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:4390" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4391" name="Text" x="14" y="0" width="118" height="20">
+                  <text id="1018:4392" name="Comparison view" x="0" y="0" width="118" height="20" />
+                </frame>
+              </frame>
+              <frame id="1018:4395" name="Paragraph" x="237.00001525878906" y="21.005260467529297" width="503.01043701171875" height="19.97905731201172">
+                <text id="1018:4396" name="Compare selected entities on shared measures only." x="0" y="0" width="347" height="20" />
+              </frame>
+              <frame id="1018:4398" name="Paragraph" x="756.010009765625" y="21.005260467529297" width="503.01043701171875" height="19.97905731201172">
+                <text id="1018:4399" name="Do not compare metrics with materially different d" x="0" y="0" width="435" height="16" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1018:4417" name="Container:margin" x="0" y="363.87432861328125" width="1279.9947509765625" height="73.97904968261719">
+            <frame id="1018:4401" name="Container" x="0" y="12" width="1279.9947509765625" height="61.97905349731445">
+              <frame id="1018:4402" name="Container" x="21.005361557006836" y="21.005239486694336" width="199.9947509765625" height="19.97909927368164">
+                <frame id="1018:4407" name="Text:margin" x="0" y="0" width="5.999999523162842" height="10">
+                  <frame id="1018:4403" name="Text" x="0" y="4" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4404" name="Text" x="14" y="0" width="121" height="20">
+                  <text id="1018:4405" name="Export / reporting" x="0" y="0" width="121" height="20" />
+                </frame>
+              </frame>
+              <frame id="1018:4408" name="Paragraph" x="237.00001525878906" y="21.005260467529297" width="503.01043701171875" height="19.97905731201172">
+                <text id="1018:4409" name="Permission-aware export and report access where su" x="0" y="0" width="411" height="20" />
+              </frame>
+              <frame id="1018:4411" name="Paragraph" x="756.010009765625" y="21.005260467529297" width="503.01043701171875" height="19.97905731201172">
+                <text id="1018:4412" name="Exports inherit or enforce authorization; no &quot;expo" x="0" y="0" width="499" height="16" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4421" name="ConnectedSection" x="0" y="6812.638671875" width="1441" height="639.9581298828125">
+    <frame id="1018:4479" name="Container:margin" x="24" y="96" width="1393" height="447.9580993652344">
+      <frame id="1018:4422" name="Container" x="56.50262451171875" y="0" width="1279.9947509765625" height="447.9580993652344">
+        <frame id="1018:4423" name="Paragraph" x="0" y="0" width="1279.9947509765625" height="16">
+          <text id="1018:4424" name="Connected Workforce Stack" x="0" y="0" width="229" height="16" />
+        </frame>
+        <frame id="1018:4426" name="Heading 2" x="0" y="16" width="1279.9947509765625" height="108">
+          <text id="1018:4427" name="Keep workforce context connected without blurring " x="0" y="12" width="1280" height="96" />
+        </frame>
+        <frame id="1018:4477" name="Paragraph:margin" x="0" y="124" width="520" height="52">
+          <text id="1018:4430" name="This page&#39;s primary goal is demonstrating Zoiko HR" x="0" y="12" width="520" height="40" />
+        </frame>
+        <frame id="1018:4478" name="Container:margin" x="0" y="176" width="1279.9947509765625" height="271.9580993652344">
+          <frame id="1018:4432" name="Container" x="0" y="40" width="1279.9947509765625" height="231.95809936523438">
+            <frame id="1018:4433" name="Container" x="0" y="0" width="413.3245849609375" height="231.95809936523438">
+              <frame id="1018:4449" name="Container" x="25.005239486694336" y="25.005239486694336" width="363.3141174316406" height="37.03675079345703">
+                <frame id="1018:4434" name="Text" x="-0.000006235351520444965" y="6.047494411468506" width="59.76439666748047" height="18.98952865600586">
+                  <text id="1018:4435" name="This page" x="7.9947662353515625" y="0.9951171875" width="44" height="15" />
+                </frame>
+              </frame>
+              <frame id="1018:4437" name="Heading 3" x="25.005239486694336" y="62.0419921875" width="363.3141174316406" height="28">
+                <text id="1018:4438" name="Zoiko HR" x="0" y="0" width="79" height="28" />
+              </frame>
+              <frame id="1018:4440" name="Paragraph" x="25.005239486694336" y="90.0419921875" width="363.3141174316406" height="72">
+                <text id="1018:4441" name="System for governed HR records, people operations," x="0" y="12" width="364" height="60" />
+              </frame>
+              <frame id="1018:4448" name="Container:margin" x="25.005233764648438" y="162.0419921875" width="363.3141174316406" height="45.00524139404297">
+                <frame id="1018:4443" name="Container" x="0" y="16" width="363.3141174316406" height="29.005239486694336">
+                  <frame id="1018:4444" name="Paragraph" x="0" y="13.005239486694336" width="363.3141174316406" height="16">
+                    <text id="1018:4445" name="Primary product on this page." x="0" y="0" width="168" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:4450" name="Container" x="433.3248596191406" y="-0.00005340576171875" width="413.3403015136719" height="231.95809936523438">
+              <frame id="1018:4451" name="Heading 3" x="25.005239486694336" y="25.005239486694336" width="363.329833984375" height="28">
+                <text id="1018:4452" name="ZoikoTime" x="0" y="0" width="93" height="28" />
+              </frame>
+              <frame id="1018:4454" name="Paragraph" x="25.005239486694336" y="53.00524139404297" width="363.329833984375" height="52">
+                <text id="1018:4455" name="Workforce time and attendance and time intelligenc" x="0" y="12" width="364" height="40" />
+              </frame>
+              <frame id="1018:4462" name="Container:margin" x="25.005233764648438" y="105.00524139404297" width="363.329833984375" height="61.00524139404297">
+                <frame id="1018:4457" name="Container" x="0" y="16" width="363.329833984375" height="45.00524139404297">
+                  <frame id="1018:4458" name="Paragraph" x="0" y="13.005239486694336" width="363.329833984375" height="32">
+                    <text id="1018:4459" name="Connected where integration is available. Zoiko HR" x="0" y="0" width="364" height="32" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1018:4463" name="Container" x="866.665283203125" y="-0.00005340576171875" width="413.3245849609375" height="231.95809936523438">
+              <frame id="1018:4464" name="Heading 3" x="25.005239486694336" y="25.005239486694336" width="363.3141174316406" height="28">
+                <text id="1018:4465" name="Zoiko Payroll" x="0" y="0" width="115" height="28" />
+              </frame>
+              <frame id="1018:4467" name="Paragraph" x="25.005239486694336" y="53.00524139404297" width="363.3141174316406" height="52">
+                <text id="1018:4468" name="Payroll management and processing capabilities acc" x="0" y="12" width="364" height="40" />
+              </frame>
+              <frame id="1018:4475" name="Container:margin" x="25.005233764648438" y="105.00524139404297" width="363.3141174316406" height="61.00524139404297">
+                <frame id="1018:4470" name="Container" x="0" y="16" width="363.3141174316406" height="45.00524139404297">
+                  <frame id="1018:4471" name="Paragraph" x="0" y="13.005239486694336" width="363.3141174316406" height="32">
+                    <text id="1018:4472" name="A connected product. Country payroll coverage and " x="0" y="0" width="364" height="32" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4480" name="ImplementationSection" x="0" y="7452.5966796875" width="1441" height="765.6439208984375">
+    <frame id="1018:4482" name="Container" x="80.50262451171875" y="96" width="871.9947509765625" height="573.6439208984375">
+      <frame id="1018:4483" name="Paragraph" x="0" y="0" width="871.9947509765625" height="16">
+        <text id="1018:4484" name="Implementation &amp; Migration" x="0" y="0" width="230" height="16" />
+      </frame>
+      <frame id="1018:4486" name="Heading 2" x="0" y="16" width="871.9947509765625" height="59.999996185302734">
+        <text id="1018:4487" name="Expand on a controlled implementation path." x="0" y="12" width="849" height="48" />
+      </frame>
+      <frame id="1018:4566" name="Numbered List - Five-stage implementation process:margin" x="0" y="76" width="872.0051879882812" height="498">
+        <frame id="1018:4489" name="Numbered List - Five-stage implementation process" x="16" y="40" width="856.0051879882812" height="458">
+          <frame id="1018:4490" name="List Item" x="1.0052399635314941" y="0" width="854.9999389648438" height="98">
+            <frame id="1018:4494" name="Heading 3" x="32" y="0" width="823.0051879882812" height="20">
+              <text id="1018:4495" name="Model the organization" x="0" y="0" width="156" height="20" />
+            </frame>
+            <frame id="1018:4497" name="Paragraph" x="32" y="20" width="823.0051879882812" height="24">
+              <text id="1018:4498" name="Define group, legal entities, locations, ownership" x="0" y="4" width="504" height="20" />
+            </frame>
+            <frame id="1018:4500" name="Paragraph" x="32" y="44" width="823.0051879882812" height="22">
+              <text id="1018:4501" name="Visual organization model + scope checklist." x="0" y="6" width="243" height="16" />
+            </frame>
+            <frame id="1018:4491" name="Text" x="-13.994758605957031" y="0" width="27.989526748657227" height="27.989526748657227">
+              <text id="1018:4492" name="1" x="9.994762420654297" y="5.994763374328613" width="8" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:4505" name="List Item" x="1.0052399635314941" y="98" width="854.9999389648438" height="98">
+            <frame id="1018:4509" name="Heading 3" x="32" y="0" width="823.0051879882812" height="20">
+              <text id="1018:4510" name="Map source data" x="0" y="0" width="113" height="20" />
+            </frame>
+            <frame id="1018:4512" name="Paragraph" x="32" y="20" width="823.0051879882812" height="24">
+              <text id="1018:4513" name="Identify source systems or files, field mapping, d" x="0" y="4" width="640" height="20" />
+            </frame>
+            <frame id="1018:4515" name="Paragraph" x="32" y="44" width="823.0051879882812" height="22">
+              <text id="1018:4516" name="Migration mapping preview. No one-click migration " x="0" y="6" width="316" height="16" />
+            </frame>
+            <frame id="1018:4506" name="Text" x="-13.994758605957031" y="0" width="27.989526748657227" height="27.989526748657227">
+              <text id="1018:4507" name="2" x="9.994762420654297" y="5.994763374328613" width="8" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:4520" name="List Item" x="1.0052399635314941" y="196" width="854.9999389648438" height="98">
+            <frame id="1018:4524" name="Heading 3" x="32" y="0" width="823.0051879882812" height="20">
+              <text id="1018:4525" name="Configure global + local rules" x="0" y="0" width="198" height="20" />
+            </frame>
+            <frame id="1018:4527" name="Paragraph" x="32" y="20" width="823.0051879882812" height="24">
+              <text id="1018:4528" name="Set common defaults and deliberate entity or locat" x="0" y="4" width="416" height="20" />
+            </frame>
+            <frame id="1018:4530" name="Paragraph" x="32" y="44" width="823.0051879882812" height="22">
+              <text id="1018:4531" name="Configuration inheritance preview." x="0" y="6" width="189" height="16" />
+            </frame>
+            <frame id="1018:4521" name="Text" x="-13.994758605957031" y="0" width="27.989526748657227" height="27.989526748657227">
+              <text id="1018:4522" name="3" x="9.994762420654297" y="5.994763374328613" width="8" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:4535" name="List Item" x="1.0052399635314941" y="294" width="854.9999389648438" height="98">
+            <frame id="1018:4539" name="Heading 3" x="32" y="0" width="823.0051879882812" height="20">
+              <text id="1018:4540" name="Validate access &amp; workflows" x="0" y="0" width="193" height="20" />
+            </frame>
+            <frame id="1018:4542" name="Paragraph" x="32" y="20" width="823.0051879882812" height="24">
+              <text id="1018:4543" name="Test permissions, routing, approvals, employee and" x="0" y="4" width="570" height="20" />
+            </frame>
+            <frame id="1018:4545" name="Paragraph" x="32" y="44" width="823.0051879882812" height="22">
+              <text id="1018:4546" name="Role-based acceptance checklist." x="0" y="6" width="185" height="16" />
+            </frame>
+            <frame id="1018:4536" name="Text" x="-13.994758605957031" y="0" width="27.989526748657227" height="27.989526748657227">
+              <text id="1018:4537" name="4" x="9.994762420654297" y="5.994763374328613" width="8" height="16" />
+            </frame>
+          </frame>
+          <frame id="1018:4550" name="List Item" x="1.0052399635314941" y="392" width="854.9999389648438" height="66">
+            <frame id="1018:4554" name="Heading 3" x="32" y="0" width="823.0051879882812" height="20">
+              <text id="1018:4555" name="Roll out in controlled waves" x="0" y="0" width="186" height="20" />
+            </frame>
+            <frame id="1018:4557" name="Paragraph" x="32" y="20" width="823.0051879882812" height="24">
+              <text id="1018:4558" name="Pilot or stage launch by entity or location where " x="0" y="4" width="631" height="20" />
+            </frame>
+            <frame id="1018:4560" name="Paragraph" x="32" y="44" width="823.0051879882812" height="22">
+              <text id="1018:4561" name="Readiness dashboard and rollout timeline concept." x="0" y="6" width="279" height="16" />
+            </frame>
+            <frame id="1018:4551" name="Text" x="-13.994758605957031" y="0" width="27.989526748657227" height="27.989526748657227">
+              <text id="1018:4552" name="5" x="9.994762420654297" y="5.994763374328613" width="8" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4567" name="Container" x="1001" y="96.4033203125" width="359" height="573">
+      <rounded-rectangle id="1025:5967" name="image 529" x="-106" y="0" width="573" height="573" />
+    </frame>
+  </frame>
+  <frame id="1018:4584" name="ScenariosSection" x="0" y="8218.240234375" width="1441" height="735.931884765625">
+    <frame id="1018:4586" name="Paragraph" x="80.50262451171875" y="96" width="1279.9947509765625" height="16">
+      <text id="1018:4587" name="Expansion Scenarios" x="0" y="0" width="170" height="16" />
+    </frame>
+    <frame id="1018:4589" name="Heading 2" x="80.50262451171875" y="112" width="1279.9947509765625" height="59.999996185302734">
+      <text id="1018:4590" name="Designed for more than one kind of international g" x="0" y="12" width="1067" height="48" />
+    </frame>
+    <frame id="1018:4593" name="Container" x="80.50262451171875" y="212" width="413.3245849609375" height="203.9685821533203">
+      <frame id="1018:4609" name="Container" x="25.005239486694336" y="25.005239486694336" width="363.3141174316406" height="37.02112579345703">
+        <frame id="1018:4594" name="Text" x="-0.000006235351520444965" y="5.042611598968506" width="30.392667770385742" height="19.97905731201172">
+          <text id="1018:4595" name="01" x="7.9947662353515625" y="0.9892578125" width="15" height="16" />
+        </frame>
+      </frame>
+      <frame id="1018:4597" name="Heading 3" x="25.005239486694336" y="62.0263671875" width="363.3141174316406" height="20">
+        <text id="1018:4598" name="Entering a new country" x="0" y="0" width="157" height="20" />
+      </frame>
+      <frame id="1018:4600" name="Paragraph" x="25.005239486694336" y="82.0263671875" width="363.3141174316406" height="40">
+        <text id="1018:4601" name="Add a new organizational context without building " x="0" y="8" width="364" height="32" />
+      </frame>
+      <frame id="1018:4608" name="Container:margin" x="25.005233764648438" y="122.0263671875" width="363.3141174316406" height="57.00524139404297">
+        <frame id="1018:4603" name="Container" x="0" y="12" width="363.3141174316406" height="45.00524139404297">
+          <frame id="1018:4604" name="Paragraph" x="0" y="13.005239486694336" width="363.3141174316406" height="32">
+            <text id="1018:4605" name="Extend the entity and location model, apply approv" x="0" y="0" width="364" height="32" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4610" name="Container" x="513.8275146484375" y="212.00021362304688" width="413.3403015136719" height="203.9685821533203">
+      <frame id="1018:4626" name="Container" x="25.005239486694336" y="25.005239486694336" width="363.329833984375" height="37.02112579345703">
+        <frame id="1018:4611" name="Text" x="0.000009023437087307684" y="5.042611598968506" width="30.392667770385742" height="19.97905731201172">
+          <text id="1018:4612" name="02" x="7.9947509765625" y="0.9892578125" width="15" height="16" />
+        </frame>
+      </frame>
+      <frame id="1018:4614" name="Heading 3" x="25.005239486694336" y="62.0263671875" width="363.329833984375" height="20">
+        <text id="1018:4615" name="Creating another legal entity" x="0" y="0" width="194" height="20" />
+      </frame>
+      <frame id="1018:4617" name="Paragraph" x="25.005239486694336" y="82.0263671875" width="363.329833984375" height="40">
+        <text id="1018:4618" name="Separate ownership, access and reporting while mai" x="0" y="8" width="364" height="32" />
+      </frame>
+      <frame id="1018:4625" name="Container:margin" x="25.005233764648438" y="122.0263671875" width="363.329833984375" height="41.00524139404297">
+        <frame id="1018:4620" name="Container" x="0" y="12" width="363.329833984375" height="29.005239486694336">
+          <frame id="1018:4621" name="Paragraph" x="0" y="13.005239486694336" width="363.329833984375" height="16">
+            <text id="1018:4622" name="Entity-level configuration and scoped operations." x="0" y="0" width="280" height="16" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4627" name="Container" x="947" y="211.759765625" width="413" height="428">
+      <rounded-rectangle id="1025:5970" name="image 530" x="-161" y="-154" width="736" height="736" />
+    </frame>
+    <frame id="1018:4644" name="Container" x="80.50283813476562" y="435.9692077636719" width="413.3245849609375" height="203.9685821533203">
+      <frame id="1018:4660" name="Container" x="25.005239486694336" y="25.005239486694336" width="363.3141174316406" height="37.02112579345703">
+        <frame id="1018:4645" name="Text" x="-0.000006235351520444965" y="5.041635036468506" width="30.392667770385742" height="19.97905731201172">
+          <text id="1018:4646" name="04" x="7.9947662353515625" y="0.9892578125" width="15" height="16" />
+        </frame>
+      </frame>
+      <frame id="1018:4648" name="Heading 3" x="25.005239486694336" y="62.0263671875" width="363.3141174316406" height="20">
+        <text id="1018:4649" name="Scaling a distributed workforce" x="0" y="0" width="212" height="20" />
+      </frame>
+      <frame id="1018:4651" name="Paragraph" x="25.005239486694336" y="82.0263671875" width="363.3141174316406" height="40">
+        <text id="1018:4652" name="Give remote and distributed teams appropriate empl" x="0" y="8" width="364" height="32" />
+      </frame>
+      <frame id="1018:4659" name="Container:margin" x="25.005233764648438" y="122.0263671875" width="363.3141174316406" height="57.00524139404297">
+        <frame id="1018:4654" name="Container" x="0" y="12" width="363.3141174316406" height="45.00524139404297">
+          <frame id="1018:4655" name="Paragraph" x="0" y="13.005239486694336" width="363.3141174316406" height="32">
+            <text id="1018:4656" name="Context-aware workflows, permissions and accessibl" x="0" y="0" width="364" height="32" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1018:4661" name="Container" x="513.8275146484375" y="435.9692077636719" width="413.3403015136719" height="203.9685821533203">
+      <frame id="1018:4677" name="Container" x="25.005239486694336" y="25.005239486694336" width="363.329833984375" height="37.02112579345703">
+        <frame id="1018:4662" name="Text" x="0.000009023437087307684" y="5.041635036468506" width="30.392667770385742" height="19.97905731201172">
+          <text id="1018:4663" name="05" x="7.9947509765625" y="0.9892578125" width="15" height="16" />
+        </frame>
+      </frame>
+      <frame id="1018:4665" name="Heading 3" x="25.005239486694336" y="62.0263671875" width="363.329833984375" height="20">
+        <text id="1018:4666" name="Centralizing shared services" x="0" y="0" width="194" height="20" />
+      </frame>
+      <frame id="1018:4668" name="Paragraph" x="25.005239486694336" y="82.0263671875" width="363.329833984375" height="40">
+        <text id="1018:4669" name="Create common processes with local routes or excep" x="0" y="8" width="364" height="32" />
+      </frame>
+      <frame id="1018:4676" name="Container:margin" x="25.005233764648438" y="122.0263671875" width="363.329833984375" height="57.00524139404297">
+        <frame id="1018:4671" name="Container" x="0" y="12" width="363.329833984375" height="45.00524139404297">
+          <frame id="1018:4672" name="Paragraph" x="0" y="13.005239486694336" width="363.329833984375" height="32">
+            <text id="1018:4673" name="Global templates with governed variants and consol" x="0" y="0" width="364" height="32" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4681" name="OutcomesSection" x="0" y="8954.171875" width="1441" height="749.8638305664062">
+    <frame id="1018:4761" name="Container:margin" x="24" y="96" width="1393" height="557.8638305664062">
+      <frame id="1018:4682" name="Container" x="56.50262451171875" y="0" width="1279.9947509765625" height="557.8638305664062">
+        <frame id="1018:4683" name="Paragraph" x="0" y="0" width="1279.9947509765625" height="16">
+          <text id="1018:4684" name="Business Outcomes" x="0" y="0" width="154" height="16" />
+        </frame>
+        <frame id="1018:4686" name="Heading 2" x="0" y="16" width="1279.9947509765625" height="59.999996185302734">
+          <text id="1018:4687" name="What better global HR operations should make easie" x="0" y="12" width="1010" height="48" />
+        </frame>
+        <frame id="1018:4689" name="Container" x="0" y="76" width="1279.9947509765625" height="481.8638610839844">
+          <frame id="1018:4690" name="Container" x="0" y="40" width="1279.9947509765625" height="89.96858215332031">
+            <frame id="1018:4691" name="Container" x="21.005483627319336" y="21.005239486694336" width="219.98951721191406" height="20">
+              <frame id="1018:4696" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                <frame id="1018:4692" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+              </frame>
+              <frame id="1018:4693" name="Text" x="14" y="0" width="185" height="20">
+                <text id="1018:4694" name="Faster organizational setup" x="0" y="0" width="185" height="20" />
+              </frame>
+            </frame>
+            <frame id="1018:4697" name="Paragraph" x="256.99505615234375" y="21.005239486694336" width="786.0313720703125" height="19.97905731201172">
+              <text id="1018:4698" name="Configured entity and location structure with reus" x="0" y="0" width="488" height="20" />
+            </frame>
+            <frame id="1018:4700" name="Paragraph" x="1059.0263671875" y="21.005239486694336" width="199.9947509765625" height="47.96858215332031">
+              <text id="1018:4701" name="Time-to-launch figures not published without measu" x="-0.0052490234375" y="0" width="200" height="48" />
+            </frame>
+          </frame>
+          <frame id="1018:4755" name="Container:margin" x="0" y="129.9685821533203" width="1279.9947509765625" height="93.95811462402344">
+            <frame id="1018:4703" name="Container" x="0" y="12" width="1279.9947509765625" height="81.95811462402344">
+              <frame id="1018:4704" name="Container" x="21.005239486694336" y="21.005239486694336" width="219.99000549316406" height="40">
+                <frame id="1018:4709" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:4705" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4706" name="Text" x="14" y="0" width="206" height="40">
+                  <text id="1018:4707" name="Less fragmented administration" x="0" y="0" width="206" height="40" />
+                </frame>
+              </frame>
+              <frame id="1018:4710" name="Paragraph" x="256.99505615234375" y="21.005239486694336" width="786.0313720703125" height="19.97905731201172">
+                <text id="1018:4711" name="More HR work handled in the governed Zoiko HR envi" x="0" y="0" width="695" height="20" />
+              </frame>
+              <frame id="1018:4713" name="Paragraph" x="1059.0263671875" y="21.005239486694336" width="199.9947509765625" height="31.979055404663086">
+                <text id="1018:4714" name="Customer proof used only when documented and permi" x="-0.0052490234375" y="0" width="200" height="32" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1018:4756" name="Container:margin" x="0" y="223.92669677734375" width="1279.9947509765625" height="85.97905731201172">
+            <frame id="1018:4716" name="Container" x="0" y="12" width="1279.9947509765625" height="73.97905731201172">
+              <frame id="1018:4717" name="Container" x="21.005483627319336" y="21.005239486694336" width="219.98951721191406" height="20">
+                <frame id="1018:4722" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:4718" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4719" name="Text" x="14" y="0" width="125" height="20">
+                  <text id="1018:4720" name="Clearer ownership" x="0" y="0" width="125" height="20" />
+                </frame>
+              </frame>
+              <frame id="1018:4723" name="Paragraph" x="256.99505615234375" y="21.005239486694336" width="786.0313720703125" height="19.97905731201172">
+                <text id="1018:4724" name="Visible workflow owners, approvers and scoped HR r" x="0" y="0" width="446" height="20" />
+              </frame>
+              <frame id="1018:4726" name="Paragraph" x="1059.0263671875" y="21.005239486694336" width="199.9947509765625" height="31.979055404663086">
+                <text id="1018:4727" name="Capability claim is acceptable if demonstrable in " x="-0.0052490234375" y="0" width="200" height="32" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1018:4757" name="Container:margin" x="0" y="309.90576171875" width="1279.9947509765625" height="85.97905731201172">
+            <frame id="1018:4729" name="Container" x="0" y="12" width="1279.9947509765625" height="73.97905731201172">
+              <frame id="1018:4730" name="Container" x="21.005483627319336" y="21.005239486694336" width="219.98951721191406" height="20">
+                <frame id="1018:4735" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:4731" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4732" name="Text" x="14" y="0" width="187" height="20">
+                  <text id="1018:4733" name="Controlled local differences" x="0" y="0" width="187" height="20" />
+                </frame>
+              </frame>
+              <frame id="1018:4736" name="Paragraph" x="256.99505615234375" y="21.005239486694336" width="786.0313720703125" height="19.97905731201172">
+                <text id="1018:4737" name="Approved variants are explicit rather than hidden " x="0" y="0" width="492" height="20" />
+              </frame>
+              <frame id="1018:4739" name="Paragraph" x="1059.0263671875" y="21.005239486694336" width="199.9947509765625" height="31.979055404663086">
+                <text id="1018:4740" name="Universal legal coverage is not claimed." x="-0.0052490234375" y="0" width="200" height="32" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1018:4758" name="Container:margin" x="0" y="395.88482666015625" width="1279.9947509765625" height="85.97905731201172">
+            <frame id="1018:4742" name="Container" x="0" y="12" width="1279.9947509765625" height="73.97905731201172">
+              <frame id="1018:4743" name="Container" x="21.005483627319336" y="21.005239486694336" width="219.98951721191406" height="20">
+                <frame id="1018:4748" name="Text:margin" x="0" y="0" width="5.999999523162842" height="12">
+                  <frame id="1018:4744" name="Text" x="0" y="6" width="5.999999523162842" height="5.999999523162842" />
+                </frame>
+                <frame id="1018:4745" name="Text" x="14" y="0" width="163" height="20">
+                  <text id="1018:4746" name="Stronger group visibility" x="0" y="0" width="163" height="20" />
+                </frame>
+              </frame>
+              <frame id="1018:4749" name="Paragraph" x="256.99505615234375" y="21.005239486694336" width="786.0313720703125" height="19.97905731201172">
+                <text id="1018:4750" name="Authorized roll-ups can help reduce manual reconci" x="0" y="0" width="587" height="20" />
+              </frame>
+              <frame id="1018:4752" name="Paragraph" x="1059.0263671875" y="21.005239486694336" width="199.9947509765625" height="31.979055404663086">
+                <text id="1018:4753" name="Capability language: &quot;can help&quot; rather than guaran" x="-0.0052490234375" y="0" width="200" height="32" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4762" name="TrustSection" x="0" y="9704.0361328125" width="1441" height="600.3036499023438">
+    <frame id="1018:4764" name="Paragraph" x="80.50262451171875" y="96" width="1279.9947509765625" height="16">
+      <text id="1018:4765" name="Trust &amp; Enterprise Readiness" x="0" y="0" width="241" height="16" />
+    </frame>
+    <frame id="1018:4767" name="Heading 2" x="80.50262451171875" y="112" width="1279.9947509765625" height="59.999996185302734">
+      <text id="1018:4768" name="Global HR needs governance that scales with the or" x="0" y="12" width="1180" height="48" />
+    </frame>
+    <frame id="1018:4771" name="Container" x="80.50262451171875" y="212" width="415.9947509765625" height="138.1570587158203">
+      <frame id="1018:4772" name="Heading 3" x="21.005239486694336" y="21.005239486694336" width="373.9947509765625" height="20">
+        <text id="1018:4773" name="Role &amp; scope controls" x="0" y="0" width="147" height="20" />
+      </frame>
+      <frame id="1018:4778" name="Paragraph:margin" x="21.005239486694336" y="41.00524139404297" width="374" height="77">
+        <text id="1018:4776" name="Control access based on role, responsibility and o" x="0" y="8" width="374" height="69" />
+      </frame>
+    </frame>
+    <frame id="1018:4779" name="Container" x="512" y="211.9638671875" width="417" height="292">
+      <rounded-rectangle id="1025:5973" name="image 531" x="0" y="-28" width="417" height="348" />
+    </frame>
+    <frame id="1018:4787" name="Container" x="944.5077514648438" y="211.99996948242188" width="415.9947509765625" height="138.1570587158203">
+      <frame id="1018:4788" name="Heading 3" x="21.005239486694336" y="21.005239486694336" width="373.9947509765625" height="20">
+        <text id="1018:4789" name="Privacy" x="0" y="0" width="51" height="20" />
+      </frame>
+      <frame id="1018:4794" name="Paragraph:margin" x="21.005239486694336" y="41.00524139404297" width="374" height="77">
+        <text id="1018:4792" name="Link to Privacy, DPA and relevant data-protection " x="0" y="8" width="374" height="69" />
+      </frame>
+    </frame>
+    <frame id="1018:4795" name="Container" x="80.50274658203125" y="366.156982421875" width="415.9947509765625" height="138.1570587158203">
+      <frame id="1018:4796" name="Heading 3" x="21.005239486694336" y="21.005239486694336" width="373.9947509765625" height="20">
+        <text id="1018:4797" name="Security" x="0" y="0" width="57" height="20" />
+      </frame>
+      <frame id="1018:4802" name="Paragraph:margin" x="21.005239486694336" y="41.00524139404297" width="374" height="77">
+        <text id="1018:4800" name="Approved security statements only. Certifications," x="0" y="8" width="374" height="69" />
+      </frame>
+    </frame>
+    <frame id="1018:4811" name="Container" x="944.5077514648438" y="366.156982421875" width="415.9947509765625" height="138.1570587158203">
+      <frame id="1018:4812" name="Heading 3" x="21.005239486694336" y="21.005239486694336" width="373.9947509765625" height="20">
+        <text id="1018:4813" name="Accessibility" x="0" y="0" width="87" height="20" />
+      </frame>
+      <frame id="1018:4818" name="Paragraph:margin" x="21.005239486694336" y="41.00524139404297" width="374" height="77">
+        <text id="1018:4816" name="This page and product examples are built to WCAG 2" x="0" y="8" width="374" height="69" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4822" name="FAQSection" x="0" y="10304.33984375" width="1441" height="795.0366821289062">
+    <frame id="1018:4897" name="Container:margin" x="24" y="96" width="1393" height="603.0366821289062">
+      <frame id="1018:4823" name="Container" x="56.50262451171875" y="0" width="1279.9947509765625" height="603.0366821289062">
+        <frame id="1018:4824" name="Paragraph" x="0" y="0" width="1279.9947509765625" height="16">
+          <text id="1018:4825" name="Frequently Asked" x="0" y="0" width="142" height="16" />
+        </frame>
+        <frame id="1018:4827" name="Heading 2" x="0" y="16" width="1279.9947509765625" height="59.999996185302734">
+          <text id="1018:4828" name="Questions global HR teams ask before expanding." x="0" y="12" width="930" height="48" />
+        </frame>
+        <frame id="1018:4830" name="Definition List" x="0" y="76" width="1279.9947509765625" height="527.0366821289062">
+          <frame id="1018:4831" name="Container" x="0" y="40" width="1279.9947509765625" height="61.00524139404297">
+            <frame id="1018:4833" name="Button" x="0" y="0" width="1279.9947509765625" height="60">
+              <frame id="1018:4834" name="Text" x="0" y="20" width="219" height="20">
+                <text id="1018:4835" name="What is global HR management?" x="0" y="0" width="219" height="20" />
+              </frame>
+              <frame id="1018:4837" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+            </frame>
+          </frame>
+          <frame id="1018:4839" name="Container" x="0" y="101.00524139404297" width="1279.9947509765625" height="61.00524139404297">
+            <frame id="1018:4841" name="Button" x="0" y="0" width="1279.9947509765625" height="60">
+              <frame id="1018:4842" name="Text" x="0" y="20" width="399" height="20">
+                <text id="1018:4843" name="How can a company manage HR across multiple countr" x="0" y="0" width="399" height="20" />
+              </frame>
+              <frame id="1018:4845" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+            </frame>
+          </frame>
+          <frame id="1018:4847" name="Container" x="0" y="162.01048278808594" width="1279.9947509765625" height="61.00524139404297">
+            <frame id="1018:4849" name="Button" x="0" y="0" width="1279.9947509765625" height="60">
+              <frame id="1018:4850" name="Text" x="0" y="20" width="361" height="20">
+                <text id="1018:4851" name="Can HR processes be standardized across countries?" x="0" y="0" width="361" height="20" />
+              </frame>
+              <frame id="1018:4853" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+            </frame>
+          </frame>
+          <frame id="1018:4855" name="Container" x="0" y="223.01571655273438" width="1279.9947509765625" height="61.00524139404297">
+            <frame id="1018:4857" name="Button" x="0" y="0" width="1279.9947509765625" height="60">
+              <frame id="1018:4858" name="Text" x="0" y="20" width="359" height="20">
+                <text id="1018:4859" name="Does Zoiko HR provide employer-of-record services?" x="0" y="0" width="359" height="20" />
+              </frame>
+              <frame id="1018:4861" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+            </frame>
+          </frame>
+          <frame id="1018:4863" name="Container" x="0" y="284.0209655761719" width="1279.9947509765625" height="61.00524139404297">
+            <frame id="1018:4865" name="Button" x="0" y="0" width="1279.9947509765625" height="60">
+              <frame id="1018:4866" name="Text" x="0" y="20" width="534" height="20">
+                <text id="1018:4867" name="Does Zoiko HR automatically make an organization c" x="0" y="0" width="534" height="20" />
+              </frame>
+              <frame id="1018:4869" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+            </frame>
+          </frame>
+          <frame id="1018:4871" name="Container" x="0" y="345.0262145996094" width="1279.9947509765625" height="61.00524139404297">
+            <frame id="1018:4873" name="Button" x="0" y="0" width="1279.9947509765625" height="60">
+              <frame id="1018:4874" name="Text" x="0" y="20" width="304" height="20">
+                <text id="1018:4875" name="Can Zoiko HR support multiple legal entities?" x="0" y="0" width="304" height="20" />
+              </frame>
+              <frame id="1018:4877" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+            </frame>
+          </frame>
+          <frame id="1018:4879" name="Container" x="0" y="406.0314636230469" width="1279.9947509765625" height="61.00524139404297">
+            <frame id="1018:4881" name="Button" x="0" y="0" width="1279.9947509765625" height="60">
+              <frame id="1018:4882" name="Text" x="0" y="20" width="342" height="20">
+                <text id="1018:4883" name="How does Zoiko HR connect with time and payroll?" x="0" y="0" width="342" height="20" />
+              </frame>
+              <frame id="1018:4885" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+            </frame>
+          </frame>
+          <frame id="1018:4889" name="Button" x="0" y="467.0367126464844" width="1279.9947509765625" height="60">
+            <frame id="1018:4890" name="Text" x="0" y="20" width="354" height="20">
+              <text id="1018:4891" name="How do we migrate from different local HR systems?" x="0" y="0" width="354" height="20" />
+            </frame>
+            <frame id="1018:4893" name="Icon" x="1264.0052490234375" y="22.0052490234375" width="15.989500045776367" height="15.989500045776367" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1018:4898" name="FinalCTASection" x="0" y="11099.376953125" width="1441" height="605.9790649414062">
+    <frame id="1018:4919" name="Container:margin" x="24" y="96" width="1393" height="413.97906494140625">
+      <frame id="1018:4899" name="Container" x="336.5000305175781" y="0" width="719.9999389648438" height="413.97906494140625">
+        <frame id="1018:4900" name="Heading 2" x="0" y="0" width="720" height="168">
+          <text id="1018:4901" name="Build one HR operating foundation for the next sta" x="0" y="0" width="720" height="168" />
+        </frame>
+        <frame id="1018:4903" name="Paragraph" x="0" y="168" width="719.9999389648438" height="112">
+          <text id="1018:4904" name="See how Zoiko HR can help structure entities, work" x="-0.000030517578125" y="24" width="720" height="88" />
+        </frame>
+        <frame id="1018:4906" name="Container" x="0" y="280" width="719.9999389648438" height="89.97904968261719">
+          <frame id="1018:4907" name="Link" x="123.99473571777344" y="40" width="153" height="49.97904968261719">
+            <text id="1018:4908" name="Book a Demo" x="32" y="14.989524841308594" width="89" height="20" />
+          </frame>
+          <frame id="1018:4910" name="Link" x="288.9947509765625" y="40" width="307.0104675292969" height="49.97904968261719">
+            <text id="1018:4911" name="Explore Implementation &amp; Migration" x="33.00524139404297" y="14.989524841308594" width="241" height="20" />
+          </frame>
+        </frame>
+        <frame id="1018:4913" name="Container" x="0" y="369.97906494140625" width="719.9999389648438" height="44">
+          <text id="1018:4914" name="Explore Zoiko HR" x="303.4999694824219" y="24" width="113" height="20" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="1021:5818" name="Footer" x="0" y="11705.3564453125" width="1440" height="1427">
+    <frame id="1021:5819" name="HorizontalBorder" x="7.599609375" y="0" width="1424.800048828125" height="344.79998779296875">
+      <text id="1021:5820" name="Intro text" x="92.400390625" y="56" width="612.8800048828125" height="76.80999755859375" />
+      <text id="1021:5821" name="Intro text" x="92.400390625" y="147.2099609375" width="514.8900146484375" height="67.19999694824219" />
+      <frame id="1021:5822" name="Button" x="92.400390625" y="241.6103515625" width="147.86000061035156" height="45.599998474121094">
+        <text id="1021:5823" name="Button" x="26" y="14" width="96.20821380615234" height="16.799999237060547" />
+      </frame>
+      <frame id="1021:5824" name="Button" x="254.259765625" y="240.8095703125" width="167.8000030517578" height="47.20000076293945">
+        <text id="1021:5825" name="Button" x="26.80078125" y="14.7998046875" width="114.57687377929688" height="16.799999237060547" />
+      </frame>
+      <text id="1021:5826" name="Link → Take the Product Tour →" x="436.060546875" y="255.2099609375" width="159.16329956054688" height="18.399999618530273" />
+      <frame id="1021:5827" name="Background+Border" x="796" y="91.2099609375" width="536.4000244140625" height="161.60000610351562">
+        <rounded-rectangle id="1021:5828" name="Image" x="0.400390625" y="-70.2099609375" width="536" height="301" />
+      </frame>
+    </frame>
+    <frame id="1021:5829" name="Paragraph+HorizontalBorder" x="100" y="392.810546875" width="1240" height="110">
+      <text id="1021:5830" name="Logo text" x="0" y="0" width="83.47835540771484" height="25.600000381469727" />
+      <text id="1021:5831" name="Tagline" x="0" y="37.1904296875" width="354.95001220703125" height="37.61000061035156" />
+      <text id="1021:5832" name="Language" x="1070.890625" y="0" width="90.91996765136719" height="16.799999237060547" />
+      <text id="1021:5833" name="Link → Sign In →" x="1181.4609375" y="0" width="58.91981506347656" height="16.799999237060547" />
+    </frame>
+    <text id="1021:5834" name="Section label" x="100" y="542.810546875" width="51.60546875" height="16" />
+    <text id="1021:5835" name="Link → Platform Overview" x="100" y="572.810546875" width="108.02665710449219" height="16.799999237060547" />
+    <text id="1021:5836" name="Link → Core HR" x="100" y="599.609375" width="48.12618637084961" height="16.799999237060547" />
+    <text id="1021:5837" name="Link → Global HR Management" x="99.9999771118164" y="626.41015625" width="138.0067901611328" height="16.799999237060547" />
+    <text id="1021:5838" name="Link → Employee Records" x="99.9999771118164" y="653.2099609375" width="108.91804504394531" height="16.799999237060547" />
+    <text id="1021:5839" name="Link → Onboarding &amp; Lifecycle" x="99.9999771118164" y="680" width="134.77427673339844" height="16.799999237060547" />
+    <text id="1021:5840" name="Link → Workflows &amp; Approvals" x="99.9999771118164" y="706.8095703125" width="135.39474487304688" height="16.799999237060547" />
+    <text id="1021:5841" name="Link → Integrations" x="99.9999771118164" y="733.6103515625" width="71.8902816772461" height="16.799999237060547" />
+    <text id="1021:5842" name="Link → Pricing" x="99.9999771118164" y="760.41015625" width="40.13127899169922" height="16.799999237060547" />
+    <text id="1021:5843" name="Section label" x="416" y="542.810546875" width="55.297874450683594" height="16" />
+    <text id="1021:5844" name="Link → Solutions Overview" x="416" y="572.810546875" width="112.25325012207031" height="16.799999237060547" />
+    <text id="1021:5845" name="Link → Growing Businesses" x="416" y="599.609375" width="117.92208862304688" height="16.799999237060547" />
+    <text id="1021:5846" name="Link → Mid-Market Organizations" x="415.9999694824219" y="626.41015625" width="150.37644958496094" height="16.799999237060547" />
+    <text id="1021:5847" name="Link → Global Organizations" x="415.9999694824219" y="653.2099609375" width="121.18718719482422" height="16.799999237060547" />
+    <text id="1021:5848" name="Link → Multi-Entity Enterprises" x="415.9999694824219" y="680" width="138.35707092285156" height="16.799999237060547" />
+    <text id="1021:5849" name="Link → HR Teams" x="415.9999694824219" y="706.8095703125" width="59.32106018066406" height="16.799999237060547" />
+    <text id="1021:5850" name="Link → Managers" x="415.9999694824219" y="733.6103515625" width="57.22452926635742" height="16.799999237060547" />
+    <text id="1021:5851" name="Link → Connect HR, Time &amp; Payroll" x="415.9999694824219" y="760.41015625" width="160.314208984375" height="16.799999237060547" />
+    <text id="1021:5852" name="Section label" x="732" y="542.810546875" width="60.864158630371094" height="16" />
+    <text id="1021:5853" name="Link → Resource Center" x="732" y="572.810546875" width="96.99945068359375" height="16.799999237060547" />
+    <text id="1021:5854" name="Link → Product Tour" x="732" y="599.609375" width="75.17540740966797" height="16.799999237060547" />
+    <text id="1021:5855" name="Link → HR Guides" x="732" y="626.41015625" width="61.648311614990234" height="16.799999237060547" />
+    <text id="1021:5856" name="Link → Customer Stories" x="732" y="653.2099609375" width="101.00569915771484" height="16.799999237060547" />
+    <text id="1021:5857" name="Link → Implementation Guide" x="732" y="680" width="132.34237670898438" height="16.799999237060547" />
+    <text id="1021:5858" name="Link → Compare Zoiko HR" x="732" y="706.8095703125" width="108.96812438964844" height="16.799999237060547" />
+    <text id="1021:5859" name="Link → FAQ" x="732" y="733.6103515625" width="24.38399887084961" height="16.799999237060547" />
+    <text id="1021:5860" name="Section label" x="1048" y="542.810546875" width="55.14099884033203" height="16" />
+    <text id="1021:5861" name="Link → About Zoiko HR" x="1048" y="572.810546875" width="91.00009155273438" height="16.799999237060547" />
+    <text id="1021:5862" name="Link → About Zoiko Group" x="1048" y="599.609375" width="109.46891021728516" height="16.799999237060547" />
+    <text id="1021:5863" name="Link → Leadership" x="1048" y="626.41015625" width="64.82821655273438" height="16.799999237060547" />
+    <text id="1021:5864" name="Link → Careers" x="1048" y="653.2099609375" width="45.43781280517578" height="16.799999237060547" />
+    <text id="1021:5865" name="Link → Partners" x="1048" y="680" width="50.052188873291016" height="16.799999237060547" />
+    <text id="1021:5866" name="Link → Newsroom" x="1048" y="706.8095703125" width="63.57431411743164" height="16.799999237060547" />
+    <text id="1021:5867" name="Section label" x="99.9999771118164" y="805.2099609375" width="47.420623779296875" height="16" />
+    <text id="1021:5868" name="Link → Help Center" x="99.9999771118164" y="835.2099609375" width="69.7970199584961" height="16.799999237060547" />
+    <text id="1021:5869" name="Link → Documentation" x="99.9999771118164" y="862" width="90.12873077392578" height="16.799999237060547" />
+    <text id="1021:5870" name="Link → Administrator Guide" x="99.9999771118164" y="888.8095703125" width="117.9321060180664" height="16.799999237060547" />
+    <text id="1021:5871" name="Link → Developer Documentation" x="99.9999771118164" y="915.6103515625" width="152.6182098388672" height="16.799999237060547" />
+    <text id="1021:5872" name="Link → Product Updates" x="99.9999771118164" y="942.41015625" width="98.00101470947266" height="16.799999237060547" />
+    <text id="1021:5873" name="Link → Service Status" x="99.9999771118164" y="969.2099609375" width="83.5785140991211" height="16.799999237060547" />
+    <text id="1021:5874" name="Link → Contact Support" x="99.9999771118164" y="996" width="95.44703674316406" height="16.799999237060547" />
+    <text id="1021:5875" name="Section label" x="415.9999694824219" y="805.2099609375" width="76.50975036621094" height="16" />
+    <text id="1021:5876" name="Link → Trust Center" x="415.9999694824219" y="835.2099609375" width="72.21077728271484" height="16.799999237060547" />
+    <text id="1021:5877" name="Link → Security &amp; Privacy" x="415.9999694824219" y="862" width="105.22228240966797" height="16.799999237060547" />
+    <text id="1021:5878" name="Link → AI Governance" x="415.9999694824219" y="888.8095703125" width="86.663330078125" height="16.799999237060547" />
+    <text id="1021:5879" name="Link → Accessibility" x="415.9999694824219" y="915.6103515625" width="73.17227935791016" height="16.799999237060547" />
+    <text id="1021:5880" name="Link → Data Processing Addendum" x="415.9999694824219" y="942.41015625" width="161.26495361328125" height="16.799999237060547" />
+    <text id="1021:5881" name="Link → Subprocessors" x="415.9999694824219" y="969.2099609375" width="86.9137191772461" height="16.799999237060547" />
+    <text id="1021:5882" name="Link → Security Reporting" x="415.9999694824219" y="996" width="108.09676361083984" height="16.799999237060547" />
+    <text id="1021:5883" name="Section label" x="732" y="805.2099609375" width="48.4488410949707" height="16" />
+    <text id="1021:5884" name="Link → Contact Us" x="732" y="835.2099609375" width="63.95549774169922" height="16.799999237060547" />
+    <text id="1021:5885" name="Link → Contact Sales" x="732" y="862" width="80.2332992553711" height="16.799999237060547" />
+    <text id="1021:5886" name="Link → Contact Support" x="732" y="888.8095703125" width="95.44703674316406" height="16.799999237060547" />
+    <text id="1021:5887" name="Link → Partner With Us" x="732" y="915.6103515625" width="91.78131103515625" height="16.799999237060547" />
+    <text id="1021:5888" name="Link → Media Inquiries" x="732" y="942.41015625" width="91.0902328491211" height="16.799999237060547" />
+    <text id="1021:5889" name="Link → LinkedIn" x="732" y="969.2099609375" width="51.40640640258789" height="16.799999237060547" />
+    <text id="1021:5890" name="Link → YouTube" x="732" y="996" width="50.34309387207031" height="16.799999237060547" />
+    <frame id="1021:5891" name="Paragraph+Border" x="99.9999771118164" y="1056.810546875" width="1240" height="164">
+      <text id="1021:5892" name="Address label" x="0" y="28.799999237060547" width="77.94750213623047" height="15.199999809265137" />
+      <text id="1021:5893" name="Address" x="0" y="53.599609375" width="147.42999267578125" height="58.400001525878906" />
+      <text id="1021:5894" name="Address label" x="195.23046875" y="28.7998046875" width="134.80950927734375" height="15.199999809265137" />
+      <text id="1021:5895" name="Address" x="195.23046875" y="53.599609375" width="181.5800018310547" height="79.19999694824219" />
+    </frame>
+    <text id="1021:5896" name="Link → Privacy Notice" x="99.9999771118164" y="1244.810546875" width="80.07304382324219" height="16" />
+    <text id="1021:5897" name="Link → Cookie Notice" x="199.74996948242188" y="1244.810546875" width="78.01984405517578" height="16" />
+    <text id="1021:5898" name="Link → Terms of Service" x="297.44921875" y="1244.810546875" width="93.1734848022461" height="16" />
+    <text id="1021:5899" name="Link → Acceptable Use Policy" x="410.28125" y="1244.810546875" width="124.10173797607422" height="16" />
+    <text id="1021:5900" name="Link → Legal Notices" x="553.990234375" y="1244.810546875" width="75.40576934814453" height="16" />
+    <text id="1021:5901" name="Link → Sitemap" x="649.0799560546875" y="1244.810546875" width="46.75190734863281" height="16" />
+    <text id="1021:5902" name="Button → Cookie Settings" x="715.490234375" y="1245.6103515625" width="87.86520385742188" height="13.600000381469727" />
+    <frame id="1021:5903" name="Paragraph+HorizontalBorder" x="99.9999771118164" y="1288.810546875" width="1240" height="106">
+      <text id="1021:5904" name="Copyright" x="0" y="22.799999237060547" width="670.0706176757812" height="15.199999809265137" />
+      <text id="1021:5905" name="Disclaimer" x="0" y="47.599609375" width="894.3087768554688" height="33.59000015258789" />
+      <text id="1021:5906" name="Disclaimer" x="0" y="90.80000305175781" width="730.9949951171875" height="15.199999809265137" />
+    </frame>
+  </frame>
+</frame>

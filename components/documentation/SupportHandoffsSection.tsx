@@ -18,7 +18,7 @@ const DESTINATIONS = [
     title: "Developer Documentation",
     description: "APIs, authentication, webhooks and SDK reference.",
     linkLabel: "Open Developer Documentation",
-    href: "/integrations",
+    href: "/developer-documentation",
   },
   {
     title: "Product Updates",

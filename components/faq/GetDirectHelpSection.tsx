@@ -2,10 +2,11 @@ import Image from "next/image"
 
 export const GetDirectHelpSection = () => {
   const routes = [
-    { icon: "🛟", title: "Help Center", desc: "Step-by-step troubleshooting and how-to guides.", link: "Go to Help Center" },
-    { icon: "📦", title: "Product Updates", desc: "Shipped changes, release notes, and what is new.", link: "View Updates" },
-    { icon: "🟢", title: "Service Status", desc: "Live and historical service health information.", link: "Check Status" },
-    { icon: "🔑", title: "Sign In", desc: "Access your authenticated Zoiko HR workspace.", link: "Sign In" }
+    { icon: "🛟", title: "Help Center", desc: "Step-by-step troubleshooting and how-to guides.", link: "Go to Help Center", href: "/help-center" },
+    { icon: "📦", title: "Product Updates", desc: "Shipped changes, release notes, and what is new.", link: "View Updates", href: "/product-updates" },
+    { icon: "🟢", title: "Service Status", desc: "Live and historical service health information.", link: "Check Status", href: "/service-status" },
+    // Same destination the navbar uses — there is no in-app /sign-in route.
+    { icon: "🔑", title: "Sign In", desc: "Access your authenticated Zoiko HR workspace.", link: "Sign In", href: "https://app.zoikohr.com/login" }
   ]
 
   const renderCard = (route: typeof routes[0]) => (
@@ -13,7 +14,7 @@ export const GetDirectHelpSection = () => {
       <div className="text-3xl mb-5">{route.icon}</div>
       <h3 className="font-bold text-white text-[16px] mb-2">{route.title}</h3>
       <p className="text-slate-400 text-[13px] leading-relaxed mb-6 flex-grow">{route.desc}</p>
-      <a href="#" className="text-[13px] text-blue-500 hover:text-blue-400 font-medium flex items-center group mt-auto w-fit">
+      <a href={route.href} className="text-[13px] text-blue-500 hover:text-blue-400 font-medium flex items-center group mt-auto w-fit">
         {route.link} <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
       </a>
     </div>

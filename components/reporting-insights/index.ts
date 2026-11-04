@@ -1,0 +1,9 @@
+export { ReportingHeroSection } from "./ReportingHeroSection";
+export { ReportingNavSection } from "./ReportingNavSection";
+export { ReportingOverviewSection } from "./ReportingOverviewSection";
+export { TrustNumbersSection } from "./TrustNumbersSection";
+export { WhoSeesWhatSection } from "./WhoSeesWhatSection";
+export { BeyondDashboardSection } from "./BeyondDashboardSection";
+export { TrustAuthoritySection } from "./TrustAuthoritySection";
+export { ReportingFaqSection } from "./ReportingFaqSection";
+export { ReportingFinalCtaSection } from "./ReportingFinalCtaSection";
