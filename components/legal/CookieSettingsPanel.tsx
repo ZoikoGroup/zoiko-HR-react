@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { Container, Button } from "@/components/ui";
 
 type CookiePreferences = {
@@ -31,31 +31,47 @@ const CATEGORIES: {
   },
 ];
 
-function loadPreferences(): CookiePreferences | null {
-  if (typeof window === "undefined") return null;
+// Saved preferences live in localStorage, an external store: read it through
+// useSyncExternalStore (null on the server and during hydration) instead of
+// copying it into state from an effect.
+function subscribeToStorage(onChange: () => void) {
+  window.addEventListener("storage", onChange);
+  return () => window.removeEventListener("storage", onChange);
+}
+
+function readStoredRaw(): string | null {
   try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as CookiePreferences) : null;
+    return window.localStorage.getItem(STORAGE_KEY);
+  } catch {
+    return null;
+  }
+}
+
+function parsePreferences(raw: string | null): CookiePreferences | null {
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw) as CookiePreferences;
   } catch {
     return null;
   }
 }
 
 export function CookieSettingsPanel() {
-  const [analytics, setAnalytics] = useState(true);
-  const [preference, setPreference] = useState(true);
-  const [saved, setSaved] = useState<CookiePreferences | null>(null);
-  const [justSaved, setJustSaved] = useState(false);
+  const storedRaw = useSyncExternalStore(subscribeToStorage, readStoredRaw, () => null);
+  const stored = useMemo(() => parsePreferences(storedRaw), [storedRaw]);
 
-  // Load stored preferences after mount (client only).
-  useEffect(() => {
-    const stored = loadPreferences();
-    if (stored) {
-      setAnalytics(stored.analytics);
-      setPreference(stored.preference);
-      setSaved(stored);
-    }
-  }, []);
+  // Unsaved toggle edits layered over the stored choice (default: on).
+  const [draft, setDraft] = useState<{ analytics?: boolean; preference?: boolean }>({});
+  const analytics = draft.analytics ?? stored?.analytics ?? true;
+  const preference = draft.preference ?? stored?.preference ?? true;
+  const setAnalytics = (value: boolean) => setDraft((d) => ({ ...d, analytics: value }));
+  const setPreference = (value: boolean) => setDraft((d) => ({ ...d, preference: value }));
+
+  // A same-tab localStorage write fires no "storage" event, so the latest
+  // save is also kept here.
+  const [savedThisVisit, setSaved] = useState<CookiePreferences | null>(null);
+  const saved = savedThisVisit ?? stored;
+  const [justSaved, setJustSaved] = useState(false);
 
   const savePreferences = (prefs: Omit<CookiePreferences, "necessary" | "savedAt">) => {
     const next: CookiePreferences = {

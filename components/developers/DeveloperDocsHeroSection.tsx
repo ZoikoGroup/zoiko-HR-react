@@ -140,7 +140,7 @@ export function DeveloperDocsHeroSection() {
                     </div>
                     <div className="pl-4">
                       <span className="text-[#F0A6FF]">&quot;compensation&quot;</span>:{" "}
-                      <span className="text-[#6E7AA8]">/* restricted: scope required */</span>
+                      <span className="text-[#6E7AA8]">{"/* restricted: scope required */"}</span>
                     </div>
                     <div className="text-[#D6DEFF]">{"}"}</div>
                   </div>

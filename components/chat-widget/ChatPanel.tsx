@@ -151,6 +151,15 @@ const ICONS = {
     </>
   ),
   chevronRight: <path d="m9 18 6-6-6-6" />,
+  arrowLeft: <path d="M19 12H5M11 18l-6-6 6-6" />,
+  grid: (
+    <>
+      <rect x="3" y="3" width="7" height="7" rx="1.5" />
+      <rect x="14" y="3" width="7" height="7" rx="1.5" />
+      <rect x="3" y="14" width="7" height="7" rx="1.5" />
+      <rect x="14" y="14" width="7" height="7" rx="1.5" />
+    </>
+  ),
   arrowRight: <path d="M5 12h14M13 6l6 6-6 6" />,
   arrowDown: <path d="M12 5v14M6 13l6 6 6-6" />,
   close: <path d="M6 6l12 12M18 6 6 18" />,
@@ -234,6 +243,11 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
   const [menuOpen, setMenuOpen] = useState(false);
   const [salesChoiceOpen, setSalesChoiceOpen] = useState(false);
   const [showLatest, setShowLatest] = useState(false);
+  // "Topics" (as on zoikopayroll.com): once a chat has started, the first-run
+  // menu is reachable again without restarting. The thread stays mounted
+  // underneath; only the scroll pane's content is swapped.
+  const [topicsOpen, setTopicsOpen] = useState(false);
+  const conversationScrollRef = useRef(0);
   const [sessionId, setSessionId] = useState(getOrCreateSessionId);
 
   const panelRef = useRef<HTMLDivElement>(null);
@@ -251,6 +265,7 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
 
   const loading = pending !== null;
   const hasConversation = messages.length > 0;
+  const showMenu = !hasConversation || topicsOpen;
 
   // Restore the thread across close/reopen and in-site navigation within the
   // same browser session (§6.1 Close / reopen).
@@ -282,10 +297,30 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
   }, []);
 
   useEffect(() => {
-    if (!hasConversation) return;
+    if (!hasConversation || topicsOpen) return;
     if (stickToBottomRef.current) scrollToBottom();
     else setShowLatest(true);
-  }, [messages.length, loading, hasConversation, scrollToBottom]);
+  }, [messages.length, loading, hasConversation, topicsOpen, scrollToBottom]);
+
+  const openTopics = () => {
+    conversationScrollRef.current = scrollRef.current?.scrollTop ?? 0;
+    setTopicsOpen(true);
+    setShowLatest(false);
+    track("chat_topics_opened");
+    requestAnimationFrame(() => {
+      scrollRef.current?.scrollTo({ top: 0 });
+      scrollRef.current?.querySelector<HTMLElement>("[data-topics-back]")?.focus();
+    });
+  };
+
+  const backToConversation = () => {
+    setTopicsOpen(false);
+    setSalesChoiceOpen(false);
+    requestAnimationFrame(() => {
+      scrollRef.current?.scrollTo({ top: conversationScrollRef.current });
+      document.getElementById("zhr-topics-toggle")?.focus();
+    });
+  };
 
   const onScroll = () => {
     const el = scrollRef.current;
@@ -321,6 +356,7 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
 
     setError(null);
     setSalesChoiceOpen(false);
+    setTopicsOpen(false);
     const history = buildHistory(messages);
     const userMessage: Message = { id: newId(), role: "user", text: question };
     setMessages((prev) => [...prev, userMessage]);
@@ -388,16 +424,19 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
     setInput("");
     setError(null);
     setSalesChoiceOpen(false);
+    setTopicsOpen(false);
     requestAnimationFrame(() => titleRef.current?.focus());
   };
 
   const onPanelKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Escape") {
       e.stopPropagation();
-      // Escape closes the menu first, then the panel (CH-01 Close).
+      // Escape closes the menu first, then the Topics view, then the panel (CH-01 Close).
       if (menuOpen) {
         setMenuOpen(false);
         menuButtonRef.current?.focus();
+      } else if (topicsOpen) {
+        backToConversation();
       } else {
         closePanel();
       }
@@ -577,9 +616,28 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
           onScroll={onScroll}
           className="h-full overflow-y-auto overscroll-contain px-4 py-5 min-[601px]:px-5"
         >
-          {!hasConversation && (
-            <div className="flex flex-col gap-5">
+          {showMenu && (
+            <div id="zhr-chat-topics" className="flex flex-col gap-5">
+              {topicsOpen && (
+                <div className="flex flex-col gap-3">
+                  <button
+                    type="button"
+                    data-topics-back
+                    onClick={backToConversation}
+                    className={`inline-flex w-fit items-center gap-1.5 rounded-md text-[13px] font-semibold text-[var(--chat-blue)] hover:underline ${FOCUS_RING}`}
+                  >
+                    <Icon className="h-4 w-4">{ICONS.arrowLeft}</Icon>
+                    Back to conversation
+                  </button>
+                  <div className="flex items-center gap-2.5 rounded-xl bg-[var(--chat-surface-alt)] px-3.5 py-2.5">
+                    <Avatar size={24} />
+                    <p className="text-sm font-semibold">Choose a topic or a popular question.</p>
+                  </div>
+                </div>
+              )}
+
               {/* CH-02 Intro */}
+              {!topicsOpen && (
               <div className="flex items-start gap-3">
                 <Avatar size={32} />
                 <div className="min-w-0">
@@ -592,6 +650,7 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
                   </p>
                 </div>
               </div>
+              )}
 
               {/* CH-03 Task cards */}
               <div>
@@ -635,6 +694,7 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
 
               {/* CH-04 Welcome message + CH-05 starter prompts */}
               <div className="flex flex-col gap-3">
+                {!topicsOpen && (
                 <div className="flex items-start gap-2.5">
                   <Avatar size={24} />
                   <div>
@@ -650,6 +710,7 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
                     </time>
                   </div>
                 </div>
+                )}
 
                 <ul className="flex flex-col gap-2" aria-label="Popular questions">
                   {STARTER_PROMPTS.map((prompt) => (
@@ -700,7 +761,7 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
           )}
 
           {/* Conversation. role=log announces only additions (§8.1). */}
-          <div role="log" aria-live="polite" aria-relevant="additions" aria-label="Conversation" className="flex flex-col gap-4">
+          <div role="log" aria-live="polite" aria-relevant="additions" aria-label="Conversation" hidden={topicsOpen} className="flex flex-col gap-4">
             {messages.map((m) =>
               m.role === "user" ? (
                 <div key={m.id} className="ml-auto max-w-[85%]">
@@ -755,7 +816,7 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
             )}
           </div>
 
-          {loading && (
+          {loading && !topicsOpen && (
             <div className="mt-4 flex items-start gap-2.5">
               <Avatar size={24} />
               <div role="status" className="flex items-center gap-1.5 rounded-2xl rounded-tl-md bg-[#F1F4F9] px-4 py-3.5">
@@ -797,6 +858,20 @@ export default function ChatPanel({ open, onClose }: { open: boolean; onClose: (
               Retry
             </button>
           </div>
+        )}
+
+        {hasConversation && (
+          <button
+            id="zhr-topics-toggle"
+            type="button"
+            onClick={topicsOpen ? backToConversation : openTopics}
+            aria-expanded={topicsOpen}
+            aria-controls="zhr-chat-topics"
+            className={`mb-2 inline-flex min-h-[28px] items-center gap-1.5 rounded-md text-[13px] font-semibold text-[var(--chat-blue)] hover:underline ${FOCUS_RING}`}
+          >
+            <Icon className="h-4 w-4">{ICONS.grid}</Icon>
+            Topics
+          </button>
         )}
 
         <form
