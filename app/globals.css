@@ -63,6 +63,16 @@ h6 {
   animation: float 6s ease-in-out infinite;
 }
 
+/* Black Friday ticker — content is duplicated, so -50% loops seamlessly */
+@keyframes bf-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @keyframes float-slow {
   0%,
   100% {
