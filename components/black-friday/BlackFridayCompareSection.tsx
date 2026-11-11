@@ -13,7 +13,7 @@ const TICKER = [
 
 function TickerRun() {
   return (
-    <div className="flex flex-none items-center gap-8 pr-8">
+    <div className="flex flex-none items-center gap-8.1 pr-8">
       <span className="flex items-center gap-2">
         Black Friday ·
         <span className="rounded px-1.5 py-0.5 text-white" style={{ backgroundColor: BF.navyDeep }}>
