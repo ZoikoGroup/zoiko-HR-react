@@ -1,10 +1,14 @@
 name: Deploy to GCP
- 
+
 on:
   push:
     branches: [main]
   workflow_dispatch: {}
- 
+
+concurrency:
+  group: deploy-zoiko-hr
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,7 +19,7 @@ jobs:
           host: ${{ secrets.GCP_SSH_HOST }}
           username: ${{ secrets.GCP_SSH_USER }}
           key: ${{ secrets.GCP_SSH_KEY }}
-          command_timeout: 40m
+          command_timeout: 20m
           script: |
             set -e
             cd /var/www/zoiko-hr/app
@@ -26,4 +30,3 @@ jobs:
             npm run build
             pm2 restart zoiko-hr
             pm2 save
- 
