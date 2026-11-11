@@ -13,7 +13,8 @@ const manrope = Manrope({
 const ibmPlexSans = IBM_Plex_Sans({
   variable: "--font-plex-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  // Variable font: omit `weight` so a single variable file (wght 100–700) is
+  // requested. Listing static weights broke `next build` on the deploy server.
   display: "swap",
 });
 
