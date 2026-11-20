@@ -3,9 +3,8 @@ import { Ribbons } from "./BlackFridayCompareSection";
 import { BF } from "./data";
 
 const DAYS = [
-  { date: "Fri · Nov 27", title: "Black Friday", body: "Sale goes live on every annual plan.", variant: "start" },
-  { date: "Sat · Nov 28", title: "Weekend", body: "Same 25% off pricing.", variant: "mid" },
-  { date: "Sun · Nov 29", title: "Weekend", body: "Same 25% off pricing.", variant: "mid" },
+  { date: "Fri · Nov 20", title: "Black Friday Week", body: "Sale goes live on every annual plan.", variant: "start" },
+  { date: "Nov 21 – 29", title: "All Week", body: "Same 25% off pricing, every day.", variant: "mid" },
   { date: "Mon · Nov 30", title: "Cyber Monday", body: "Last day. Ends 11:59 PM [time zone].", variant: "end" },
 ] as const;
 
@@ -29,14 +28,14 @@ export function BlackFridaySaleDatesSection() {
             Sale dates
           </p>
           <h2 className="mt-3 font-heading text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Four days of Black Friday pricing
+            11 days of Black Friday pricing
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm text-white/70 sm:text-base">
-            The same 25% first-year discount runs from Black Friday to Cyber Monday.
+            The same 25% first-year discount runs the full 11 days, Black Friday through Cyber Monday.
           </p>
         </Reveal>
 
-        <div className="mx-auto mt-12 grid max-w-6xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto mt-12 grid max-w-4xl gap-4 sm:grid-cols-3">
           {DAYS.map((d, i) => (
             <Reveal key={d.date} delay={i * 0.08}>
               <div

@@ -17,8 +17,9 @@ export const BF = {
 export const DISCOUNT = 0.25;
 export const PROMO_CODE = "BF25";
 
-/** Countdown target. Time zone is still "[time zone]" in the design — confirm before launch. */
-export const SALE_START = "2026-11-27T00:00:00";
+/** Countdown targets. Time zone is still "[time zone]" in the design — confirm before launch. */
+export const SALE_START = "2026-11-20T00:00:00";
+export const SALE_END = "2026-11-30T23:59:00";
 
 /**
  * Where the "Claim 25% off <plan>" buttons go. The design has no checkout URL,

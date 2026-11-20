@@ -6,7 +6,7 @@ const TICKER = [
   "Your first year",
   "All Zoiko HR plans",
   "Prices in USD",
-  "Nov 27 - Nov 30, 2026",
+  "Nov 20 - Nov 30, 2026",
   "New customers · Annual plans",
   "Cyber Monday",
 ];

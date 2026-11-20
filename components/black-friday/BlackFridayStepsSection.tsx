@@ -26,7 +26,7 @@ const TERMS = [
   { label: "Discount", value: "25% off the first year" },
   { label: "Plans", value: "Core, Advanced, Enterprise (annual)" },
   { label: "Who", value: "New Zoiko HR customers" },
-  { label: "Dates", value: "Nov 27 – Nov 30, 2026" },
+  { label: "Dates", value: "Nov 20 – Nov 30, 2026" },
   { label: "After year one", value: "Renews at the list price shown" },
   { label: "Currency & tax", value: "USD · taxes at checkout" },
 ];
