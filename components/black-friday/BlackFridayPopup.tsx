@@ -2,17 +2,26 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { BF, SALE_START } from "./data";
+import { BF, SALE_START, SALE_END } from "./data";
 
 const STORAGE_KEY = "zoiko-bf-popup-dismissed";
 const SHOW_DELAY_MS = 1200;
 
 const START = new Date(SALE_START).getTime();
+const END = new Date(SALE_END).getTime();
 const LABELS = ["Days", "Hrs", "Min", "Sec"];
 
-/** Time left until the sale starts; zeros once it has started. */
-function getCountdown(now: number): string[] {
-  const s = Math.floor(Math.max(0, START - now) / 1000);
+type Phase = "before" | "live";
+
+function getPhase(now: number): "before" | "live" | "ended" {
+  if (now < START) return "before";
+  if (now < END) return "live";
+  return "ended";
+}
+
+/** Time left until `target`; zeros once it has passed. */
+function getCountdown(now: number, target: number): string[] {
+  const s = Math.floor(Math.max(0, target - now) / 1000);
   const pad = (n: number) => String(n).padStart(2, "0");
   return [
     pad(Math.floor(s / 86400)),
@@ -22,8 +31,14 @@ function getCountdown(now: number): string[] {
   ];
 }
 
+const COPY: Record<Phase, { tail: string; timerLabel: string }> = {
+  before: { tail: "is almost here.", timerLabel: "Sale starts in" },
+  live: { tail: "is live now.", timerLabel: "Sale ends in" },
+};
+
 export function BlackFridayPopup() {
   const [open, setOpen] = useState(false);
+  const [phase, setPhase] = useState<Phase>("live");
   // null until mounted so server and client markup match.
   const [cd, setCd] = useState<string[] | null>(null);
 
@@ -36,17 +51,23 @@ export function BlackFridayPopup() {
     }
     if (dismissed) return;
 
-    const timer = setTimeout(() => setOpen(true), SHOW_DELAY_MS);
+    const timer = setTimeout(() => {
+      const found = getPhase(Date.now());
+      if (found === "ended") return; // don't advertise an expired sale
+      setPhase(found);
+      setOpen(true);
+    }, SHOW_DELAY_MS);
     return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
     if (!open) return;
-    const tick = () => setCd(getCountdown(Date.now()));
+    const target = phase === "before" ? START : END;
+    const tick = () => setCd(getCountdown(Date.now(), target));
     tick();
     const id = setInterval(tick, 1000);
     return () => clearInterval(id);
-  }, [open]);
+  }, [open, phase]);
 
   useEffect(() => {
     if (!open) return;
@@ -67,6 +88,7 @@ export function BlackFridayPopup() {
   }
 
   const parts = LABELS.map((label, i) => [cd ? cd[i] : "00", label] as const);
+  const { tail, timerLabel } = COPY[phase];
 
   return (
     <AnimatePresence>
@@ -127,17 +149,17 @@ export function BlackFridayPopup() {
               >
                 25% off Zoiko HR
                 <br />
-                <span style={{ color: BF.mint }}>is almost here.</span>
+                <span style={{ color: BF.mint }}>{tail}</span>
               </h2>
 
               <p className="mt-4 text-sm leading-relaxed text-white/70">
                 25% off the first year of eligible annual Zoiko HR plans for
-                new customers — from $4.50 per employee / month. Nov 27–30,
+                new customers — from $4.50 per employee / month. Nov 20–30,
                 2026 only.
               </p>
 
               <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.25em] text-white/50">
-                Sale starts in
+                {timerLabel}
               </p>
               <div className="mt-3 flex justify-center gap-2.5" role="timer" aria-live="off">
                 {parts.map(([value, label]) => (
